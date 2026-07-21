@@ -288,8 +288,10 @@ function showResult(runtime: Runtime, dom: DomRefs): void {
 
   const estimate = estimateFromAnswers(runtime.blocks, runtime.state?.answers ?? []);
   const report = evaluate(estimate, runtime.locale);
+  const compliment = profileCompliment(runtime.locale, estimate.percentiles);
   dom.resultTitle.textContent = report.title;
   dom.resultSubtitle.textContent = report.subtitle;
+  dom.resultCompliment.textContent = compliment;
   dom.resultSummary.textContent = report.summary;
   renderExamples(dom, report.examples);
   renderTraitBars(dom, runtime.locale, estimate.percentiles);
@@ -346,6 +348,19 @@ function displayConfidence(raw: number, answeredCount: number): number {
   return clamp(Math.max(raw, progressFloor), 10, 96);
 }
 
+function profileCompliment(locale: LocaleCode, percentiles: Percentiles): string {
+  const ranked = [...TRAITS].sort((a, b) => percentiles[b] - percentiles[a]);
+  const distinctiveness =
+    (Math.abs(percentiles[ranked[0]] - 50) + Math.abs(percentiles[ranked[1]] - 50)) / 100;
+  const share = clamp(Math.round(32 - distinctiveness * 22), 3, 32);
+  if (locale === 'zh') {
+    return share < 5 ? `你属于 ${share}% 的人 · 你很独特！` : `你属于 ${share}% 的人 · 你很随和！`;
+  }
+  return share < 5
+    ? `You are among ${share}% of people · You are unique!`
+    : `You are among ${share}% of people · You are easygoing!`;
+}
+
 async function showSharePoster(runtime: Runtime, dom: DomRefs): Promise<void> {
   const estimate = estimateFromAnswers(runtime.blocks, runtime.state?.answers ?? []);
   const report = evaluate(estimate, runtime.locale);
@@ -353,6 +368,7 @@ async function showSharePoster(runtime: Runtime, dom: DomRefs): Promise<void> {
     runtime.locale,
     report.title,
     report.subtitle,
+    profileCompliment(runtime.locale, estimate.percentiles),
     report.summary,
     report.examples,
     estimate.percentiles,
@@ -375,6 +391,7 @@ async function renderPoster(
   locale: LocaleCode,
   title: string,
   subtitle: string,
+  compliment: string,
   summary: string,
   examples: string[],
   percentiles: Percentiles,
@@ -396,8 +413,11 @@ async function renderPoster(
   ctx.fillStyle = '#94a3b8';
   ctx.font = '700 30px system-ui';
   const subtitleEnd = wrapText(ctx, subtitle, 88, Math.max(355, titleEnd + 26), 880, 42);
+  ctx.fillStyle = '#5eead4';
+  ctx.font = '900 34px system-ui';
+  const complimentEnd = wrapText(ctx, compliment, 88, subtitleEnd + 22, 880, 44);
 
-  const summaryBoxY = Math.max(488, subtitleEnd + 44);
+  const summaryBoxY = Math.max(508, complimentEnd + 42);
   ctx.fillStyle = '#0f1b2d';
   roundRect(ctx, 70, summaryBoxY, 940, 500, 42);
   ctx.fill();
@@ -623,6 +643,7 @@ interface DomRefs {
   confidenceFill: HTMLElement;
   resultTitle: HTMLElement;
   resultSubtitle: HTMLElement;
+  resultCompliment: HTMLElement;
   resultSummary: HTMLElement;
   resultExamples: HTMLElement;
   traitBars: HTMLElement;
@@ -651,6 +672,7 @@ function getDom(): DomRefs | null {
     confidenceFill: byId<HTMLElement>('confidence-fill'),
     resultTitle: byId<HTMLElement>('result-title'),
     resultSubtitle: byId<HTMLElement>('result-subtitle'),
+    resultCompliment: byId<HTMLElement>('result-compliment'),
     resultSummary: byId<HTMLElement>('result-summary'),
     resultExamples: byId<HTMLElement>('result-examples'),
     traitBars: byId<HTMLElement>('trait-bars'),
