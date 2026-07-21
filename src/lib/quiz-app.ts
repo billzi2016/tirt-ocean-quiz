@@ -350,15 +350,17 @@ function displayConfidence(raw: number, answeredCount: number): number {
 
 function profileCompliment(locale: LocaleCode, percentiles: Percentiles): string {
   const ranked = [...TRAITS].sort((a, b) => percentiles[b] - percentiles[a]);
-  const distinctiveness =
+  const topTwoDistance =
     (Math.abs(percentiles[ranked[0]] - 50) + Math.abs(percentiles[ranked[1]] - 50)) / 100;
-  const share = clamp(Math.round(32 - distinctiveness * 22), 3, 32);
+  const profileSpread = (Math.max(...TRAITS.map((trait) => percentiles[trait])) - Math.min(...TRAITS.map((trait) => percentiles[trait]))) / 100;
+  const share = clamp(34 - topTwoDistance * 19 - profileSpread * 11, 2.4, 38.6);
+  const shareText = share.toFixed(1);
   if (locale === 'zh') {
-    return share < 5 ? `你属于 ${share}% 的人 · 你很独特！` : `你属于 ${share}% 的人 · 你很随和！`;
+    return share < 5 ? `你属于 ${shareText}% 的人 · 你很独特！` : `你属于 ${shareText}% 的人 · 你很随和！`;
   }
   return share < 5
-    ? `You are among ${share}% of people · You are unique!`
-    : `You are among ${share}% of people · You are easygoing!`;
+    ? `You are among ${shareText}% of people · You are unique!`
+    : `You are among ${shareText}% of people · You are easygoing!`;
 }
 
 async function showSharePoster(runtime: Runtime, dom: DomRefs): Promise<void> {
