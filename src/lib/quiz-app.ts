@@ -369,12 +369,14 @@ function reset(runtime: Runtime, dom: DomRefs): void {
 }
 
 function showIntro(dom: DomRefs): void {
+  dom.app.dataset.view = 'intro';
   dom.intro.classList.remove('hidden');
   dom.quiz.classList.add('hidden');
   dom.result.classList.add('hidden');
 }
 
 function showQuiz(runtime: Runtime, dom: DomRefs): void {
+  dom.app.dataset.view = 'quiz';
   dom.intro.classList.add('hidden');
   dom.quiz.classList.remove('hidden');
   dom.result.classList.add('hidden');
@@ -469,6 +471,7 @@ function syncButtons(runtime: Runtime, dom: DomRefs): void {
 }
 
 function showResult(runtime: Runtime, dom: DomRefs): void {
+  dom.app.dataset.view = 'result';
   dom.intro.classList.add('hidden');
   dom.quiz.classList.add('hidden');
   dom.result.classList.remove('hidden');
@@ -836,6 +839,7 @@ function escapeHtml(value: string): string {
 }
 
 interface DomRefs {
+  app: HTMLElement;
   intro: HTMLElement;
   quiz: HTMLElement;
   result: HTMLElement;
@@ -865,6 +869,7 @@ interface DomRefs {
 
 function getDom(): DomRefs | null {
   const refs = {
+    app: document.querySelector<HTMLElement>('[data-quiz-app]'),
     intro: byId<HTMLElement>('intro'),
     quiz: byId<HTMLElement>('quiz'),
     result: byId<HTMLElement>('result'),
