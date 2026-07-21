@@ -224,6 +224,29 @@ const traitExplain: Record<LocaleCode, Record<Trait, string>> = {
   },
 };
 
+const exampleLabel: Record<LocaleCode, string> = {
+  zh: "示例",
+  en: "EXAMPLE",
+  es: "EJEMPLO",
+  fr: "EXEMPLE",
+  ja: "事例",
+  ru: "ПРИМЕР",
+  ko: "예시",
+  pt: "EXEMPLO",
+  hi: "उदाहरण",
+  de: "BEISPIEL",
+  it: "ESEMPIO",
+  uk: "ПРИКЛАД",
+  ar: "مثال",
+  tr: "ÖRNEK",
+  nl: "VOORBEELD",
+  pl: "PRZYKŁAD",
+  vi: "VÍ DỤ",
+  th: "ตัวอย่าง",
+  id: "CONTOH",
+  sv: "EXEMPEL",
+};
+
 const strengthLabel: Record<LocaleCode, string> = {
   zh: "明显程度",
   en: "Strength",
@@ -506,19 +529,19 @@ function showResult(runtime: Runtime, dom: DomRefs): void {
   dom.resultSubtitle.textContent = report.subtitle;
   dom.resultCompliment.textContent = compliment;
   dom.resultSummary.textContent = report.summary;
-  renderExamples(dom, report.examples);
+  renderExamples(dom, runtime.locale, report.examples);
   renderTraitBars(dom, runtime.locale, estimate.percentiles);
   renderRadar(dom.radar, runtime.locale, estimate.percentiles);
 }
 
-function renderExamples(dom: DomRefs, examples: string[]): void {
+function renderExamples(dom: DomRefs, locale: LocaleCode, examples: string[]): void {
   dom.resultExamples.innerHTML = '';
   examples.forEach((example, index) => {
     const item = document.createElement('div');
     item.className =
       'rounded-[24px] border border-slate-200 bg-white p-4 text-base font-bold leading-7 text-slate-800 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-100';
     item.innerHTML = `
-      <div class="mb-2 data-label text-xs text-teal-700 dark:text-teal-300">EXAMPLE ${index + 1}</div>
+      <div class="mb-2 data-label text-xs text-teal-700 dark:text-teal-300">${exampleLabel[locale]} ${index + 1}</div>
       <div>${escapeHtml(example)}</div>
     `;
     dom.resultExamples.append(item);
