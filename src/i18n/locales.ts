@@ -1,4 +1,24 @@
-export type Locale = 'en' | 'zh' | 'es' | 'fr' | 'ja' | 'ru' | 'ko' | 'pt' | 'hi' | 'de';
+export type Locale =
+  | 'en'
+  | 'zh'
+  | 'es'
+  | 'fr'
+  | 'ja'
+  | 'ru'
+  | 'ko'
+  | 'pt'
+  | 'hi'
+  | 'de'
+  | 'it'
+  | 'uk'
+  | 'ar'
+  | 'tr'
+  | 'nl'
+  | 'pl'
+  | 'vi'
+  | 'th'
+  | 'id'
+  | 'sv';
 
 export interface LocaleConfig {
   code: Locale;
@@ -17,6 +37,16 @@ export const locales: LocaleConfig[] = [
   { code: 'pt', label: 'PT', pathPrefix: '/pt' },
   { code: 'hi', label: 'HI', pathPrefix: '/hi' },
   { code: 'de', label: 'DE', pathPrefix: '/de' },
+  { code: 'it', label: 'IT', pathPrefix: '/it' },
+  { code: 'uk', label: 'UK', pathPrefix: '/uk' },
+  { code: 'ar', label: 'AR', pathPrefix: '/ar' },
+  { code: 'tr', label: 'TR', pathPrefix: '/tr' },
+  { code: 'nl', label: 'NL', pathPrefix: '/nl' },
+  { code: 'pl', label: 'PL', pathPrefix: '/pl' },
+  { code: 'vi', label: 'VI', pathPrefix: '/vi' },
+  { code: 'th', label: 'TH', pathPrefix: '/th' },
+  { code: 'id', label: 'ID', pathPrefix: '/id' },
+  { code: 'sv', label: 'SV', pathPrefix: '/sv' },
 ];
 
 export const defaultLocale: Locale = 'en';

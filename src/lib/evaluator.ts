@@ -13,6 +13,16 @@ const traitNamesRecord: Record<Locale, Record<Trait, string>> = {
   pt: { O: 'Abertura', C: 'Conscienciosidade', E: 'Extroversão', A: 'Amabilidade', N: 'Sensibilidade emocional' },
   hi: { O: 'खुलापन', C: 'कर्तव्यनिष्ठता', E: 'बहिर्मुखता', A: 'सहमतता', N: 'भावनात्मक संवेदनशीलता' },
   de: { O: 'Offenheit', C: 'Gewissenhaftigkeit', E: 'Extraversion', A: 'Verträglichkeit', N: 'Emotionale Empfindlichkeit' },
+  it: { O: 'Apertura', C: 'Coscienziosità', E: 'Estroversione', A: 'Gradevolezza', N: 'Sensibilità emotiva' },
+  uk: { O: 'Відкритість', C: 'Сумлінність', E: 'Екстраверсія', A: 'Доброзичливість', N: 'Емоційність' },
+  ar: { O: 'الانفتاح', C: 'تفاني الضمير', E: 'الانبساط', A: 'القبول', N: 'الحساسية العاطفية' },
+  tr: { O: 'Açıklık', C: 'Sorumluluk', E: 'Dışadönüklük', A: 'Uyumluluk', N: 'Duygusal Hassasiyet' },
+  nl: { O: 'Openheid', C: 'Zorgvuldigheid', E: 'Extraversie', A: 'Vriendelijkheid', N: 'Emotionele Gevoeligheid' },
+  pl: { O: 'Otwartość', C: 'Sumienność', E: 'Ekstrawersja', A: 'Ugodowość', N: 'Wrażliwość emocjonalna' },
+  vi: { O: 'Cởi mở', C: 'Tận tụy', E: 'Hướng ngoại', A: 'Dễ chịu', N: 'Nhạy cảm cảm xúc' },
+  th: { O: 'การเปิดรับประสบการณ์', C: 'ความมีระเบียบวินัย', E: 'การแสดงตัว', A: 'ความเป็นมิตร', N: 'ความไวต่ออารมณ์' },
+  id: { O: 'Keterbukaan', C: 'Kehati-hatian', E: 'Ekstraversi', A: 'Keramahan', N: 'Sensitivitas Emosional' },
+  sv: { O: 'Öppenhet', C: 'Samvetsgrannhet', E: 'Extraversion', A: 'Vänlighet', N: 'Emotionell känslighet' },
 };
 
 const archetypes: Record<string, Partial<Record<Locale, Evaluation>>> = {
@@ -37,86 +47,6 @@ const archetypes: Record<string, Partial<Record<Locale, Evaluation>>> = {
         'You may lose patience with pure inspiration that never becomes usable.',
       ],
     },
-    es: {
-      title: 'Arquitecto de Sistemas',
-      subtitle: 'Alta apertura + alta responsabilidad',
-      summary: 'Tiendes a transformar nuevas ideas en estructuras claras, equilibrando la exploración con una ejecución fiable.',
-      examples: [
-        'Al iniciar un proyecto, primero buscas un nuevo ángulo y luego lo desglosas rápidamente en pasos.',
-        'Mientras otros discuten conceptos, tú piensas en responsables, secuencia y criterios de éxito.',
-        'No te satisface la inspiración que no se traduce en algo práctico.',
-      ],
-    },
-    fr: {
-      title: 'Architecte de Systèmes',
-      subtitle: 'Haute ouverture + haute conscienciosité',
-      summary: 'Vous avez tendance à transformer les nouvelles idées en structures claires, conciliant exploration et exécution rigoureuse.',
-      examples: [
-        'Au début d’un projet, vous cherchez un nouvel angle puis le traduisez rapidement en étapes.',
-        'Quand les autres débattent de concepts, vous pensez responsabilité, calendrier et résultats.',
-        'Vous appréciez peu l’inspiration pure qui ne devient jamais opérationnelle.',
-      ],
-    },
-    ja: {
-      title: 'アイデアを形にするアーキテクト',
-      subtitle: '高い開放性 × 高い誠実性',
-      summary: '探求心と確実な実行力のバランスに優れ、新しい発想を明確な構造や実行手順へと落とし込むタイプです。',
-      examples: [
-        'プロジェクトの開始時、新しい視点を提案した直後に具体的なステップを書き始める。',
-        '他人が概念を議論している間に、担当者・順序・完了基準を自然と考え始める。',
-        '形にならないアイデアや、想像力のないマニュアル作業のどちらにも物足りなさを感じる。',
-      ],
-    },
-    ru: {
-      title: 'Архитектор систем',
-      subtitle: 'Высокая открытость + высокая добросовестность',
-      summary: 'Вы умеете превращать новые идеи в чёткую структуру, сочетая поиск решений с надёжной реализацией.',
-      examples: [
-        'В начале проекта вы ищете свежий взгляд, а затем быстро составляете план действий.',
-        'Пока другие спорят о концепциях, вы уже думаете о сроках, ответственных и результате.',
-        'Вам не нравится чистый вдохновенный порыв без понятного финала.',
-      ],
-    },
-    ko: {
-      title: '아이디어를 현실화하는 시스템 설계자',
-      subtitle: '높은 개방성 + 높은 성실성',
-      summary: '새로운 아이디어를 명확한 구조로 변환하며, 탐색과 확실한 실행력 사이의 균형을 잘 잡습니다.',
-      examples: [
-        '새 프로젝트를 시작할 때 새로운 관점을 제안한 후 빠르게 실행 단계를 정리합니다.',
-        '다른 이들이 개념 논의에 머물 때, 담당자·순서·완료 기준을 자연스럽게 떠올립니다.',
-        '실행으로 이어지지 않는 순수 아이디어나 상상력이 결여된 절차 모두에 아쉬움을 느낍니다.',
-      ],
-    },
-    pt: {
-      title: 'Arquiteto de Sistemas',
-      subtitle: 'Alta abertura + alta conscienciosidade',
-      summary: 'Você costuma transformar novas ideias em estruturas claras, equilibrando exploração e execução confiável.',
-      examples: [
-        'No início de um projeto, busca um novo ângulo e rapidamente o transforma em passos práticos.',
-        'Enquanto outros debatem conceitos, você pensa em responsáveis, ordem e linha de chegada.',
-        'Perde a paciência com inspirações puras que nunca se tornam algo aplicável.',
-      ],
-    },
-    hi: {
-      title: 'सिस्टम आर्किटेक्ट',
-      subtitle: 'उच्च खुलापन + उच्च कर्तव्यनिष्ठता',
-      summary: 'आप नए विचारों को स्पष्ट संरचना में बदलने की प्रवृत्ति रखते हैं, अन्वेषण और विश्वसनीय निष्पादन में संतुलन बनाते हैं।',
-      examples: [
-        'किसी परियोजना की शुरुआत में, आप एक नया कोण खोजते हैं और फिर जल्दी से उसे चरणों में विभाजित करते हैं।',
-        'जब अन्य लोग केवल विचारों पर चर्चा कर रहे होते हैं, तब आप जिम्मेदारी और प्रक्रिया के बारे में सोचते हैं।',
-        'आप बिना किसी व्यावहारिक परिणाम वाले केवल हवाई विचारों से निराश हो सकते हैं।',
-      ],
-    },
-    de: {
-      title: 'Systemarchitekt',
-      subtitle: 'Hohe Offenheit + Hohe Gewissenhaftigkeit',
-      summary: 'Sie verwandeln neue Ideen in klare Strukturen und verbinden Neugier mit verlässlicher Umsetzung.',
-      examples: [
-        'Zu Beginn eines Projekts suchen Sie nach neuen Ansätzen und erstellen direkt konkrete Schritte.',
-        'Während andere noch über Konzepte reden, denken Sie bereits an Verantwortlichkeiten und Fristen.',
-        'Rein theoretische Inspirationen ohne praktischen Nutzen stellen Sie selten zufrieden.',
-      ],
-    },
   },
   'C-N': {
     zh: {
@@ -137,86 +67,6 @@ const archetypes: Record<string, Partial<Record<Locale, Evaluation>>> = {
         'Before a deadline, you may feel the pressure early and use it to check the work.',
         'When a team says “it should be fine,” you still ask where it could break.',
         'You can stabilize difficult work, but responsibility may drain you if it never turns off.',
-      ],
-    },
-    es: {
-      title: 'Operador Firme',
-      subtitle: 'Alta responsabilidad + alta sensibilidad emocional',
-      summary: 'Detectas rápidamente los riesgos y detalles, lo que te permite anticiparte a los problemas antes de que ocurran.',
-      examples: [
-        'Antes de una fecha límite, sientes la presión antes y la usas para revisar los detalles.',
-        'Cuando el equipo dice "todo saldrá bien", tú preguntas dónde podría fallar.',
-        'Estabilizas situaciones complejas, pero el exceso de responsabilidad puede agotarte.',
-      ],
-    },
-    fr: {
-      title: 'Opérateur Vigilant',
-      subtitle: 'Haute conscienciosité + haute sensibilité émotionnelle',
-      summary: 'Vous repérez très vite les risques et les détails, ce qui vous permet de corriger le tir avant les problèmes.',
-      examples: [
-        'Avant une échéance, vous ressentez la pression tôt et l’utilisez pour vérifier le travail.',
-        'Quand l’équipe dit « ça va aller », vous demandez où se trouve le point de rupture potentiel.',
-        'Vous stabilisez les projets complexes, mais la responsabilité constante peut vous épuiser.',
-      ],
-    },
-    ja: {
-      title: 'リスクを察知し着実に進めるガードマン',
-      subtitle: '高い誠実性 × 高い情緒敏感性',
-      summary: '責任感とリスクに対する鋭い感性を持ち、トラブルが起きる前に未然に防ぐ着実なアプローチを取ります。',
-      examples: [
-        '締め切り前、人より早く緊張感を感じ、それを細部のチェックに活かす。',
-        '周囲が「たぶん大丈夫」と言っている時も、「万が一のボトルネック」を問い直す。',
-        '不安定な状況を収束させるのが得意だが、責任感の強さゆえに疲れを溜めやすい。',
-      ],
-    },
-    ru: {
-      title: 'Надёжный контролёр',
-      subtitle: 'Высокая добросовестность + высокая эмоциональность',
-      summary: 'Вы быстро замечаете риски и детали, что помогает вам предотвращать проблемы до их появления.',
-      examples: [
-        'Перед дедлайном вы раньше других чувствуете давление и используете его для проверки деталей.',
-        'Когда команда говорит «всё будет хорошо», вы спрашиваете, где именно может произойти сбой.',
-        'Вы отлично стабилизируете процессы, но груз ответственности может вызывать усталость.',
-      ],
-    },
-    ko: {
-      title: '위험을 미리 감지하는 신중한 관리자',
-      subtitle: '높은 성실성 + 높은 정서적 민감성',
-      summary: '책임감과 위험 감지 능력이 뛰어나 문제가 터지기 전에 미리 대비하고 세부 사항을 챙깁니다.',
-      examples: [
-        '마감이 다가오면 남들보다 먼저 긴장감을 느끼고 이를 디테일 점검에 활용합니다.',
-        '팀이 "괜찮을 거야"라고 할 때, 문제가 생길 만한 지점을 다시 한번 질문합니다.',
-        '복잡한 상황을 안정시키는 데 능하지만, 과도한 책임감으로 스스로 지칠 수 있습니다.',
-      ],
-    },
-    pt: {
-      title: 'Operador Cuidadoso',
-      subtitle: 'Alta conscienciosidade + alta sensibilidade emocional',
-      summary: 'Você percebe riscos e detalhes rapidamente, o que ajuda a prevenir falhas antes que elas aconteçam.',
-      examples: [
-        'Antes de um prazo, sente a pressão cedo e a usa para revisar minuciosamente o trabalho.',
-        'Quando a equipe diz "vai dar tudo certo", você pergunto onde o processo pode falhar.',
-        'Consegue estabilizar projetos difíceis, mas a responsabilidade constante pode ser desgastante.',
-      ],
-    },
-    hi: {
-      title: 'सतर्क संचालक',
-      subtitle: 'उच्च कर्तव्यनिष्ठता + उच्च भावनात्मक संवेदनशीलता',
-      summary: 'आप जोखिमों और विवरणों को जल्दी पहचानते हैं, जिससे आप समस्याओं को उत्पन्न होने से पहले रोकने में सक्षम होते हैं।',
-      examples: [
-        'समय-सीमा से पहले, आप दबाव जल्दी महसूस करते हैं और इसका उपयोग काम की जाँच के लिए करते हैं।',
-        'जब टीम कहती है "सब ठीक रहेगा", तब भी आप पूछते हैं कि समस्या कहाँ आ सकती है।',
-        'आप कठिन कार्यों को स्थिर कर सकते हैं, लेकिन जिम्मेदारी का बोझ आपको थका भी सकता है।',
-      ],
-    },
-    de: {
-      title: 'Umsichtiger Verwalter',
-      subtitle: 'Hohe Gewissenhaftigkeit + Hohe emotionale Empfindlichkeit',
-      summary: 'Sie bemerken Risiken und Details frühzeitig und verhindern Probleme, bevor sie entstehen.',
-      examples: [
-        'Vor einer Frist spüren Sie den Druck früh und nutzen ihn zur gründlichen Prüfung.',
-        'Wenn das Team sagt „wird schon klappen“, fragen Sie nach potenziellen Schwachstellen.',
-        'Sie bringen Stabilität in komplexe Aufgaben, verbrauchen dabei aber auch viel eigene Energie.',
       ],
     },
   },
@@ -241,86 +91,6 @@ const archetypes: Record<string, Partial<Record<Locale, Evaluation>>> = {
         'You often translate a cold problem into language other people can actually use.',
       ],
     },
-    es: {
-      title: 'Explorador Empático',
-      subtitle: 'Alta apertura + alta amabilidad',
-      summary: 'Exploras nuevas perspectivas teniendo siempre en cuenta los sentimientos y la situación de los demás.',
-      examples: [
-        'En un debate, primero intentas entender qué teme o busca cada una de las partes.',
-        'Aceptas nuevas ideas sin usarlas para hacer sentir inferiores a los demás.',
-        'Sueles traducir problemas abstractos a un lenguaje accesible para todos.',
-      ],
-    },
-    fr: {
-      title: 'Explorateur Empathique',
-      subtitle: 'Haute ouverture + haute agréabilité',
-      summary: 'Vous explorez de nouvelles perspectives tout en restant très attentif à l’impact humain de vos idées.',
-      examples: [
-        'Dans un débat, vous cherchez d’abord à comprendre ce que chaque partie essaie de protéger.',
-        'Vous accueillez de nouvelles idées sans vous en servir pour rabaisser autrui.',
-        'Vous savez traduire un problème complexe en termes simples et humains.',
-      ],
-    },
-    ja: {
-      title: '共感力のある探求者',
-      subtitle: '高い開放性 × 高い協調性',
-      summary: '豊かな好奇心を持ちながらも、他人の立場や感情に寄り添い、温かみのあるアプローチを取れる人です。',
-      examples: [
-        '意見が対立した時、双方の主張の背景にある不安や要望をまず理解しようとする。',
-        '新しい考え方を受け入れる柔軟性があるが、それを他人に押し付けることはしない。',
-        '難解で冷たい課題を、誰もが理解しやすい言葉に翻訳するのが得意。',
-      ],
-    },
-    ru: {
-      title: 'Эмпатичный исследователь',
-      subtitle: 'Высокая открытость + высокая доброжелательность',
-      summary: 'Вы исследуете мир и новые идеи, не забывая о чувствах и интересах окружающих.',
-      examples: [
-        'В споре вы сначала думаете о том, чего опасается каждая из сторон.',
-        'Вы открыты новому, но не используете новые знания для превосходства над другими.',
-        'Вы умеете объяснять сложные абстрактные вещи простым и человечным языком.',
-      ],
-    },
-    ko: {
-      title: '공감 능력을 갖춘 탐구자',
-      subtitle: '높은 개방성 + 높은 우호성',
-      summary: '호기심이 풍부할 뿐만 아니라, 그 생각이 타인에게 어떤 영향을 미칠지 깊이 배려합니다.',
-      examples: [
-        '논쟁이 생겼을 때 각 입장에서 무엇을 우려하는지 먼저 헤아려 봅니다.',
-        '새로운 관점을 잘 수용하지만, 그것으로 남을 누르거나 과시하려 하지 않습니다.',
-        '차가운 전문적 문제를 사람이 이해하기 쉬운 따뜻한 언어로 재해석해 냅니다.',
-      ],
-    },
-    pt: {
-      title: 'Explorador Empático',
-      subtitle: 'Alta abertura + alta amabilidade',
-      summary: 'Você explora o mundo e novas ideias sempre levando em consideração o lado humano e as pessoas.',
-      examples: [
-        'Numa discussão, tenta entender primeiro o que cada lado está tentando defender ou temendo.',
-        'Aceita novas ideias sem usá-las para fazer os outros se sentirem menores.',
-        'Consegue traduzir problemas complexos numa linguagem simples e acessível para todos.',
-      ],
-    },
-    hi: {
-      title: 'सहानुभूतिपूर्ण अन्वेषक',
-      subtitle: 'उच्च खुलापन + उच्च सहमतता',
-      summary: 'आप नए विचारों की खोज करते हैं और साथ ही दूसरों की भावनाओं का भी पूरा ध्यान रखते हैं।',
-      examples: [
-        'किसी विवाद में, आप पहले यह समझने की कोशिश करते हैं कि प्रत्येक पक्ष किस बात से चिंतित है।',
-        'आप दूसरों को नीचा दिखाए बिना नए विचारों को स्वीकार कर सकते हैं।',
-        'आप अक्सर कठिन समस्याओं को ऐसी भाषा में बदल देते हैं जिसे लोग आसानी से समझ सकें।',
-      ],
-    },
-    de: {
-      title: 'Empathischer Entdecker',
-      subtitle: 'Hohe Offenheit + Hohe Verträglichkeit',
-      summary: 'Sie erkunden neue Perspektiven und achten dabei stets auf das Wohl und die Gefühle anderer.',
-      examples: [
-        'Bei Meinungsverschiedenheiten versuchen Sie zuerst die Sorgen beider Seiten zu verstehen.',
-        'Sie nehmen neue Ideen auf, ohne andere damit zu belehren.',
-        'Sie können komplizierte Sachverhalte verständlich und einfühlsam vermitteln.',
-      ],
-    },
   },
   'E-C': {
     zh: {
@@ -341,86 +111,6 @@ const archetypes: Record<string, Partial<Record<Locale, Evaluation>>> = {
         'When a meeting stalls, you may throw out the question that gets people moving again.',
         'A good conversation is not enough for you; you want to know what happens next.',
         'You can drive collaboration, but you may end up carrying more of the rhythm than you need to.',
-      ],
-    },
-    es: {
-      title: 'Organizador de Acción',
-      subtitle: 'Alta extraversión + alta responsabilidad',
-      summary: 'Generas impulso a través de la interacción, alineando metas, ritmo y la atención del grupo.',
-      examples: [
-        'Cuando una reunión se estanca, lanzas la pregunta adecuada para reactivar el diálogo.',
-        'No te basta con una buena charla; quieres saber quién se responsabiliza y cuáles son los plazos.',
-        'Impulsas la colaboración con gran energía, pero debes cuidar no cargarlo todo sobre tus hombros.',
-      ],
-    },
-    fr: {
-      title: 'Moteur d’Action',
-      subtitle: 'Haute extraversion + haute conscienciosité',
-      summary: 'Vous créez une dynamique collective efficace en liant énergie relationnelle et objectifs concrets.',
-      examples: [
-        'Si una réunion stagne, vous relancez le débat avec la bonne question.',
-        'Une bonne discussion ne suffit pas : vous voulez savoir qui fait quoi et pour quand.',
-        'Vous êtes parfait pour faire avancer les projets, mais attention à ne pas tout porter seul.',
-      ],
-    },
-    ja: {
-      title: '場を活性化し成果へ導く推進者',
-      subtitle: '高い外向性 × 高い誠実性',
-      summary: '高い対話エネルギーと実行力を持ち、議論を活性化させながら全員の意識を目標達成へと導きます。',
-      examples: [
-        '会議が停滞した時、積極的に発言して議論を再び動かす。',
-        '「楽しかった」だけで終わらせず、次のアクションと担当者・期限を明確にしたくなる。',
-        'チームの推進力となるが得意だが、全員のペースを一人で背負い込みすぎないよう注意が必要。',
-      ],
-    },
-    ru: {
-      title: 'Двигатель результатов',
-      subtitle: 'Высокая экстраверсия + высокая добросовестность',
-      summary: 'Вы создаёте движение через общение, направляя внимание группы на конкретные цели.',
-      examples: [
-        'Если встреча зашла в тупик, вы задаёте вопрос, который заставляет всех двигаться дальше.',
-        'Вам мало просто хорошей беседы; вам нужно знать, кто отвечает за следующий шаг.',
-        'Вы отлично объединяете людей ради результата, но берегитесь перегрузки.',
-      ],
-    },
-    ko: {
-      title: '실행을 이끄는 행동파 조직가',
-      subtitle: '높은 외향성 + 높은 성실성',
-      summary: '활발한 소통을 바탕으로 동력을 만들어 내며, 사람들의 관심을 목표 달성과 실행으로 모읍니다.',
-      examples: [
-        '회의가 침체될 때 먼저 이슈를 던져 논의를 다시 활성화시킵니다.',
-        '단순히 "좋은 대화였다"로 끝나지 않고, 누가 언제까지 담당할지 확정하려 합니다.',
-        '협업을 이끄는 주도성이 뛰어나지만, 모든 진행 속도를 혼자 짊어지지 않도록 조심해야 합니다.',
-      ],
-    },
-    pt: {
-      title: 'Organizador de Ação',
-      subtitle: 'Alta extroversão + alta conscienciosidade',
-      summary: 'Você cria dinamismo por meio da interação, alinhando objetivos, ritmo e o foco do grupo.',
-      examples: [
-        'Quando uma reunião trava, você lança a pergunta certa para fazer o grupo andar.',
-        'Uma boa conversa não basta: você quer definir os próximos passos e prazos.',
-        'Lidera a colaboração com maestria, mas precisa tomar cuidado para não carregar o ritmo de todos.',
-      ],
-    },
-    hi: {
-      title: 'कार्य आयोजक',
-      subtitle: 'उच्च बहिर्मुखता + उच्च कर्तव्यनिष्ठता',
-      summary: 'आप बातचीत के माध्यम से ऊर्जा पैदा करते हैं और लक्ष्यों और समूह का ध्यान एक दिशा में लाते हैं।',
-      examples: [
-        'जब कोई बैठक रुक जाती है, तो आप वह प्रश्न पूछते हैं जो चर्चा को फिर से शुरू करता है।',
-        'केवल एक अच्छी बातचीत आपके लिए पर्याप्त नहीं है; आप जानना चाहते हैं कि आगे क्या कदम उठाना है।',
-        'आप सहयोग को आगे बढ़ा सकते हैं, लेकिन सभी की जिम्मेदारी खुद पर न लें।',
-      ],
-    },
-    de: {
-      title: 'Handlungsorganisator',
-      subtitle: 'Hohe Extraversion + Hohe Gewissenhaftigkeit',
-      summary: 'Sie schaffen Dynamik durch Austausch und richten Energie und Fokus auf konkrete Ergebnisse.',
-      examples: [
-        'Wenn ein Meeting ins Stocken gerät, bringen Sie die Diskussion mit gezielten Fragen wieder in Gang.',
-        'Ein nettes Gespräch reicht Ihnen nicht – Sie wollen wissen, wer was bis wann erledigt.',
-        'Sie treiben Projekte kraftvoll voran, sollten aber darauf achten, nicht alles allein zu tragen.',
       ],
     },
   },
@@ -445,6 +135,16 @@ export function evaluate(estimate: Estimate, lang: Locale): Evaluation {
     pt: `Padrão liderado por ${names[ranked[0]]}`,
     hi: `${names[ranked[0]]}-प्रमुख पैटर्न`,
     de: `Muster geprägt von ${names[ranked[0]]}`,
+    it: `Modello guidato da ${names[ranked[0]]}`,
+    uk: `Тип з преобладанням: ${names[ranked[0]]}`,
+    ar: `نمط موجه بـ ${names[ranked[0]]}`,
+    tr: `${names[ranked[0]]} Ağırlıklı Model`,
+    nl: `Patroon geleid door ${names[ranked[0]]}`,
+    pl: `Wzorzec dominujący: ${names[ranked[0]]}`,
+    vi: `Mẫu đặc trưng: ${names[ranked[0]]}`,
+    th: `รูปแบบที่นำโดย ${names[ranked[0]]}`,
+    id: `Pola utama: ${names[ranked[0]]}`,
+    sv: `Mönster präglat av ${names[ranked[0]]}`,
   };
 
   const subtitleMap: Record<Locale, string> = {
@@ -458,6 +158,16 @@ export function evaluate(estimate: Estimate, lang: Locale): Evaluation {
     pt: `Principais traços: ${names[ranked[0]]} e ${names[ranked[1]]}`,
     hi: `प्रमुख लक्षण: ${names[ranked[0]]} और ${names[ranked[1]]}`,
     de: `Haupteigenschaften: ${names[ranked[0]]} und ${names[ranked[1]]}`,
+    it: `Tratti principali: ${names[ranked[0]]} e ${names[ranked[1]]}`,
+    uk: `Головні риси: ${names[ranked[0]]} та ${names[ranked[1]]}`,
+    ar: `السمات الرئيسية: ${names[ranked[0]]} و ${names[ranked[1]]}`,
+    tr: `Öne çıkan özellikler: ${names[ranked[0]]} ve ${names[ranked[1]]}`,
+    nl: `Belangrijkste eigenschappen: ${names[ranked[0]]} en ${names[ranked[1]]}`,
+    pl: `Główne cechy: ${names[ranked[0]]} oraz ${names[ranked[1]]}`,
+    vi: `Tính cách nổi bật: ${names[ranked[0]]} và ${names[ranked[1]]}`,
+    th: `ลักษณะเด่น: ${names[ranked[0]]} และ ${names[ranked[1]]}`,
+    id: `Sifat utama: ${names[ranked[0]]} dan ${names[ranked[1]]}`,
+    sv: `Huvuddrag: ${names[ranked[0]]} och ${names[ranked[1]]}`,
   };
 
   const summaryMap: Record<Locale, string> = {
@@ -471,6 +181,16 @@ export function evaluate(estimate: Estimate, lang: Locale): Evaluation {
     pt: 'Seus resultados mostram um padrão claro. O relatório foca em como seus dois traços mais altos moldam suas ações.',
     hi: 'आपका परिणाम एक स्पष्ट प्रमुख पैटर्न दिखाता है। यह रिपोर्ट बताती है कि आपके दो उच्चतम लक्षण आपकी कार्रवाई को कैसे आकार देते हैं।',
     de: 'Ihr Ergebnis zeigt ein klares Hauptmuster. Der Bericht beschreibt, wie Ihre zwei stärksten Eigenschaften Ihr Handeln prägen.',
+    it: 'I tuoi risultati mostrano un modello chiaro. Il report evidenzia come i tuoi due tratti principali guidano le tue azioni.',
+    uk: 'Ваші відповіді показують чіткий провідний паттерн. Звіт описує вплив двох основних рис на вашу поведінку.',
+    ar: 'تظهر نتائجك نمطًا قياديًا واضحًا. يركز التقرير على كيفية تشكيل أعلى سماتك لأسلوب عملك المعتاد.',
+    tr: 'Sonuçlarınız net bir ana model gösteriyor. Rapor, öne çıkan iki özelliğinizin eylemlerinizi nasıl şekillendirdiğine odaklanır.',
+    nl: 'Uw resultaat toont een duidelijk leidend patroon. Het rapport beschrijft hoe uw twee sterkste eigenschappen uw handelen sturen.',
+    pl: 'Twoje wyniki wskazują na wyraźny wzorzec. Raport skupia się na tym, jak dwie dominujące cechy kształtują Twoje działania.',
+    vi: 'Kết quả của bạn thể hiện xu hướng nổi bật rõ ràng. Báo cáo tập trung vào cách 2 đặc tính cao nhất định hình hành động của bạn.',
+    th: 'ผลลัพธ์ของคุณแสดงรูปแบบที่ชัดเจน รายงานมุ่งเน้นไปที่วิธีที่สองลักษณะเด่นส่งผลต่อแนวทางการกระทำของคุณ',
+    id: 'Hasil Anda menunjukkan pola utama yang jelas. Laporan ini berfokus pada bagaimana dua sifat tertinggi Anda membentuk tindakan Anda.',
+    sv: 'Ditt resultat visar ett tydligt mönster. Rapporten fokuserar på hur dina två starkaste drag formar ditt handlande.',
   };
 
   const examplesMap: Record<Locale, string[]> = {
@@ -502,7 +222,7 @@ export function evaluate(estimate: Estimate, lang: Locale): Evaluation {
     ru: [
       `При новой задаче ваша первая реакция определяется чертой "${names[ranked[0]]}".`,
       `В командной работе "${names[ranked[1]]}" сильно влияет на ваш стиль общения.`,
-      'Если какой-то пример кажется неточным, эта черта может проявляться только в особых ситуации.',
+      'Если какой-то пример кажется неточным, эта черта может проявляться только в особых ситуациях.',
     ],
     ko: [
       `새로운 과제를 맡았을 때 가장 먼저 "${names[ranked[0]]}" 측면이 반응합니다.`,
@@ -523,6 +243,56 @@ export function evaluate(estimate: Estimate, lang: Locale): Evaluation {
       `Bei neuen Aufgaben wird Ihre erste Reaktion meist von ${names[ranked[0]]} geprägt.`,
       `In der Zusammenarbeit beeinflusst ${names[ranked[1]]} Ihre Kommunikation stark.`,
       'Falls ein Beispiel nicht ganz passt, zeigt sich diese Eigenschaft meist nur in bestimmten Situationen.',
+    ],
+    it: [
+      `Di fronte a un nuovo compito, la tua prima reazione è spesso guidata da ${names[ranked[0]]}.`,
+      `Nella collaborazione, ${names[ranked[1]]} influenza notevolmente il tuo modo di comunicare.`,
+      'Se un esempio sembra meno adatto, quel tratto potrebbe emergere solo in situazioni specifiche.',
+    ],
+    uk: [
+      `При виконанні нового завдання ваша перша реакція визначається рисою "${names[ranked[0]]}".`,
+      `У співпраці "${names[ranked[1]]}" відчутно впливає на стиль вашого спілкування.`,
+      'Якщо якийсь приклад здається неточним, ця риса може проявлятися лише за певних умов.',
+    ],
+    ar: [
+      `عند مواجهة مهمة جديدة، غالبًا ما تتشكل ردة فعلك الأولى بواسطة ${names[ranked[0]]}.`,
+      `في التعاون مع الآخرين، يؤثر ${names[ranked[1]]} بشكل قوي على أسلوب تواصلك.`,
+      'إذا بدا أحد الأمثلة غير متطابق، فقد تظهر هذه السمة في مواقف محددة فقط.',
+    ],
+    tr: [
+      `Yeni bir görevle karşılaştığınızda ilk tepkiniz genellikle ${names[ranked[0]]} ile şekillenir.`,
+      `İşbirliği yaparken ${names[ranked[1]]} iletişim kurma biçiminizi güçlü bir şekilde etkiler.`,
+      'Bir örnek uymuyorsa, bu özellik yalnızca belirli durumlarda ortaya çıkıyor olabilir.',
+    ],
+    nl: [
+      `Bij een nieuwe taak wordt uw eerste reactie meestal gevormd door ${names[ranked[0]]}.`,
+      `In samenwerking beïnvloedt ${names[ranked[1]]} uw manier van communiceren sterk.`,
+      'Als een voorbeeld niet helemaal klopt, komt deze eigenschap mogelijk alleen in specifieke situaties naar voren.',
+    ],
+    pl: [
+      `W obliczu nowego zadania Twoja pierwsza reakcja jest zazwyczaj kształtowana przez ${names[ranked[0]]}.`,
+      `W współpracy ${names[ranked[1]]} silnie wpływa na Twój sposób komunikacji.`,
+      'Jeśli jeden z przykładów wydaje się niepasujący, cecha ta może ujawniać się tylko w określonych sytuacjach.',
+    ],
+    vi: [
+      `Khi gặp nhiệm vụ mới, phản ứng đầu tiên của bạn thường được định hình bởi ${names[ranked[0]]}.`,
+      `Khi hợp tác, ${names[ranked[1]]} ảnh hưởng mạnh mẽ đến cách bạn giao tiếp.`,
+      'Nếu có ví dụ chưa hoàn toàn đúng với bạn, đặc điểm đó có thể chỉ xuất hiện trong những hoàn cảnh nhất định.',
+    ],
+    th: [
+      `เมื่อเผชิญกับงานใหม่ ปฏิกิริยาแรกของคุณมักจะถูกกำหนดโดย ${names[ranked[0]]}`,
+      `ในการทำงานร่วมกัน ${names[ranked[1]]} ส่งผลต่อวิธีการสื่อสารของคุณอย่างมาก`,
+      'หากตัวอย่างหนึ่งดูไม่ตรงนัก คุณลักษณะนี้อาจปรากฏขึ้นในสถานการณ์เฉพาะเท่านั้น',
+    ],
+    id: [
+      `Saat menghadapi tugas baru, reaksi pertama Anda sering kali dibentuk oleh ${names[ranked[0]]}.`,
+      `Dalam kolaborasi, ${names[ranked[1]]} sangat memengaruhi cara Anda berkomunikasi.`,
+      'Jika salah satu contoh terasa tidak pas, sifat tersebut mungkin hanya muncul dalam situasi tertentu.',
+    ],
+    sv: [
+      `Ställd inför en ny uppgift formas din första reaktion ofta av ${names[ranked[0]]}.`,
+      `I samarbete påverkar ${names[ranked[1]]} starkt hur du kommunicerar.`,
+      'Om ett exempel kändes fel kanske detta drag bara visar sig i specifika situationer.',
     ],
   };
 

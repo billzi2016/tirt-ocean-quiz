@@ -21,7 +21,17 @@
             "ko": "첫 번째 답변에 머무르지 않고, 문제를 해석하는 새로운 프레임워크를 적극적으로 찾는다.",
             "pt": "Procuro novas maneiras de enquadrar uma questão em vez de me contentar com a primeira resposta.",
             "hi": "मैं पहले उत्तर पर रुकने के बजाय किसी प्रश्न को देखने के नए तरीकों की तलाश करता हूँ।",
-            "de": "Ich suche nach neuen Wegen, eine Frage zu formulieren, anstatt beim ersten Ansatz stehen zu bleiben."
+            "de": "Ich suche nach neuen Wegen, eine Frage zu formulieren, anstatt beim ersten Ansatz stehen zu bleiben.",
+            "it": "Cerco nuovi modi per inquadrare una domanda invece di fermarmi alla prima risposta.",
+            "uk": "Шукаю нові способи бачення проблеми, замість того щоб зупинятися на першій відповіді.",
+            "ar": "أبحث عن طرق جديدة لصياغة الأسئلة بدلاً من التوقف عند الإجابة الأولى.",
+            "tr": "İlk cevapta durmak yerine bir soruyu çerçevelemenin yeni yollarını ararım.",
+            "nl": "Ik zoek naar nieuwe manieren om een vraag te benaderen in plaats van te stoppen bij het eerste antwoord.",
+            "pl": "Szukam nowych sposobów ujęcia problemu, zamiast zatrzymywać się na pierwszej odpowiedzi.",
+            "vi": "Tôi chủ động tìm kiếm các góc nhìn mới thay vì dừng lại ở câu trả lời đầu tiên.",
+            "th": "ฉันมองหากรอบความคิดใหม่ๆ ในการตีความปัญหา แทนที่จะหยุดอยู่ที่คำตอบแรก",
+            "id": "Saya mencari cara baru untuk memandang masalah daripada berhenti pada jawaban pertama.",
+            "sv": "Jag söker nya sätt att formulera en fråga istället för att stanna vid det första svaret."
           },
           "sourceItem": "OPN1"
         },
@@ -41,7 +51,17 @@
             "ko": "복잡한 업무를 검증 가능한 단계로 나누어 처리하는 편이다.",
             "pt": "Costumo dividir tarefas complexas em etapas verificáveis.",
             "hi": "मैं जटिल कार्यों को ऐसे चरणों में विभाजित करता हूँ जिनकी जाँच की जा सके।",
-            "de": "Ich teile komplexe Aufgaben meist in überprüfbare Schritte ein."
+            "de": "Ich teile komplexe Aufgaben meist in überprüfbare Schritte ein.",
+            "it": "Tendo a dividere i compiti complessi in passaggi verificabili.",
+            "uk": "Зазвичай розбиваю складні завдання на етапи, які можна перевірити.",
+            "ar": "أميل إلى تقسيم المهام المعقدة إلى خطوات قابل للتحقق منها.",
+            "tr": "Karmaşık işleri kontrol edilebilir adımlara bölme eğilimindeyimdir.",
+            "nl": "Ik verdeel complex werk meestal in stappen die gecontroleerd kunnen worden.",
+            "pl": "Mam tendencję do dzielenia złożonych zadań na etapy, które można zweryfikować.",
+            "vi": "Tôi có thói quen chia nhỏ công việc phức tạp thành các bước có thể kiểm tra được.",
+            "th": "ฉันมักจะย่อยงานที่ซับซ้อนออกเป็นขั้นตอนที่สามารถตรวจสอบได้",
+            "id": "Saya cenderung membagi pekerjaan rumit menjadi langkah-langkah yang dapat diperiksa.",
+            "sv": "Jag brukar dela upp komplext arbete i steg som kan kontrolleras."
           },
           "sourceItem": "CSN2"
         },
@@ -61,7 +81,17 @@
             "ko": "오랜 시간 집중적인 사교 활동을 한 후에는 확실한 회복 시간이 필요하다.",
             "pt": "Após períodos de intensa socialização, costumo precisar de um tempo claro de recuperação.",
             "hi": "सघन सामाजिक मेलजोल के बाद, मुझे आमतौर पर आराम और रिकवरी के समय की आवश्यकता होती है।",
-            "de": "Nach intensiven sozialen Kontakten brauche ich normalerweise Zeit für mich zur Erholung."
+            "de": "Nach intensiven sozialen Kontakten brauche ich normalerweise Zeit für mich zur Erholung.",
+            "it": "Dopo un'intensa attività sociale, di solito ho bisogno di un vero tempo di recupero.",
+            "uk": "Після тривалого інтенсивного спілкування мені зазвичай потрібен час для відновлення.",
+            "ar": "بعد فترة من التواصل الاجتماعي المكثف، أحتاج عادةً إلى وقت حقيقي للاستعادة.",
+            "tr": "Yoğun sosyal zamanlardan sonra genellikle gerçek bir dinlenme süresine ihtiyaç duyarım.",
+            "nl": "Na intensieve sociale interactie heb ik meestal tijd nodig om weer op te laden.",
+            "pl": "Po intensywnych kontaktach towarzyskich zazwyczaj potrzebuję czasu na regenerację.",
+            "vi": "Sau thời gian giao tiếp xã hội dồn dập, tôi thường cần thời gian nghỉ ngơi thực sự.",
+            "th": "หลังจากใช้เวลาเข้าสังคมอย่างเข้มข้น ฉันมักจะต้องการเวลาพักผ่อนเพื่อฟื้นฟูพลังงาน",
+            "id": "Setelah waktu bersosialisasi yang intens, saya biasanya membutuhkan waktu untuk memulihkan diri.",
+            "sv": "Efter intensiv social tid behöver jag oftast riktig återhämtningstid."
           },
           "sourceItem": "EXT3"
         },
@@ -81,7 +111,17 @@
             "ko": "의견이 대립할 때, 상대방이 정말로 우려하는 바가 무엇인지 먼저 파악한다.",
             "pt": "Numa divergência, tento primeiro compreender o que realmente preocupa a outra pessoa.",
             "hi": "असहमति होने पर, मैं सबसे पहले यह समझने की कोशिश करता हूँ कि दूसरे व्यक्ति की वास्तविक चिंता क्या है।",
-            "de": "Bei Meinungsverschiedenheiten versuche ich zuerst zu verstehen, was die andere Person wirklich sorgt."
+            "de": "Bei Meinungsverschiedenheiten versuche ich zuerst zu verstehen, was die andere Person wirklich sorgt.",
+            "it": "In caso di disaccordo, cerco prima di capire cosa preoccupa davvero l'altra persona.",
+            "uk": "Під час розбіжностей я перш за все намагаюся зрозуміти, що насправді хвилює іншу людину.",
+            "ar": "في حالات الاختلاف، أحاول أولاً فهم ما يقلق الشخص الآخر حقًا.",
+            "tr": "Fikir ayrılığında önce karşı tarafın gerçekten neyden endişelendiğini anlamaya çalışırım.",
+            "nl": "Bij een meningsverschil probeer ik eerst te begrijpen waar de ander zich echt zorgen over maakt.",
+            "pl": "W przypadku różnicy zdań najpierw staram się zrozumieć, co naprawdę niepokoi drugą شخصę.",
+            "vi": "Khi có bất đồng, tôi luôn tìm hiểu xem đối phương thực sự lo lắng điều gì trước.",
+            "th": "เมื่อมีความเห็นไม่ตรงกัน ฉันจะพยายามเข้าใจก่อนว่าอีกฝ่ายกังวลเรื่องอะไรจริงๆ",
+            "id": "Saat terjadi perbedaan pendapat, saya mencoba memahami terlebih dahulu apa yang sebenarnya dikhawatirkan orang lain.",
+            "sv": "Vid en oenighet försöker jag först förstå vad den andra personen verkligen är orolig för."
           },
           "sourceItem": "AGR4"
         }
@@ -106,7 +146,17 @@
             "ko": "작은 불확실성이라도 머릿속에서 여러 가능성을 계속 반추하게 만든다.",
             "pt": "Pequenas incertezas podem me fazer remoer possibilidades na cabeça.",
             "hi": "छोटी-छोटी अनिश्चितताएं भी मुझे दिमाग में बार-बार संभावनाओं के बारे में सोचने पर मजबूर कर सकती हैं।",
-            "de": "Kleine Unsicherheiten lassen mich oft verschiedene Szenarien im Kopf durchspielen."
+            "de": "Kleine Unsicherheiten lassen mich oft verschiedene Szenarien im Kopf durchspielen.",
+            "it": "Piccole incertezze possono farmi rimuginare sulle possibilità nella mia testa.",
+            "uk": "Невеликі невизначеності можуть змусити мене знову і знову прокручувати варіанти в голові.",
+            "ar": "قد تجعلني الشكوك الصغيرة أعيد التفكير في الاحتمالات في ذهني مرارًا.",
+            "tr": "Küçük belirsizlikler kafamda olasılıkları defalarca tekrarlamama neden olabilir.",
+            "nl": "Kleine onzekerheden kunnen ervoor zorgen dat ik scenario's in mijn hoofd blijf herhalen.",
+            "pl": "Niewielkie niepewności mogą sprawić, że analizuję różne możliwości w głowie.",
+            "vi": "Những bất an nhỏ cũng có thể khiến tôi suy nghĩ đi suy nghĩ lại trong đầu.",
+            "th": "ความไม่แน่นอนเล็กๆ น้อยๆ สามารถทำให้ฉันคิดทบทวนความเป็นไปได้ซ้ำไปซ้ำมาในหัว",
+            "id": "Ketidakpastian kecil dapat membuat saya terus memikirkan berbagai kemungkinan di dalam kepala.",
+            "sv": "Små osäkerheter kan få mig att spela upp olika scener i mitt huvud om och om igen."
           },
           "sourceItem": "EST2"
         },
@@ -126,7 +176,17 @@
             "ko": "급하지 않은 일이라면 쉽게 뒤로 미뤄두곤 한다.",
             "pt": "Se uma tarefa não for urgente, é fácil deixá-la para depois.",
             "hi": "यदि कोई कार्य आवश्यक नहीं है, तो मैं उसे आसानी से एक तरफ रख सकता हूँ।",
-            "de": "Wenn eine Aufgabe nicht dringend ist, schiebe ich sie leicht auf."
+            "de": "Wenn eine Aufgabe nicht dringend ist, schiebe ich sie leicht auf.",
+            "it": "Se un compito non è urgente, posso facilmente metterlo da parte.",
+            "uk": "Якщо завдання не термінове, я можу легко відкласти його на потім.",
+            "ar": "إذا لم تكن المهمة عاجلة، يمكنني بسهولة تأجيلها جانبًا.",
+            "tr": "Bir görev acil değilse, onu kolayca bir kenara bırakabilirim.",
+            "nl": "Als een taak niet dringend is, stel ik deze gemakkelijk uit.",
+            "pl": "Jeśli zadanie nie jest pilne, łatwo odkładam je na później.",
+            "vi": "Nếu một công việc không gấp, tôi dễ dàng gạt nó sang một bên.",
+            "th": "ใต้งานไม่เร่งด่วน ฉันสามารถวางมันไว้ข้างๆ ได้อย่างง่ายดาย",
+            "id": "Jika suatu tugas tidak mendesak, saya dapat dengan mudah menyisihkannya.",
+            "sv": "Om en uppgift inte är brådskande kan jag enkelt lägga den åt sidan."
           },
           "sourceItem": "CSN3"
         },
@@ -146,7 +206,17 @@
             "ko": "추상적인 개념에 자연스럽게 관심이 끌린다.",
             "pt": "Ideias abstratas atraem naturalmente a minha atenção.",
             "hi": "अमूर्त विचार (abstract ideas) स्वाभाविक रूप से मेरा ध्यान आकर्षित करते हैं।",
-            "de": "Abstrakte Ideen wecken ganz natürlich mein Interesse."
+            "de": "Abstrakte Ideen wecken ganz natürlich mein Interesse.",
+            "it": "Le idee astratte catturano naturalmente la mia attenzione.",
+            "uk": "Абстрактні ідеї природно привертають мою увагу.",
+            "ar": "الأفكار المجردة تجذب انتباهي بشكل طبيعي.",
+            "tr": "Soyut fikirler doğal olarak dikkatimi çeker.",
+            "nl": "Abstracte ideeën trekken van nature mijn aandacht.",
+            "pl": "Abstrakcyjne pojęcia naturalnie przyciągają moją uwagę.",
+            "vi": "Các khái niệm trừu tượng tự nhiên thu hút sự chú ý của tôi.",
+            "th": "แนวคิดที่เป็นนามธรรมมักจะดึงดูดความสนใจของฉันโดยธรรมชาติ",
+            "id": "Gagasan abstrak secara alami menarik perhatian saya.",
+            "sv": "Abstrakta idéer fångar naturligt min uppmärksamhet."
           },
           "sourceItem": "OPN4"
         },
@@ -166,7 +236,17 @@
             "ko": "대화 속에서 금방 분위기에 적응하고 활기를 띤다.",
             "pt": "Costumo me engajar rapidamente em conversas.",
             "hi": "मैं आमतौर पर बातचीत में जल्दी घुल-मिल जाता हूँ।",
-            "de": "Ich finde in Gesprächen meist schnell Anschluss."
+            "de": "Ich finde in Gesprächen meist schnell Anschluss.",
+            "it": "Di solito entro rapidamente in sintonia nelle conversazioni.",
+            "uk": "Я зазвичай швидко входжу в ритм розмови.",
+            "ar": "عادة ما أندمج بسرعة في المحادثات.",
+            "tr": "Sohbetlerde genellikle hızlıca ortama ısınırım.",
+            "nl": "Ik kom meestal snel op dreef in een gesprek.",
+            "pl": "Zazwyczaj szybko nawiązuję kontakt w rozmowie.",
+            "vi": "Tôi thường nhanh chóng hòa nhập vào cuộc trò chuyện.",
+            "th": "ฉันมักจะคุ้นเคยและเข้ากันได้ดีในการสนทนาอย่างรวดเร็ว",
+            "id": "Saya biasanya cepat merasa nyaman dalam sebuah percakapan.",
+            "sv": "Jag brukar komma in i samtal snabbt."
           },
           "sourceItem": "EXT5"
         }
@@ -191,7 +271,17 @@
             "ko": "필요할 때는 돌려 말하지 않고 직접적으로 문제를 지적한다.",
             "pt": "Quando necessário, aponto os problemas diretamente sem rodeios.",
             "hi": "जरूरत पड़ने पर, मैं बिना घुमा-फिराए सीधे समस्या की ओर इशारा करता हूँ।",
-            "de": "Wenn nötig, spreche ich Probleme direkt und ohne Umschweife an."
+            "de": "Wenn nötig, spreche ich Probleme direkt und ohne Umschweife an.",
+            "it": "Quando necessario, indico il problema direttamente senza troppi giri di parole.",
+            "uk": "За потреби я вказую на проблему прямо, без натяків.",
+            "ar": "عند الحاجة، أشير إلى المشكلة مباشرة دون مواربة.",
+            "tr": "Gerektiğinde sorunu lafı dolandırmadan doğrudan belirtirim.",
+            "nl": "Wanneer nodig, wijs ik het probleem direct en zonder omwegen aan.",
+            "pl": "Gdy trzeba, wskazuję problem bezpośrednio i bez ogródek.",
+            "vi": "Khi cần thiết, tôi chỉ ra vấn đề một cách trực tiếp không vòng vo.",
+            "th": "เมื่อจำเป็น ฉันจะชี้ให้เห็นถึงปัญหาโดยตรงโดยไม่อ้อมค้อม",
+            "id": "Jika diperlukan, saya menunjukkan masalah secara langsung tanpa berbelit-belit.",
+            "sv": "När det behövs påpekar jag problemet direkt utan omvägar."
           },
           "sourceItem": "AGR3"
         },
@@ -211,7 +301,17 @@
             "ko": "중요한 일에는 마감 직전까지 몰리지 않도록 여유 시간을 둔다.",
             "pt": "Para coisas importantes, deixo uma margem de tempo em vez de deixar para a última hora.",
             "hi": "महत्वपूर्ण कार्यों के लिए, मैं अंतिम समय तक प्रतीक्षा करने के बजाय एक बफर रखता हूँ।",
-            "de": "Bei wichtigen Dingen plane ich Pufferzeit ein, anstatt alles auf den letzten Drücker zu erledigen."
+            "de": "Bei wichtigen Dingen plane ich Pufferzeit ein, anstatt alles auf den letzten Drücker zu erledigen.",
+            "it": "Per le cose importanti, lascio un margine invece di ridurmi all'ultimo minuto.",
+            "uk": "Для важливих справ я залишаю запас часу, а не роблю все в останню мить.",
+            "ar": "بالنسبة للأمور الهامة، أترك هامشًا زمنيًا بدلاً من التأجيل للحظة الأخيرة.",
+            "tr": "Önemli şeyler için son ana bırakmak yerine bir zaman payı bırakırım.",
+            "nl": "Voor belangrijke zaken bouw ik een buffer in in plaats van tot het laatste moment te wachten.",
+            "pl": "Dla ważnych spraw zostawiam margines czasu, zamiast robić wszystko na ostatnią chwilę.",
+            "vi": "Đối với những việc quan trọng, tôi luôn dự phòng thời gian thay vì chờ đến phút cuối.",
+            "th": "สำหรับเรื่องสำคัญ ฉันจะเผื่อเวลาไว้เสมอแทนที่จะทำกระชั้นชิดในนาทีสุดท้าย",
+            "id": "Untuk hal-hal penting, saya menyisakan jeda waktu daripada melakukannya di menit-menit terakhir.",
+            "sv": "För viktiga saker lämnar jag en buffert istället för att göra det i sista minuten."
           },
           "sourceItem": "CSN4"
         },
@@ -231,7 +331,17 @@
             "ko": "압박감이 높아져도 보통은 의사결정의 안정성을 유지한다.",
             "pt": "Quando a pressão aumenta, costumo manter o discernimento estável.",
             "hi": "दबाव बढ़ने पर भी मैं आमतौर पर अपना निर्णय स्थिर रख सकता हूँ।",
-            "de": "Wenn der Druck steigt, kann ich meist ein klares und stabiles Urteil bewahren."
+            "de": "Wenn der Druck steigt, kann ich meist ein klares und stabiles Urteil bewahren.",
+            "it": "Quando la pressione aumenta, di solito riesco a mantenere stabile il mio giudizio.",
+            "uk": "Коли тиск зростає, я зазвичай можу зберігати зваженість суджень.",
+            "ar": "عندما يزداد الضغط، يمكنني عادة الحفاظ على ثبات أحكامي.",
+            "tr": "Baskı arttığında genellikle kararlarımı istikrarlı tutabilirim.",
+            "nl": "Wanneer de druk toeneemt, kan ik mijn oordeel meestal stabiel houden.",
+            "pl": "Gdy presja rośnie, zazwyczaj potrafię zachować chłodną ocenę sytuacji.",
+            "vi": "Khi áp lực tăng cao, tôi thường vẫn giữ được sự phán đoán ổn định.",
+            "th": "เมื่อความกดดันเพิ่มขึ้น ฉันมักจะยังคงรักษาการตัดสินใจที่มั่นคงไว้ได้",
+            "id": "Saat tekanan meningkat, saya biasanya tetap dapat menjaga penilaian saya tetap stabil.",
+            "sv": "När trycket ökar kan jag oftast behålla ett stabilt omdöme."
           },
           "sourceItem": "EST5"
         },
@@ -251,7 +361,17 @@
             "ko": "이미 검증되고 확립된 방식을 더 신뢰한다.",
             "pt": "Tendo a confiar mais em métodos que já foram comprovados.",
             "hi": "मैं उन तरीकों पर अधिक भरोसा करता हूँ जो पहले से ही आज़माए जा चुके हैं।",
-            "de": "Ich vertraue eher auf Methoden, die sich bereits bewährt haben."
+            "de": "Ich vertraue eher auf Methoden, die sich bereits bewährt haben.",
+            "it": "Tendo a fidarmi di metodi che sono già stati testati.",
+            "uk": "Я більше довіряю методам, які вже були перевірені.",
+            "ar": "أميل إلى الثقة بالطرق التي تم اختبارها بالفعل.",
+            "tr": "Zaten test edilmiş yöntemlere güvenme eğilimindeyimdir.",
+            "nl": "Ik vertrouw meestal op methoden die hun nut al hebben bewzen.",
+            "pl": "Mam tendencję do ufania metodom, które zostały już sprawdzone.",
+            "vi": "Tôi có xu hướng tin tưởng vào các phương pháp đã được kiểm chứng.",
+            "th": "ฉันมักจะไว้วางใจวิธีที่ได้รับการทดสอบมาแล้ว",
+            "id": "Saya cenderung mempercayai metode yang sudah teruji.",
+            "sv": "Jag brukar lita på metoder som redan har testats."
           },
           "sourceItem": "OPN6"
         }
@@ -276,7 +396,17 @@
             "ko": "분위기를 주도하여 일이 활기차게 진행되도록 만든다.",
             "pt": "Muitas vezes animo o ambiente e faço as coisas acontecerem.",
             "hi": "मैं अक्सर माहौल में ऊर्जा भरता हूँ और चीजों को आगे बढ़ाता हूँ।",
-            "de": "Ich belebe oft die Stimmung und bringe Dinge in Schwung."
+            "de": "Ich belebe oft die Stimmung und bringe Dinge in Schwung.",
+            "it": "Spesso vivacizzo l'ambiente e faccio muovere le cose.",
+            "uk": "Я часто створюю настрій і змушую справи рухатися.",
+            "ar": "غالبًا ما أضفي الحيوية على المكان وأجعل الأمور تتحرك.",
+            "tr": "Ortamı sıklıkla canlandırır ve işlerin ilerlemesini sağlarım.",
+            "nl": "Ik breng vaak sfeer in de ruimte en breng dingen in beweging.",
+            "pl": "Często ożywiam atmosferę i sprawiam, że sprawy ruszają z miejsca.",
+            "vi": "Tôi thường khuấy động không khí và giúp mọi việc bắt đầu trôi chảy.",
+            "th": "ฉันมักจะสร้างบรรยากาศและทำให้สิ่งต่างๆ เริ่มขับเคลื่อน",
+            "id": "Saya sering menghidupkan suasana dan membuat segala hal mulai berjalan.",
+            "sv": "Jag brukar ofta liva upp stämningen och få saker i rullning."
           },
           "sourceItem": "EXT4"
         },
@@ -296,7 +426,17 @@
             "ko": "내 표현이 다른 사람을 곤란하게 만들지 않는지 주의 깊게 살핀다.",
             "pt": "Presto atenção para saber se as minhas palavras deixam os outros desconfortáveis.",
             "hi": "मैं इस बात का ध्यान रखता हूँ कि मेरे शब्द दूसरों को असहज न करें।",
-            "de": "Ich achte darauf, ob meine Worte andere in eine unangenehme Lage bringen."
+            "de": "Ich achte darauf, ob meine Worte andere in eine unangenehme Lage bringen.",
+            "it": "Faccio attenzione se le mie parole mettono gli altri in una posizione difficile.",
+            "uk": "Я звертаю увагу на те, чи не ставлять мої слова інших у складне становище.",
+            "ar": "أنتبه إلى ما إذا كانت كلماتي تضع الآخرين في موقف صعب.",
+            "tr": "Sözlerimin başkalarını zor durumda bırakıp bırakmadığına dikkat ederim.",
+            "nl": "Ik let erop of mijn woorden anderen niet in verlegenheid brengen.",
+            "pl": "Zwracam uwagę na to, czy moje słowa nie stawiają innych w trudnej sytuacji.",
+            "vi": "Tôi chú ý xem lời nói của mình có khiến người khác rơi vào thế khó hay không.",
+            "th": "ฉันใส่ใจว่าคำพูดของฉันทำให้ผู้อื่นลำบากใจหรือไม่",
+            "id": "Saya memperhatikan apakah kata-kata saya membuat orang lain berada dalam posisi yang sulit.",
+            "sv": "Jag aktar mig för om mina ord sätter andra i en svår situation."
           },
           "sourceItem": "AGR5"
         },
@@ -316,7 +456,17 @@
             "ko": "엄격한 계획보다는 그 순간의 상태나 느낌에 따라 추진할 때가 있다.",
             "pt": "Às vezes aja de acordo com o momento em vez de seguir um plano rígido.",
             "hi": "मैं कभी-कभी सख्त योजना के बजाय उस समय की भावना के अनुसार कार्य करता हूँ।",
-            "de": "Ich handle manchmal lieber nach Gefühl als nach einem strengen Plan."
+            "de": "Ich handle manchmal lieber nach Gefühl als nach einem strengen Plan.",
+            "it": "A volte mi muovo in base alle sensazioni del momento piuttosto che seguire un piano rigido.",
+            "uk": "Іноді я дію за відчуттями, а не за суворим планом.",
+            "ar": "أتحرك أحيانًا بناءً على الشعور بدلاً من اتباع خطة صارمة.",
+            "tr": "Bazen katı bir plan yerine o anki hislerime göre hareket ederim.",
+            "nl": "Ik handel soms op gevoel in plaats van een strikt plan te volgen.",
+            "pl": "Czasami działam intuiticyjnie, zamiast trzymać się sztywnego planu.",
+            "vi": "Đôi khi tôi tiến hành theo cảm xúc hiện tại thay vì kế hoạch nghiêm ngặt.",
+            "th": "บางครั้งฉันก็เคลื่อนไหวตามความรู้สึกมากกว่าแผนการที่เข้มงวด",
+            "id": "Kadang-kadang saya bergerak berdasarkan perasaan daripada rencana yang ketat.",
+            "sv": "Jag rör mig ibland efter känsla snarare än efter en strikt plan."
           },
           "sourceItem": "CSN6"
         },
@@ -336,7 +486,17 @@
             "ko": "상대방 어조의 미세한 변화가 나에게 명확한 영향을 미친다.",
             "pt": "Mudanças sutis no tom de alguém me afetam notavelmente.",
             "hi": "किसी के लहजे में सूक्ष्म बदलाव मुझे स्पष्ट रूप से प्रभावित करते हैं।",
-            "de": "Feine Veränderungen im Tonfall anderer treffen mich spürbar."
+            "de": "Feine Veränderungen im Tonfall anderer treffen mich spürbar.",
+            "it": "Piccoli cambiamenti nel tono di qualcuno mi influenzano notevolmente.",
+            "uk": "Невеликі зміни в чиємусь тоні відчутно впливають на мене.",
+            "ar": "التغييرات الطفيفة في نبرة صوت شخص ما تؤثر بي بشكل ملحوظ.",
+            "tr": "Birinin ses tonundaki küçük değişiklikler beni belirgin şekilde etkiler.",
+            "nl": "Kleine veranderingen in iemands toon hebben een duidelijke invloed op mij.",
+            "pl": "Drobne zmiany w czyimś tonie głosu wyraźnie na mnie wpływają.",
+            "vi": "Sự thay đổi nhỏ trong giọng điệu của ai đó có thể ảnh hưởng rõ rệt đến tôi.",
+            "th": "การเปลี่ยนแปลงเล็กน้อยในน้ำเสียงของใครบางคนสามารถส่งผลกระทบต่อฉันอย่างเห็นได้ชัด",
+            "id": "Perubahan kecil dalam nada bicara seseorang mempengaruhi saya secara nyata.",
+            "sv": "Små förändringar i någons tonläge påverkar mig märkbart."
           },
           "sourceItem": "EST7"
         }
@@ -361,7 +521,17 @@
             "ko": "서로 관련 없는 정보를 연결하여 새로운 아이디어를 만들어내는 것을 좋아한다.",
             "pt": "Gosto de conectar informações não relacionadas para gerar novas ideias.",
             "hi": "मुझे असंबद्ध जानकारी को नए विचारों से जोड़ना पसंद है।",
-            "de": "Ich verknüpfe gerne unzusammenhängende Informationen zu neuen Ideen."
+            "de": "Ich verknüpfe gerne unzusammenhängende Informationen zu neuen Ideen.",
+            "it": "Mi piace collegare informazioni non correlate per creare nuove idee.",
+            "uk": "Мені подобається поєднувати незв'язану інформацію в нові ідеї.",
+            "ar": "أحب ربط المعلومات غير المرتبطة ببعضها لتكوين أفكار جديدة.",
+            "tr": "Alakasız bilgileri yeni fikirlerle birleştirmeyi severim.",
+            "nl": "Ik vind het leuk om ongerelateerde informatie te koppelen tot nieuwe ideeën.",
+            "pl": "Lubię łączyć ze sobą niepowiązane informacje w nowe pomysły.",
+            "vi": "Tôi thích kết nối các thông tin không liên quan thành những ý tưởng mới.",
+            "th": "ฉันชอบเชื่อมโยงข้อมูลที่ไม่เกี่ยวข้องกันให้เป็นความคิดใหม่ๆ",
+            "id": "Saya suka menghubungkan informasi yang tidak berhubungan menjadi ide-ide baru.",
+            "sv": "Jag gillar att koppla ihop orelaterad information till nya idéer."
           },
           "sourceItem": "OPN5"
         },
@@ -381,7 +551,17 @@
             "ko": "핵심적인 성찰이나 사고는 조용한 환경에서 하는 것을 선호한다.",
             "pt": "Prefiro fazer minhas reflexões importantes num ambiente tranquilo.",
             "hi": "मैं शांत वातावरण में महत्वपूर्ण विचार-विमर्श करना पसंद करता हूँ।",
-            "de": "Ich denke über wichtige Dinge am liebsten in einer ruhigen Umgebung nach."
+            "de": "Ich denke über wichtige Dinge am liebsten in einer ruhigen Umgebung nach.",
+            "it": "Preferisco fare le riflessioni più importanti in un ambiente tranquillo.",
+            "uk": "Я віддаю перевагу обдумуванню важливих речей у тихій обстановці.",
+            "ar": "أفضل القيام بالتفكير الهام في بيئة هادئة.",
+            "tr": "Önemli düşüncelerimi sessiz bir ortamda yapmayı tercih ederim.",
+            "nl": "Ik denk het liefst over belangrijke zaken na in een rustige omgeving.",
+            "pl": "Wolę przemyśliwać ważne sprawy w cichym otoczeniu.",
+            "vi": "Tôi thích thực hiện những suy nghĩ quan trọng trong một môi trường yên tĩnh.",
+            "th": "ฉันชอบทบทวนเรื่องสำคัญในบรรยากาศที่เงียบสงบมากกว่า",
+            "id": "Saya lebih suka melakukan pemikiran penting di lingkungan yang tenang.",
+            "sv": "Jag föredrar att göra viktigt tänkande i en lugn miljö."
           },
           "sourceItem": "EXT6"
         },
@@ -401,7 +581,17 @@
             "ko": "어떤 주장이 타당하지 않다면, 분위기 때문에 그냥 넘어가 주지 않는다.",
             "pt": "Se uma ideia não se sustenta, não vou fingir concordar apenas para manter a simpatia.",
             "hi": "यदि कोई विचार सही नहीं है, तो मैं केवल माहौल बनाए रखने के लिए उसे जाने नहीं दूँगा।",
-            "de": "Wenn eine Idee nicht hält, weiche ich nicht nur um der guten Stimmung willen aus."
+            "de": "Wenn eine Idee nicht hält, weiche ich nicht nur um der guten Stimmung willen aus.",
+            "it": "Se un'idea non regge, non la risparmierò solo per mantenere l'armonia.",
+            "uk": "Якщо ідея не має підґрунтя, я не мовчатиму лише заради збереження гармонії.",
+            "ar": "إذا كانت الفكرة غير صامدة، فلن أتغاضى عنها فقط للحفاظ على الجو العام.",
+            "tr": "Bir fikir mantıklı değilse sırf ortam bozulmasın diye onu geçiştirmem.",
+            "nl": "Als een idee niet klopt, laat ik het niet zomaar zitten om de sfeer goed te houden.",
+            "pl": "Jeśli pomysł się nie broni, nie odpuszczę tylko po to, by zachować miłą atmosferę.",
+            "vi": "Nếu một quan điểm không vững chắc, tôi sẽ không vì nể mặt mà bỏ qua.",
+            "th": "หากความคิดหนึ่งไม่สมเหตุสมผล ฉันจะไม่ละเว้นเพียงเพื่อรักษาบรรยากาศ",
+            "id": "Jika suatu ide tidak kuat, saya tidak akan membiarkannya hanya demi menjaga suasana.",
+            "sv": "Om en idé inte håller kommer jag inte att skona den bara för stämningens skull."
           },
           "sourceItem": "AGR7"
         },
@@ -421,7 +611,17 @@
             "ko": "돌발 상황이 발생했을 때, 감정보다 사실관계를 먼저 처리한다.",
             "pt": "Quando ocorre um imprevisto, costumo focar primeiro nos fatos.",
             "hi": "जब कुछ अप्रत्याशित होता है, तो मैं आमतौर पर पहले तथ्यों से निपटता हूँ।",
-            "de": "Wenn etwas Unerwartetes passiert, kümmere ich mich meist zuerst um die Fakten."
+            "de": "Wenn etwas Unerwartetes passiert, kümmere ich mich meist zuerst um die Fakten.",
+            "it": "Quando succede qualcosa di inaspettato, di solito mi occupo prima dei fatti.",
+            "uk": "Коли трапляється щось неочікуване, я зазвичай спочатку розбираюся з фактами.",
+            "ar": "عندما يحدث شيء غير متوقع، عادة ما أتطرق إلى الحقائق أولاً.",
+            "tr": "Beklenmedik bir şey olduğunda genellikle önce gerçeklerle ilgilenirim.",
+            "nl": "Wanneer er iets onverwachts gebeurt, richt ik me meestal eerst op de feiten.",
+            "pl": "Gdy zdarzy się coś nieoczekiwanego, zazwyczaj najpierw zajmuję się faktami.",
+            "vi": "Khi có sự thay đổi đột ngột, tôi thường xử lý các thông tin thực tế trước.",
+            "th": "เมื่อมีเหตุการณ์ไม่คาดคิดเกิดขึ้น มักจะจัดการกับข้อเท็จจริงก่อน",
+            "id": "Saat terjadi sesuatu yang tak terduga, saya biasanya menangani fakta-faktanya terlebih dahulu.",
+            "sv": "När något oväntat händer hanterar jag meist fakta först."
           },
           "sourceItem": "EST8"
         }
@@ -446,7 +646,17 @@
             "ko": "약속이나 공약은 반드시 지켜야 하는 실천적 제약으로 여긴다.",
             "pt": "Encaro compromissos como regras que precisam ser cumpridas.",
             "hi": "मैं प्रतिबद्धताओं (commitments) को पूरा की जाने वाली शर्तों के रूप में देखता हूँ।",
-            "de": "Ich betrachte Zusagen als verbindliche Vorgaben, die eingehalten werden müssen."
+            "de": "Ich betrachte Zusagen als verbindliche Vorgaben, die eingehalten werden müssen.",
+            "it": "Considero gli impegni come vincoli che devono essere rispettati.",
+            "uk": "Я ставлюся до зобов'язань як до вимог, які необхідно виконувати.",
+            "ar": "أتعامل مع الالتزامات كقيود يجب الوفاء بها.",
+            "tr": "Taahhütleri yerine getirilmesi gereken zorunluluklar olarak görürüm.",
+            "nl": "Ik zie afspraken als randvoorwaarden die nagekomen moeten worden.",
+            "pl": "Traktuję zobowiązania jako ograniczenia, które muszą być spełnione.",
+            "vi": "Tôi xem các cam kết như những ràng buộc cần phải hoàn thành.",
+            "th": "ฉันมองว่าข้อผูกมัดเป็นเงื่อนไขที่ต้องได้รับการตอบสนอง",
+            "id": "Saya memperlakukan komitmen sebagai batasan yang harus dipenuhi.",
+            "sv": "Jag behandlar åtaganden som begränsningar som måste uppfyllas."
           },
           "sourceItem": "CSN6"
         },
@@ -466,7 +676,17 @@
             "ko": "목표가 명확하다면 굳이 추가적인 탐색을 할 필요를 느끼지 않는다.",
             "pt": "Quando o objetivo está claro, não preciso de muitas explorações extras.",
             "hi": "जब लक्ष्य स्पष्ट होता है, तो मुझे अतिरिक्त अन्वेषण की अधिक आवश्यकता नहीं होती है।",
-            "de": "Wenn das Ziel klar ist, brauche ich keine große zusätzliche Erkundung."
+            "de": "Wenn das Ziel klar ist, brauche ich keine große zusätzliche Erkundung.",
+            "it": "Quando l'obiettivo è chiaro, non ho bisogno di esplorazioni extra.",
+            "uk": "Коли мета зрозуміла, мені не потрібні додаткові пошуки.",
+            "ar": "عندما يكون الهدف واضحًا، لا أحتاج إلى الكثير من الاستكشاف الإضافي.",
+            "tr": "Hedef net olduğunda ekstra keşif yapmaya pek ihtiyaç duymam.",
+            "nl": "Wanneer het doel helder is, heb ik weinig behoefte aan extra verkenning.",
+            "pl": "Gdy cel jest jasny, nie potrzebuję dodatkowych poszukiwań.",
+            "vi": "Nếu mục tiêu đã rõ ràng, tôi không cần phải tìm kiếm khám phá thêm.",
+            "th": "เมื่อเป้าหมายชัดเจน ฉันไม่จำเป็นต้องค้นหาอะไรเพิ่มเติมมากนัก",
+            "id": "Ketika tujuannya jelas, saya tidak terlalu membutuhkan eksplorasi tambahan.",
+            "sv": "När målet är tydligt behöver jag inte mycket extra utforskande."
           },
           "sourceItem": "OPN7"
         },
@@ -486,7 +706,17 @@
             "ko": "질 높은 상호작용과 대화에서 에너지를 얻는다.",
             "pt": "Ganho energia através de interações de alta qualidade.",
             "hi": "मुझे गुणवत्तापूर्ण बातचीत और मेलजोल से ऊर्जा मिलती है।",
-            "de": "Gute und gehaltvolle Gespräche geben mir Energie."
+            "de": "Gute und gehaltvolle Gespräche geben mir Energie.",
+            "it": "Traggo energia dalle interazioni di qualità.",
+            "uk": "Я отримую енергію від якісного спілкування.",
+            "ar": "أستمد الطاقة من التفاعلات عالية الجودة.",
+            "tr": "Kaliteli etkileşimlerden enerji alırım.",
+            "nl": "Ik haal energie uit waardevolle interacties.",
+            "pl": "Czerpię energię z wartościowych relacji i rozmów.",
+            "vi": "Tôi nhận được năng lượng từ những cuộc tương tác chất lượng.",
+            "th": "ฉันได้รับพลังงานจากการปฏิสัมพันธ์ที่มีคุณภาพ",
+            "id": "Saya mendapatkan energi dari interaksi yang berkualitas.",
+            "sv": "Jag får energi från bra interaktioner."
           },
           "sourceItem": "EXT8"
         },
@@ -506,7 +736,17 @@
             "ko": "관계 속에서의 장기적인 신뢰를 위해 기꺼이 조금 더 노력한다.",
             "pt": "Estou disposto a fazer um esforço extra pela confiança a longo prazo.",
             "hi": "मैं दीर्घकालिक विश्वास के लिए थोड़ा अतिरिक्त प्रयास करने को तैयार हूँ।",
-            "de": "Ich bin bereit, für langfristiges Vertrauen etwas mehr zu tun."
+            "de": "Ich bin bereit, für langfristiges Vertrauen etwas mehr zu tun.",
+            "it": "Sono disposto a fare qualcosa in più per la fiducia a lungo termine.",
+            "uk": "Я готовий зробити трохи більше заради довгострокової довіри.",
+            "ar": "أنا مستعد لبذل جهد إضافي من أجل بناء الثقة طويلة الأجل.",
+            "tr": "Uzun vadeli güven için biraz daha fazla çaba göstermeye istekliyimdir.",
+            "nl": "Ik ben bereid iets extra's te doen voor vertrouwen op de lange termijn.",
+            "pl": "Jestem gotów zrobić nieco więcej w imię długofalowego zaufania.",
+            "vi": "Tôi sẵn sàng làm thêm một chút vì sự tin tưởng lâu dài trong mối quan hệ.",
+            "th": "ฉันเต็มใจที่จะทำมากกว่าเดิมเล็กน้อยเพื่อความไว้วางใจในระยะยาว",
+            "id": "Saya bersedia melakukan sedikit usaha ekstra demi kepercayaan jangka panjang.",
+            "sv": "Jag är villig att göra lite extra för långsiktigt förtroende."
           },
           "sourceItem": "AGR9"
         }
@@ -531,7 +771,17 @@
             "ko": "내 감정의 동요나 변화를 빠르게 감지한다.",
             "pt": "Percebo rapidamente as oscilações nas minhas próprias emoções.",
             "hi": "मैं अपनी भावनाओं में आने वाले बदलावों को जल्दी समझ लेता हूँ।",
-            "de": "Ich bemerke Veränderungen in meinen eigenen Gefühlen sehr schnell."
+            "de": "Ich bemerke Veränderungen in meinen eigenen Gefühlen sehr schnell.",
+            "it": "Noto rapidamente i cambiamenti nelle mie emozioni.",
+            "uk": "Я швидко помічаю зміни у власних емоціях.",
+            "ar": "ألاحظ التغيرات في مشاعري بسرعة.",
+            "tr": "Kendi duygularımdaki değişimleri hızlıca fark ederim.",
+            "nl": "Ik merk veranderingen in mijn eigen emoties snel op.",
+            "pl": "Szybko zauważam zmiany w własnych emocjach.",
+            "vi": "Tôi nhanh chóng nhận ra sự biến động trong cảm xúc của chính mình.",
+            "th": "ฉันรับรู้ถึงการเปลี่ยนแปลงในอารมณ์ของตัวเองได้อย่างรวดเร็ว",
+            "id": "Saya menyadari perubahan dalam emosi saya sendiri dengan cepat.",
+            "sv": "Jag märker snabbt svängningar i mina egna känslor."
           },
           "sourceItem": "EST7"
         },
@@ -551,7 +801,17 @@
             "ko": "내 작업 공간은 보통 내가 현재 다루고 있는 일을 반영한다.",
             "pt": "Meu espaço de trabalho geralmente reflete o que estou fazendo.",
             "hi": "मेरा कार्यक्षेत्र आमतौर पर यह दर्शाता है कि मैं किस पर काम कर रहा हूँ।",
-            "de": "Mein Arbeitsplatz spiegelt meist wider, woran ich gerade arbeite."
+            "de": "Mein Arbeitsplatz spiegelt meist wider, woran ich gerade arbeite.",
+            "it": "Il mio spazio di lavoro di solito riflette ciò su cui sto lavorando.",
+            "uk": "Моє робоче місце зазвичай відображає те, над чим я працюю.",
+            "ar": "يعكس مساحة عملي عادةً ما أعمل عليه.",
+            "tr": "Çalışma alanım genellikle ne üzerinde çalıştığımı yansıtır.",
+            "nl": "Mijn werkplek weerspiegelt meestal waar ik mee bezig ben.",
+            "pl": "Moje miejsce pracy zazwyczaj odzwierciedla to, над czym pracuję.",
+            "vi": "Góc làm việc của tôi thường phản ánh những gì tôi đang xử lý.",
+            "th": "พื้นที่ทำงานของฉันมักจะสะท้อนถึงสิ่งทีฉันกำลังทำอยู่",
+            "id": "Ruang kerja saya biasanya mencerminkan apa yang sedang saya kerjakan.",
+            "sv": "Min arbetsytsa speglar meist vad jag håller på med."
           },
           "sourceItem": "CSN8"
         },
@@ -571,7 +831,17 @@
             "ko": "관심의 중심에 서지 않아도 충분히 편안함을 느낀다.",
             "pt": "Sinto-me confortável sem precisar ser o centro das atenções.",
             "hi": "मैं ध्यान का केंद्र बने बिना भी सहज महसूस कर सकता हूँ।",
-            "de": "Ich fühle mich auch wohl, ohne im Mittelpunkt zu stehen."
+            "de": "Ich fühle mich auch wohl, ohne im Mittelpunkt zu stehen.",
+            "it": "Posso sentirmi a mio agio senza essere al centro dell'attenzione.",
+            "uk": "Я можу почуватися комфортно, не перебуваючи в центрі уваги.",
+            "ar": "يمكنني الشعور بالراحة دون أن أكون مركز الإهتمام.",
+            "tr": "İlgi odağı olmadan da kendimi rahat hissedebilirim.",
+            "nl": "Ik voel me op mijn gemak zonder in het middelpunt van de belangstelling te staan.",
+            "pl": "Mogę czuć się swobodnie, nie będąc w centrum uwagi.",
+            "vi": "Tôi có thể cảm thấy thoải mái mà không cần phải là trung tâm của sự chú ý.",
+            "th": "ฉันสามารถรู้สึกผ่อนคลายได้โดยไม่จำเป็นต้องเป็นศูนย์กลางของความสนใจ",
+            "id": "Saya bisa merasa nyaman tanpa harus menjadi pusat perhatian.",
+            "sv": "Jag kan känna mig bekväm utan att vara i centrum för uppmärksamheten."
           },
           "sourceItem": "EXT9"
         },
@@ -591,7 +861,17 @@
             "ko": "언어, 이미지, 시스템 모델 등의 세부 사항에 깊이 매료된다.",
             "pt": "Sou atraído por detalhes na linguagem, imagens ou modelos.",
             "hi": "मैं भाषा, छवियों या मॉडलों के विवरण की ओर आकर्षित होता हूँ।",
-            "de": "Details in Sprache, Bildern oder Modellen faszinieren mich."
+            "de": "Details in Sprache, Bildern oder Modellen faszinieren mich.",
+            "it": "Sono attratto dai dettagli nel linguaggio, nelle immagini o nei modelli.",
+            "uk": "Мене приваблюють деталі в мові, зображеннях або моделях.",
+            "ar": "تستهويني التفاصيل في اللغة أو الصور أو النماذج.",
+            "tr": "Dil, görsel veya modellerdeki detaylar ilgimi çeker.",
+            "nl": "Ik word aangetrokken door details in taal, beelden of modellen.",
+            "pl": "Przyciągają mnie detale w języku, obrazach lub modelach.",
+            "vi": "Tôi bị thu hút bởi chi tiết trong ngôn ngữ, hình ảnh hoặc mô hình.",
+            "th": "ฉันมักถูกดึงดูดด้วยรายละเอียดในภาษา ภาพ หรือโมเดล",
+            "id": "Saya tertarik pada detail dalam bahasa, gambar, atau model.",
+            "sv": "Jag dras till detaljer i språk, bilder eller modeller."
           },
           "sourceItem": "OPN10"
         }
@@ -616,7 +896,17 @@
             "ko": "상대방의 입장에 서서 생각하는 것이 비교적 자연스럽다.",
             "pt": "Consigo me colocar naturalmente no lugar da outra pessoa.",
             "hi": "मैं स्वाभाविक रूप से दूसरे व्यक्ति की स्थिति में जाकर सोच सकता हूँ।",
-            "de": "Ich kann mich leicht in die Lage des anderen versetzen."
+            "de": "Ich kann mich leicht in die Lage des anderen versetzen.",
+            "it": "Riesco naturalmente a considerare una situazione dal punto di vista dell'altro.",
+            "uk": "Я можу природно подивитися на ситуацію з боку іншої людини.",
+            "ar": "يمكنني طبيعيًا موازنة الأمور من منظور الشخص الآخر.",
+            "tr": "Bir durumu doğal olarak karşı tarafın açısından değerlendirebilirim.",
+            "nl": "Ik kan een situatie van nature bekijken vanuit het perspectief van de ander.",
+            "pl": "Naturalnie potrafię spojrzeć na sytuację z perspektywy drugiej osoby.",
+            "vi": "Tôi có thể tự nhiên đặt mình vào vị trí của đối phương để suy nghĩ.",
+            "th": "ฉันสามารถพิจารณาสถานการณ์จากมุมมองของอีกฝ่ายได้อย่างเป็นธรรมชาติ",
+            "id": "Saya secara alami dapat mempertimbangkan suatu situasi dari sudut pandang orang lain.",
+            "sv": "Jag kan naturally se en situation från den andra شخصens sida."
           },
           "sourceItem": "AGR8"
         },
@@ -636,7 +926,17 @@
             "ko": "일시적인 차질이나 안 풀리는 일에 쉽게 좌절하지 않는다.",
             "pt": "Um contratempo temporário não me desanima facilmente.",
             "hi": "एक क्षणिक असफलता मुझे आसानी से विचलित नहीं करती।",
-            "de": "Ein vorübergehender Rückschlag wirft mich nicht leicht aus der Bahn."
+            "de": "Ein vorübergehender Rückschlag wirft mich nicht leicht aus der Bahn.",
+            "it": "Una battuta d'arresto temporanea non mi demoralizza facilmente.",
+            "uk": "Тимчасова невдача не може легко вибити мене з колії.",
+            "ar": "النكسة المؤقتة لا تحبطني بسهولة.",
+            "tr": "Geçici bir aksilik beni kolayca yolumdan alıkoymaz.",
+            "nl": "Tegenslag van voorbijgaande aard brengt mij niet snel van mijn stuk.",
+            "pl": "Chwilowa porażka nie zraża mnie łatwo.",
+            "vi": "Một thất bại tạm thời không dễ dàng làm tôi ngã lòng.",
+            "th": "อุปสรรคชั่วคราวไม่ได้ทำให้ฉันไขว้เขวได้ง่ายๆ",
+            "id": "Hambatan sementara tidak mudah membuat saya patah semangat.",
+            "sv": "Ett tillfälligt bakslag slår mig inte lätt ur kurs."
           },
           "sourceItem": "EST9"
         },
@@ -656,7 +956,17 @@
             "ko": "일단 먼저 시도해 본 뒤 나중에 정식 절차를 정리하곤 한다.",
             "pt": "Às vezes começo a testar primeiro e organizo o processo depois.",
             "hi": "मैं कभी-कभी पहले प्रयोग करना शुरू करता हूँ और प्रक्रिया को बाद में व्यवस्थित करता हूँ।",
-            "de": "Ich probiere manchmal erst Dinge aus und strukturiere den Ablauf später."
+            "de": "Ich probiere manchmal erst Dinge aus und strukturiere den Ablauf später.",
+            "it": "A volte inizio a sperimentare prima e organizzo il processo più tardi.",
+            "uk": "Іноді я спочатку починаю експериментувати, а вже потім систематизую процес.",
+            "ar": "أبدأ أحيانًا بالتجربة أولاً ثم ينظم العملية لاحقًا.",
+            "tr": "Bazen önce denemeye başlar, süreci daha sonra düzenlerim.",
+            "nl": "Ik begin soms eerst te experimenteren en structureer het proces later.",
+            "pl": "Czasami najpierw zaczynam eksperymentować, a proces porządkuję później.",
+            "vi": "Đôi khi tôi bắt đầu thử nghiệm trước rồi mới quay lại sắp xếp quy trình.",
+            "th": "บางครั้งฉันก็เริ่มทดลองก่อนแล้วค่อยกลับมาจัดระเบียบขั้นตอนทีหลัง",
+            "id": "Saya kadang-kadang mulai bereksperimen terlebih dahulu dan mengorganisir prosesnya kemudian.",
+            "sv": "Jag börjar ibland experimentera först och organiserar processen senare."
           },
           "sourceItem": "CSN10"
         },
@@ -676,7 +986,17 @@
             "ko": "낯선 자리에서도 보통 먼저 대화를 시작할 수 있다.",
             "pt": "Em ambientes estranhos, costumo tomar a iniciativa de conversar.",
             "hi": "अपरिचित परिस्थितियों में, मैं आमतौर पर बातचीत शुरू कर सकता हूँ।",
-            "de": "In fremder Umgebung kann ich meist leicht ein Gespräch beginnen."
+            "de": "In fremder Umgebung kann ich meist leicht ein Gespräch beginnen.",
+            "it": "In contesti sconosciuti, di solito riesco ad avviare una conversazione.",
+            "uk": "У незнайомій обстановці я зазвичай можу першим почати розмову.",
+            "ar": "في الأماكن غير الأليفة، يمكنني عادةً بدء المحادثة.",
+            "tr": "Yabancı ortamlarda genellikle bir sohbet başlatabilirim.",
+            "nl": "In een onbekende omgeving kan ik meestal gemakkelijk een gesprek beginnen.",
+            "pl": "W nieznanym otoczeniu zazwyczaj potrafię zacząć rozmowę.",
+            "vi": "Trong hoàn cảnh xa lạ, tôi thường có thể chủ động mở lời.",
+            "th": "ในสถานที่ที่ไม่คุ้นเคย ฉันมักจะสามารถเริ่มต้นการสนทนาได้",
+            "id": "Di lingkungan yang tidak dikenal, saya biasanya dapat memulai percakapan.",
+            "sv": "I främmande miljöer kan jag oftast inleda ett samtal."
           },
           "sourceItem": "EXT1"
         }
@@ -701,7 +1021,17 @@
             "ko": "규칙이 명확하고 경계가 안정적인 업무를 선호한다.",
             "pt": "Gosto de tarefas com regras claras e limites estáveis.",
             "hi": "मुझे स्पष्ट नियमों और स्थिर सीमाओं वाले कार्य पसंद हैं।",
-            "de": "Ich mag Aufgaben mit klaren Regeln und festen Rahmenbedingungen."
+            "de": "Ich mag Aufgaben mit klaren Regeln und festen Rahmenbedingungen.",
+            "it": "Mi piacciono i compiti con regole chiare e confini stabili.",
+            "uk": "Мені подобаються завдання з чіткими правилами та зрозумілими межами.",
+            "ar": "أفضل المهام ذات القواعد الواضحة والحدود الثابتة.",
+            "tr": "Net kuralları ve sınırları olan görevleri severim.",
+            "nl": "Ik houd van taken met duidelijke regels en stabiele grenzen.",
+            "pl": "Lubię zadania o jasnych zasadach i stabilnych granicach.",
+            "vi": "Tôi thích các nhiệm vụ có quy tắc rõ ràng và ranh giới ổn định.",
+            "th": "ฉันชอบงานที่มีกฎเกณฑ์ชัดเจนและมีขอบเขตที่แน่นอน",
+            "id": "Saya menyukai tugas dengan aturan yang jelas dan batasan yang stabil.",
+            "sv": "Jag gillar uppgifter med klara regler och stabila gränser."
           },
           "sourceItem": "OPN9"
         },
@@ -721,7 +1051,17 @@
             "ko": "시간이 더 걸리더라도 핵심적인 세부사항은 다시 점검한다.",
             "pt": "Reviso detalhes importantes mesmo que isso leve mais tempo.",
             "hi": "मैं महत्वपूर्ण विवरणों की समीक्षा करता हूँ भले ही इसमें अतिरिक्त समय लगे।",
-            "de": "Ich prüfe wichtige Details nach, auch wenn es extra Zeit kostet."
+            "de": "Ich prüfe wichtige Details nach, auch wenn es extra Zeit kostet.",
+            "it": "Rivedo i dettagli chiave anche quando richiede tempo extra.",
+            "uk": "Я перевіряю ключові деталі, навіть якщо це займає додатковий час.",
+            "ar": "أراجع التفاصيل الرئيسية حتى لو استغرق ذلك وقتًا إضافيًا.",
+            "tr": "Ekstra zaman alsa bile önemli detayları gözden geçiririm.",
+            "nl": "Ik controleer belangrijke details, zelfs als dat extra tijd kost.",
+            "pl": "Sprawdzam kluczowe szczegóły, nawet jeśli wymaga to dodatkowego czasu.",
+            "vi": "Tôi kiểm tra lại các chi tiết quan trọng dù việc đó mất thêm thời gian.",
+            "th": "ฉันจะตรวจสอบรายละเอียดสำคัญอีกครั้งแม้ว่าจะต้องใช้เวลาเพิ่มเติมก็ตาม",
+            "id": "Saya memeriksa kembali detail kunci meskipun memerlukan waktu ekstra.",
+            "sv": "Jag granskar viktiga detaljer även när det tar extra tid."
           },
           "sourceItem": "CSN10"
         },
@@ -741,7 +1081,17 @@
             "ko": "갈등을 피하려고 내 판단을 쉽게 바꾸지 않는다.",
             "pt": "Não costumo mudar meu julgamento apenas para evitar conflitos.",
             "hi": "मैं केवल टकराव से बचने के लिए अपने फैसले नहीं बदलता।",
-            "de": "Ich ändere mein Urteil selten nur, um Konflikten aus dem Weg zu gehen."
+            "de": "Ich ändere mein Urteil selten nur, um Konflikten aus dem Weg zu gehen.",
+            "it": "Non cambio spesso il mio giudizio solo per evitare un conflitto.",
+            "uk": "Я рідко змінюю свою думку лише для того, щоб уникнути конфлікту.",
+            "ar": "لا أغير رأيي غالبًا لمجرد تجنب الصراع.",
+            "tr": "Sırf çatışmadan kaçınmak için kararlarımı sık sık değiştirmem.",
+            "nl": "Ik verander mijn oordeel niet snel alleen om конфликтen te vermijden.",
+            "pl": "Rzadko zmieniam zdanie tylko po to, by uniknąć konfliktu.",
+            "vi": "Tôi không hay thay đổi phán đoán chỉ để tránh xung đột.",
+            "th": "ฉันไม่ได้เปลี่ยนการตัดสินใจบ่อยนักเพียงเพื่อหลีกเลี่ยงความขัดแย้ง",
+            "id": "Saya tidak sering mengubah penilaian saya hanya untuk menghindari konflik.",
+            "sv": "Jag ändrar sällan mitt omdöme bara för att undvika konflikt."
           },
           "sourceItem": "AGR1"
         },
@@ -761,7 +1111,17 @@
             "ko": "마감 기한이 다가오면 뚜렷한 긴장감을 느낀다.",
             "pt": "À medida que o prazo se aproxima, sinto-me visivelmente tenso.",
             "hi": "जैसे-जैसे समय-सीमा (deadline) नजदीक आती है, मैं स्पष्ट तनाव महसूस करता हूँ।",
-            "de": "Wenn eine Frist näher rückt, verspüre ich deutliche Anspannung."
+            "de": "Wenn eine Frist näher rückt, verspüre ich deutliche Anspannung.",
+            "it": "Man mano che si avvicina una scadenza, mi sento notevolmente teso.",
+            "uk": "Наближення дедлайну викликає в мене помітне напруження.",
+            "ar": "مع اقتراب الموعد النهائي، أشعر بتوتر ملحوظ.",
+            "tr": "Son teslim tarihi yaklaştıkça belirgin bir şekilde gergin hissederim.",
+            "nl": "Naarmate een deadline nadert, voel ik me duidelijk gespannen.",
+            "pl": "Gdy zbliża się termin, czuję wyraźne napięcie.",
+            "vi": "Khi gần đến hạn chót, tôi cảm thấy căng thẳng một cách rõ rệt.",
+            "th": "เมื่อใกล้ถึงกำหนดเวลา ฉันจะรู้สึกตึงเครียดอย่างเห็นได้ชัด",
+            "id": "Saat tenggat waktu mendekat, saya merasa sangat tegang.",
+            "sv": "När en deadline närmar sig känner jag mig märkbart spänd."
           },
           "sourceItem": "EST2"
         }
@@ -786,7 +1146,17 @@
             "ko": "생각을 말로 표현하고 대화를 통해 구체화하는 것을 좋아한다.",
             "pt": "Gosto de falar as minhas ideias em voz alta e ajustá-las conversando.",
             "hi": "मुझे अपने विचारों को बोलकर व्यक्त करना और चर्चा के माध्यम से उन्हें सुधारना पसंद है।",
-            "de": "Ich spreche Ideen gerne laut aus, um sie im Gespräch zu verfeinern."
+            "de": "Ich spreche Ideen gerne laut aus, um sie im Gespräch zu verfeinern.",
+            "it": "Mi piace esprimere le idee ad alta voce e perfezionarle attraverso lo scambio.",
+            "uk": "Мені подобається промовляти ідеї вголос і вдосконалювати їх у діалозі.",
+            "ar": "أحب طرح الأفكار بصوت عالٍ وتعديلها من خلال النقاش.",
+            "tr": "Fikirleri yüksek sesle söylemeyi ve fikir alışverişiyle geliştirmeyi severim.",
+            "nl": "Ik vind het fijn om ideeën hardop uit te spreken en ze door discussie aan te scherpen.",
+            "pl": "Lubię wypowiadać pomysły na głos i dopracowywać je w trakcie rozmowy.",
+            "vi": "Tôi thích nói ý tưởng ra thành lời và điều chỉnh nó qua trao đổi.",
+            "th": "ฉันชอบพูดความคิดออกมาดังๆ และปรับปรุงความคิดนั้นผ่านการแลกเปลี่ยน",
+            "id": "Saya suka menyampaikan ide secara lisan dan menyempurnakannya melalui diskusi.",
+            "sv": "Jag gillar att säga idéer högt och förfina dem genom utbyte."
           },
           "sourceItem": "EXT10"
         },
@@ -806,7 +1176,17 @@
             "ko": "생소한 분야라도 그 근본적인 논리와 원리를 이해하려고 노력한다.",
             "pt": "Tento entender a lógica fundamental de áreas desconhecidas.",
             "hi": "मैं अपरिचित क्षेत्रों के मूल तर्क को समझने की कोशिश करता हूँ।",
-            "de": "Ich versuche, die grundlegende Logik fremder Themengebiete zu verstehen."
+            "de": "Ich versuche, die grundlegende Logik fremder Themengebiete zu verstehen.",
+            "it": "Cerco di capire la logica di fondo di campi sconosciuti.",
+            "uk": "Я намагаюся зрозуміти базову логіку незнайомих сфер.",
+            "ar": "أحاول فهم المنطق الأساسي للمجالات غير الأليفة.",
+            "tr": "Yabancı alanların temel mantığını anlamaya çalışırım.",
+            "nl": "Ik probeer de onderliggende logica van onbekende vakgebieden te begrijpen.",
+            "pl": "Staram się zrozumieć podstawową logikę nieznanych mi dziedzin.",
+            "vi": "Tôi chủ động tìm hiểu logic cốt lõi của các lĩnh vực xa lạ.",
+            "th": "ฉันพยายามเข้าใจตรรกะพื้นฐานของสาขาที่ไม่คุ้นเคย",
+            "id": "Saya mencoba memahami logika mendasar dari bidang yang tidak dikenal.",
+            "sv": "Jag försöker förstå den underliggande logiken i främmande områden."
           },
           "sourceItem": "OPN1"
         },
@@ -826,7 +1206,17 @@
             "ko": "지나치게 세세한 절차나 규칙에 얽매이는 것을 싫어한다.",
             "pt": "Não gosto de me sentir preso a processos excessivamente detalhados.",
             "hi": "मुझे बहुत अधिक विस्तृत प्रक्रियाओं में बंधना पसंद नहीं है।",
-            "de": "Ich mag es nicht, in zu detaillierte Abläufe eingezwängt zu sein."
+            "de": "Ich mag es nicht, in zu detaillierte Abläufe eingezwängt zu sein.",
+            "it": "Non mi piace essere vincolato da procedure eccessivamente dettagliate.",
+            "uk": "Мені не подобається бути обмеженим надто деталізованими процедурами.",
+            "ar": "لا أحب الالتزام بإجراءات مفصلة للغاية.",
+            "tr": "Aşırı detaylı prosedürlere sıkışıp kalmaktan hoşlanmam.",
+            "nl": "Ik houd er niet van om vast te zitten aan te gedetailleerde procedures.",
+            "pl": "Nie lubię być skrępowany zbyt szczegółowymi procedurami.",
+            "vi": "Tôi không thích bị gò bó bởi quy trình quá chi tiết.",
+            "th": "ฉันไม่ชอบถูกจำกัดด้วยขั้นตอนที่ละเอียดเกินไป",
+            "id": "Saya tidak suka terikat oleh prosedur yang terlalu terperinci.",
+            "sv": "Jag gillar inte att vara låst vid alltför detaljerade procedurer."
           },
           "sourceItem": "CSN2"
         },
@@ -846,7 +1236,17 @@
             "ko": "다른 사람의 행동을 일단 호의적으로 해석해 주려고 한다.",
             "pt": "Geralmente dou às pessoas uma interpretação bem-intencionada.",
             "hi": "मैं आमतौर पर दूसरों के इरादों को सकारात्मक रूप से समझने की कोशिश करता हूँ।",
-            "de": "Ich begegne den Absichten anderer meist mit Wohlwollen."
+            "de": "Ich begegne den Absichten anderer meist mit Wohlwollen.",
+            "it": "Di solito parto da un'interpretazione benevola degli altri.",
+            "uk": "Я зазвичай схильний спочатку доброзичливо тлумачити вчинки інших.",
+            "ar": "عادة ما أبدأ بتفسير حسن النية تجاه الآخرين.",
+            "tr": "Genellikle başkalarının davranışlarını öncelikle iyi niyetle yorumlarım.",
+            "nl": "Ik ga meestal uit van het goede in de mens bij het beoordelen van anderen.",
+            "pl": "Zazwyczaj w pierwszej kolejności przypisuję innym dobre intencje.",
+            "vi": "Tôi thường sẵn sàng dành cho người khác một sự giải thích thiện chí trước.",
+            "th": "ฉันมักจะเริ่มต้นด้วยการตีความผู้อื่นในแง่ดีก่อน",
+            "id": "Saya biasanya memulai dengan prasangka baik terhadap orang lain.",
+            "sv": "Jag brukar börja med en välvillig tolkning av andra."
           },
           "sourceItem": "AGR3"
         }
@@ -871,7 +1271,17 @@
             "ko": "부정적인 피드백을 받아도 비교적 빠르게 회복한다.",
             "pt": "Recupero-me rapidamente de feedbacks negativos.",
             "hi": "मैं नकारात्मक प्रतिक्रिया (feedback) से काफी जल्दी उबर जाता हूँ।",
-            "de": "Ich erhole mich recht schnell von negativem Feedback."
+            "de": "Ich erhole mich recht schnell von negativem Feedback.",
+            "it": "Mi riprendo abbastanza rapidamente dai feedback negativi.",
+            "uk": "Я досить швидко відновлююся після негативного фідбеку.",
+            "ar": "أتلقى الملاحظات السلبية وأتعافى منها بسرعة نسبية.",
+            "tr": "Olumsuz geri bildirimlerden oldukça hızlı bir şekilde toparlanırım.",
+            "nl": "Ik herstel vrij snel van negatieve feedback.",
+            "pl": "Dość szybko dochodzę do siebie po negatywnej opinii.",
+            "vi": "Tôi có thể hồi phục tương đối nhanh sau phản hồi tiêu cực.",
+            "th": "ฉันฟื้นตัวจากคำติชมเชิงลบได้ค่อนข้างเร็ว",
+            "id": "Saya pulih cukup cepat dari umpan balik negatif.",
+            "sv": "Jag återhämtar mig ganska snabbt från negativ feedback."
           },
           "sourceItem": "EST1"
         },
@@ -891,7 +1301,17 @@
             "ko": "어떤 결정이 다른 사람들에게 미칠 파급 효과를 염두에 둔다.",
             "pt": "Presto atenção aos efeitos que uma decisão pode causar nos outros.",
             "hi": "मैं ध्यान रखता हूँ कि किसी फैसले का दूसरों पर क्या प्रभाव पड़ेगा।",
-            "de": "Ich bedenke die Auswirkungen, die eine Entscheidung auf andere haben kann."
+            "de": "Ich bedenke die Auswirkungen, die eine Entscheidung auf andere haben kann.",
+            "it": "Considero gli effetti a catena che una decisione può avere sugli altri.",
+            "uk": "Я зважаю на наслідки, які рішення може мати для інших.",
+            "ar": "أأخذ بعين الاعتبار الآثار الجانبية التي قد تحدثها القرارات على الآخرين.",
+            "tr": "Bir kararın başkaları üzerinde yaratabileceği etkileri dikkate alırım.",
+            "nl": "Ik houd rekening met het rimpeleffect dat een beslissing op anderen kan hebben.",
+            "pl": "Biorę pod uwagę konsekwencje, jakie decyzja może mieć dla innych.",
+            "vi": "Tôi chú ý đến tác động dây chuyền mà một quyết định có thể gây ra cho người khác.",
+            "th": "ฉันคำนึงถึงผลกระทบที่การตัดสินใจอาจมีต่อผู้อื่น",
+            "id": "Saya mempertimbangkan efek berantai dari suatu keputusan terhadap orang lain.",
+            "sv": "Jag tänker på ringarna på vattnet som ett beslut kan ge för andra."
           },
           "sourceItem": "AGR2"
         },
@@ -911,7 +1331,17 @@
             "ko": "정답이 정해져 있지 않은 문제일수록 더 흥미를 느낀다.",
             "pt": "Questões sem resposta padrão me deixam mais motivado.",
             "hi": "बिना मानक उत्तरों वाले प्रश्न मुझे अधिक आकर्षित करते हैं।",
-            "de": "Fragen ohne Standardantworten reizen mich besonders."
+            "de": "Fragen ohne Standardantworten reizen mich besonders.",
+            "it": "Le domande senza risposte standard mi coinvolgono di più.",
+            "uk": "Питання без стандартних відповідей захоплюють мене більше.",
+            "ar": "الأسئلة التي لا تحتوي على إجابات نموذجية تثير اهتمامي أكثر.",
+            "tr": "Standart cevabı olmayan sorular ilgimi daha çok çeker.",
+            "nl": "Vragen zonder standaardantwoord spreken mij meer aan.",
+            "pl": "Pytania bez standardowych odpowiedzi bardziej mnie angażują.",
+            "vi": "Những câu hỏi không có đáp án chuẩn mực khiến tôi bị thu hút hơn.",
+            "th": "คำถามที่ไม่มีคำตอบตายตัวทำให้ฉันสนใจได้มากกว่า",
+            "id": "Pertanyaan tanpa jawaban standar membuat saya lebih tertarik.",
+            "sv": "Frågor utan standardsvar engagerar mig mer."
           },
           "sourceItem": "OPN3"
         },
@@ -931,7 +1361,17 @@
             "ko": "토론에 참여하기 전에 먼저 상황을 관찰하는 편이다.",
             "pt": "Prefiro observar primeiro antes de decidir entrar numa discussão.",
             "hi": "मैं अक्सर चर्चा में शामिल होने से पहले अवलोकन करना पसंद करता हूँ।",
-            "de": "Ich beobachte meist erst, bevor ich mich an einer Diskussion beteilige."
+            "de": "Ich beobachte meist erst, bevor ich mich an einer Diskussion beteilige.",
+            "it": "Più spesso osservo prima di decidere se unirmi a una discussione.",
+            "uk": "Я частіше спочатку спостерігаю, перш ніж приєднатися до обговорення.",
+            "ar": "غالبا ما ألاحظ أولاً قبل القرار بالانضمام إلى النقاش.",
+            "tr": "Bir tartışmaya katılmadan önce genellikle önce gözlem yaparım.",
+            "nl": "Ik kijk meestal eerst kat uit de boom voordat ik aan een discussie meedoe.",
+            "pl": "Częściej najpierw obserwuję, zanim zdecyduję się dołączyć do dyskusji.",
+            "vi": "Tôi thường quan sát trước rồi mới quyết định có tham gia thảo luận hay không.",
+            "th": "ฉันมักจะเฝ้าสังเกตการณ์ก่อนที่จะตัดสินใจเข้าร่วมการหารือ",
+            "id": "Saya lebih sering mengamati terlebih dahulu sebelum memutuskan bergabung dalam diskusi.",
+            "sv": "Jag observerar oftast först innan jag bestämmer mig för att delta i en diskussion."
           },
           "sourceItem": "EXT4"
         }
@@ -956,7 +1396,17 @@
             "ko": "내가 제출하거나 완성하는 결과물에 대해 명확한 품질 기준을 가지고 있다.",
             "pt": "Tenho um padrão de qualidade claro para o trabalho que entrego.",
             "hi": "मेरे द्वारा प्रस्तुत किए जाने वाले कार्य के लिए मेरे पास एक स्पष्ट गुणवत्ता मानक है।",
-            "de": "Ich habe einen klaren Qualitätsanspruch an meine Ergebnisse."
+            "de": "Ich habe einen klaren Qualitätsanspruch an meine Ergebnisse.",
+            "it": "Ho un chiaro livello di qualità per ciò che consegno.",
+            "uk": "У мене є чітка планка якості для того, що я роблю.",
+            "ar": "لدي معيار جودة واضح لما أقدمه.",
+            "tr": "Teslim ettiğim işler için net bir kalite standardım vardır.",
+            "nl": "Ik hanteer een duidelijke kwaliteitsnorm voor wat ik oplever.",
+            "pl": "Mam jasne wymagania jakościowe wobec tego, co oddaję.",
+            "vi": "Tôi có mốc tiêu chuẩn chất lượng rõ ràng cho những gì mình giao đi.",
+            "th": "ฉันมีมาตรฐานคุณภาพที่ชัดเจนสำหรับสิ่งที่ฉันส่งมอบ",
+            "id": "Saya memiliki standar kualitas yang jelas untuk apa yang saya serahkan.",
+            "sv": "Jag har en tydlig kvalitetsribba för det jag lämnar ifrån mig."
           },
           "sourceItem": "CSN2"
         },
@@ -976,7 +1426,17 @@
             "ko": "아직 일어나지 않은 문제에 대해 미리 걱정하곤 한다.",
             "pt": "Às vezes me me me me preocupo com antecedência sobre coisas que ainda não aconteceram.",
             "hi": "मैं कभी-कभी उन बातों के बारे में पहले से चिंता करता हूँ जो अभी तक नहीं हुई हैं।",
-            "de": "Ich mache mir manchmal im Voraus Sorgen über Dinge, die noch gar nicht eingetreten sind."
+            "de": "Ich mache mir manchmal im Voraus Sorgen über Dinge, die noch gar nicht eingetreten sind.",
+            "it": "A volte mi preoccupo in anticipo per cose che non sono ancora successe.",
+            "uk": "Іноді я заздалегідь хвилююся про речі, які ще не сталися.",
+            "ar": "أقلق أحيانًا بشأن أمور لم تحدث بعد.",
+            "tr": "Bazen henüz gerçekleşmemiş şeyler için önceden endişelenirim.",
+            "nl": "Ik maak me soms van tevoren zorgen over dingen die nog niet gebeurd zijn.",
+            "pl": "Czasami martwię się na zapas rzeczami, które jeszcze się nie wydarzyły.",
+            "vi": "Tôi hay lo lắng trước về những vấn đề chưa từng xảy ra.",
+            "th": "บางครั้งฉันก็กังวลล่วงหน้าเกี่ยวกับสิ่งที่ยังไม่เกิดขึ้น",
+            "id": "Saya kadang-kadang khawatir terlebih dahulu tentang hal-hal yang belum terjadi.",
+            "sv": "Jag oroar mig ibland i förväg för saker som inte har hänt."
           },
           "sourceItem": "EST3"
         },
@@ -996,7 +1456,17 @@
             "ko": "집단 내에서 눈에 띄거나 리더십 있는 역할을 기꺼이 맡는다.",
             "pt": "Estou disposto a assumir um papel de destaque num grupo.",
             "hi": "मैं किसी समूह में एक दृश्य (visible) भूमिका निभाने के लिए तैयार हूँ।",
-            "de": "Ich bin bereit, in einer Gruppe eine sichtbare Rolle zu übernehmen."
+            "de": "Ich bin bereit, in einer Gruppe eine sichtbare Rolle zu übernehmen.",
+            "it": "Sono disposto ad assumere un ruolo visibile in un gruppo.",
+            "uk": "Я готовий брати на себе помітну роль у групі.",
+            "ar": "أنا مستعد لتولي دور بارز في المجموعة.",
+            "tr": "Bir grupta görünür bir rol üstlenmeye istekliyimdir.",
+            "nl": "Ik ben bereid een zichtbare rol in een groep op me te nemen.",
+            "pl": "Jestem gotów przyjąć widoczną rolę w grupie.",
+            "vi": "Tôi sẵn lòng đảm nhận một vai trò nổi bật trong tập thể.",
+            "th": "ฉันเต็มใจที่จะรับบทบาทที่โดดเด่นในกลุ่ม",
+            "id": "Saya bersedia mengambil peran yang terlihat dalam suatu kelompok.",
+            "sv": "Jag är villig att ta en synlig roll i en grupp."
           },
           "sourceItem": "EXT4"
         },
@@ -1016,7 +1486,17 @@
             "ko": "명확하고 직접적이며 애매모호함이 적은 정보를 선호한다.",
             "pt": "Prefiro informações claras, diretas e sem ambiguidades.",
             "hi": "मैं ऐसी जानकारी पसंद करता हूँ जो स्पष्ट, सीधी और स्पष्ट हो।",
-            "de": "Ich bevorzuge klare, direkte und eindeutige Informationen."
+            "de": "Ich bevorzuge klare, direkte und eindeutige Informationen.",
+            "it": "Preferisco informazioni chiare, dirette e poco ambigue.",
+            "uk": "Я віддаю перевагу чіткій, прямій інформації з мінімумом двузначностей.",
+            "ar": "أفضل المعلومات الواضحة والمباشرة وقليلة الغموض.",
+            "tr": "Net, doğrudan ve belirsizliği az olan bilgileri tercih ederim.",
+            "nl": "Ik geef de voorkeur aan duidelijke, directe en ondubbelzinnige informatie.",
+            "pl": "Wolę informacje jasne, bezpośrednie i jednoznaczne.",
+            "vi": "Tôi ưu tiên thông tin rõ ràng, trực tiếp và ít mơ hồ.",
+            "th": "ฉันชอบข้อมูลที่ชัดเจน ตรงไปตรงมา และมีความก้ำกึ่งน้อย",
+            "id": "Saya lebih menyukai informasi yang jelas, langsung, dan tidak ambigu.",
+            "sv": "Jag föredrar information som är tydlig, direkt och har låg tvetydighet."
           },
           "sourceItem": "OPN5"
         }
@@ -1041,7 +1521,17 @@
             "ko": "모든 사람의 기분을 맞추는 것보다 효율성을 우선시할 수 있다.",
             "pt": "Posso colocar a eficiência acima de agradar a todos os sentimentos.",
             "hi": "मैं सभी की भावनाओं को समायोजित करने से पहले दक्षता को प्राथमिकता दे सकता हूँ।",
-            "de": "Ich kann Effizienz über das Befinden aller Beteiligten stellen."
+            "de": "Ich kann Effizienz über das Befinden aller Beteiligten stellen.",
+            "it": "Posso mettere l'efficienza al di sopra dell'assecondare ogni sentimento.",
+            "uk": "Я можу поставити ефективність вище за врахування всіх почуттів.",
+            "ar": "يمكنني تقديم الكفاءة على مراعاة مشاعر الجميع.",
+            "tr": "Verimliliği herkesin duygularını gözetmenin önüne koyabilirim.",
+            "nl": "Ik kan efficiëntie stellen boven het rekening houden met alle gevoelens.",
+            "pl": "Potrafię postawić efektywność ponad uwzględnianie wszystkich uczuć.",
+            "vi": "Tôi sẽ đặt hiệu suất công việc lên trước việc chăm sóc cảm xúc của mọi người.",
+            "th": "ฉันสามารถให้ความสำคัญกับประสิทธิภาพมากกว่าการเอาใจใส่ทุกความรู้สึก",
+            "id": "Saya bisa mengutamakan efisiensi daripada mengakomodasi setiap perasaan.",
+            "sv": "Jag kan sätta effektivitet före att ta hänsyn till alla känslor."
           },
           "sourceItem": "AGR3"
         },
@@ -1061,7 +1551,17 @@
             "ko": "익숙한 대상 속에서 새로운 면모나 깊이를 발견하는 것을 좋아한다.",
             "pt": "Gosto de descobrir novos ângulos em coisas familiares.",
             "hi": "मुझे परिचित चीजों में नए पहलुओं की खोज करना पसंद है।",
-            "de": "Ich entdecke gerne neue Facetten an vertrauten Dingen."
+            "de": "Ich entdecke gerne neue Facetten an vertrauten Dingen.",
+            "it": "Mi piace scoprire nuove sfaccettature nelle cose familiari.",
+            "uk": "Мені подобається знаходити нові грані у звичних речах.",
+            "ar": "أحب اكتشاف جوانب جديدة في الأشياء المألوفة.",
+            "tr": "Tanıdık şeylerde yeni katmanlar keşfetmeyi severim.",
+            "nl": "Ik vind het leuk om nieuwe lagen te ontdekken in vertrouwde dingen.",
+            "pl": "Lubię odkrywać nowe wymiary w znanych mi rzeczach.",
+            "vi": "Tôi thích phát hiện những tầng ý nghĩa mới trong các sự vật quen thuộc.",
+            "th": "ฉันชอบค้นหามุมมองใหม่ๆ ในสิ่งที่คุ้นเคย",
+            "id": "Saya suka menemukan lapisan baru dalam hal-hal yang sudah dikenal.",
+            "sv": "Jag gillar att hitta nya lager i familjära saker."
           },
           "sourceItem": "OPN4"
         },
@@ -1081,7 +1581,17 @@
             "ko": "중요한 정보는 항상 기록해 두는 편이다.",
             "pt": "Costumo registrar informações importantes.",
             "hi": "मैं आमतौर पर महत्वपूर्ण जानकारी को नोट करता हूँ।",
-            "de": "Ich halte wichtige Informationen meist schriftlich fest."
+            "de": "Ich halte wichtige Informationen meist schriftlich fest.",
+            "it": "Di solito annoto le informazioni importanti.",
+            "uk": "Я зазвичай записую важливу інформацію.",
+            "ar": "عادة ما أسجل المعلومات الهامة.",
+            "tr": "Önemli bilgileri genellikle kaydederim.",
+            "nl": "Ik schrijf belangrijke informatie meestal op.",
+            "pl": "Zazwyczaj zapisuję ważne informacje.",
+            "vi": "Tôi thường ghi chép lại những thông tin quan trọng.",
+            "th": "ฉันมักจะบันทึกข้อมูลสำคัญไว้เสมอ",
+            "id": "Saya biasanya mencatat informasi penting.",
+            "sv": "Jag brukar anteckna viktig information."
           },
           "sourceItem": "CSN5"
         },
@@ -1101,7 +1611,17 @@
             "ko": "소소한 실수에 대해 오래 자책하지 않는다.",
             "pt": "Raramente fico me culpando por muito tempo por pequenos erros.",
             "hi": "मैं शायद ही कभी छोटी गलतियों के लिए लंबे समय तक खुद को दोष देता हूँ।",
-            "de": "Ich mache mir wegen kleiner Fehler selten lange Vorwürfe."
+            "de": "Ich mache mir wegen kleiner Fehler selten lange Vorwürfe.",
+            "it": "Raramente mi colpevolizzo a lungo per piccoli errori.",
+            "uk": "Я рідко довго караю себе за дрібні помилки.",
+            "ar": "نادرًا ما ألوم نفسي لفترة طويلة بسبب أخطاء صغيرة.",
+            "tr": "Küçük hatalar yüzünden kendimi uzun süre suçlamam.",
+            "nl": "Ik neem jezelf zelden lang iets kwalijk om kleine fouten.",
+            "pl": "Rzadko długo obwiniam się za drobne błędy.",
+            "vi": "Tôi hiếm khi tự dằn dặt bản thân lâu vì những lỗi nhỏ.",
+            "th": "ฉันแทบจะไม่โทษตัวเองเป็นเวลานานสำหรับข้อผิดพลาดเล็กๆ น้อยๆ",
+            "id": "Saya jarang menyalahkan diri sendiri dalam waktu lama atas kesalahan kecil.",
+            "sv": "Jag klandrar sällan mig själv länge för småmisstag."
           },
           "sourceItem": "EST6"
         }
@@ -1126,7 +1646,17 @@
             "ko": "오랜 시간 혼자 독립적으로 일해도 별다른 외로움이나 공허함을 느끼지 않는다.",
             "pt": "Consigo trabalhar de forma independente por longos períodos sem sentir falta de nada.",
             "hi": "मैं बिना किसी कमी के लंबे समय तक स्वतंत्र रूप से काम कर सकता हूँ।",
-            "de": "Ich kann lange Zeit unabhängig arbeiten, ohne dass mir etwas fehlt."
+            "de": "Ich kann lange Zeit unabhängig arbeiten, ohne dass mir etwas fehlt.",
+            "it": "Posso lavorare in modo indipendente per lunghi periodi senza sentire che manca qualcosa.",
+            "uk": "Я можу довго працювати самостійно, не відчуваючи брак чогось.",
+            "ar": "يمكنني العمل بشكل مستقل لفترات طويلة دون الشعور بنقص شيء ما.",
+            "tr": "Bir şeylerin eksikliğini hissetmeden uzun süre bağımsız çalışabilirim.",
+            "nl": "Ik kan lange tijd zelfstandig werken zonder het gevoel te hebben dat er iets ontbreekt.",
+            "pl": "Mogę pracować samodzielnie przez długi czas, nie czując, że czegoś mi brakuje.",
+            "vi": "Tôi có thể làm việc độc lập trong thời gian dài mà không thấy thiếu vắng điều gì.",
+            "th": "ฉันสามารถทำงานคนเดียวได้เป็นเวลานานโดยไม่รู้สึกว่าขาดอะไรไป",
+            "id": "Saya dapat bekerja secara mandiri dalam waktu lama tanpa merasa ada yang kurang.",
+            "sv": "Jag kan arbeta självständigt under långa perioder utan att känna att något saknas."
           },
           "sourceItem": "EXT4"
         },
@@ -1146,7 +1676,17 @@
             "ko": "관계에서 생긴 작은 금이나 오해를 먼저 회복하려고 노력한다.",
             "pt": "Tomo a iniciativa para reparar pequenos atritos nos relacionamentos.",
             "hi": "मैं रिश्तों में छोटी-छोटी दरारों को सुधारने की पहल करता हूँ।",
-            "de": "Ich ergreife die Initiative, um kleine Spannungen in Beziehungen zu klären."
+            "de": "Ich ergreife die Initiative, um kleine Spannungen in Beziehungen zu klären.",
+            "it": "Prendo l'iniziativa per ricucire le piccole incrinature nelle relazioni.",
+            "uk": "Я проявляю ініціативу, щоб виправити дрібні непорозуміння в стосунках.",
+            "ar": "أبادر بإصلاح الخلافات البسيطة في العلاقات.",
+            "tr": "İlişkilerdeki küçük pürüzleri gidermek için inisiyatif alırım.",
+            "nl": "Ik neem het initiatief om kleine wrijvingen in relaties te herstellen.",
+            "pl": "Podejmuję inicjatywę, by naprawić drobne nieporozumienia w relacjach.",
+            "vi": "Tôi chủ động hàn gắn những rạn nứt nhỏ trong quan hệ.",
+            "th": "ฉันเป็นฝ่ายเริ่มต้นที่จะซ่อมแซมความร้าวฉานเล็กๆ น้อยๆ ในความสัมพันธ์",
+            "id": "Saya mengambil inisiatif untuk memperbaiki keretakan kecil dalam suatu hubungan.",
+            "sv": "Jag tar initiativ till att reparera små sprickor i en relation."
           },
           "sourceItem": "AGR5"
         },
@@ -1166,7 +1706,17 @@
             "ko": "흥미가 빠르게 바뀌며, 그에 따라 계획도 함께 조정된다.",
             "pt": "Meus interesses mudam rápido e meus planos se adaptam a eles.",
             "hi": "मेरी रुचियां जल्दी बदलती हैं, और मेरी योजनाएं भी उनके साथ बदलती हैं।",
-            "de": "Meine Interessen ändern sich schnell und meine Pläne passen sich an."
+            "de": "Meine Interessen ändern sich schnell und meine Pläne passen sich an.",
+            "it": "I miei interessi cambiano rapidamente e i miei piani si adattano di conseguenza.",
+            "uk": "Мої інтереси швидко змінюються, і мої плани змінюються разом із ними.",
+            "ar": "تتغير اهتماماتي بسرعة، وتتغير خططي معها.",
+            "tr": "İlgi alanlarım hızlı değişir ve planlarım da buna göre şekillenir.",
+            "nl": "Mijn interesses veranderen snel en mijn plannen veranderen mee.",
+            "pl": "Moje zainteresowania szybko się zmieniają, a wraz z nimi moje plany.",
+            "vi": "Sở thích của tôi thay đổi nhanh và kế hoạch cũng điều chỉnh theo.",
+            "th": "ความสนใจของฉันเปลี่ยนแปลงไปอย่างรวดเร็ว และแผนการของฉันก็เปลี่ยนตามไปด้วย",
+            "id": "Minat saya cepat berubah, dan rencana saya menyesuaikan dengannya.",
+            "sv": "Mina intressen ändras snabbt och mina planer ändras med dem."
           },
           "sourceItem": "CSN6"
         },
@@ -1186,7 +1736,17 @@
             "ko": "기존 해답을 최적화하는 데 그치지 않고 문제 자체를 재정의하려고 한다.",
             "pt": "Estou disposto a redefinir um problema em vez de apenas otimizar a resposta.",
             "hi": "मैं केवल उत्तर को बेहतर बनाने के बजाय समस्या को फिर से परिभाषित करने को तैयार हूँ।",
-            "de": "Ich definiere ein Problem lieber neu, anstatt nur die Antwort zu optimieren."
+            "de": "Ich definiere ein Problem lieber neu, anstatt nur die Antwort zu optimieren.",
+            "it": "Sono disposto a Ridefinire un problema invece di ottimizzare solo la risposta.",
+            "uk": "Я готовий переформулювати проблему, а не просто покращувати відповідь.",
+            "ar": "أنا مستعد لإعادة تعريف المشكلة بدلاً من مجرد تحسين الحل.",
+            "tr": "Cevabı iyileştirmek yerine sorunu yeniden tanımlamaya istekliyimdir.",
+            "nl": "Ik ben bereid een probleem opnieuw te definiëren in plaats van alleen het antwoord te optimaliseren.",
+            "pl": "Jestem gotów zdefiniować problem na nowo, zamiast tylko ulepszać odpowiedź.",
+            "vi": "Tôi sẵn lòng định nghĩa lại vấn đề thay vì chỉ tối ưu hóa câu trả lời.",
+            "th": "ฉันเต็มใจที่จะนิยามปัญหาใหม่แทนที่จะแค่อัปเดตคำตอบ",
+            "id": "Saya bersedia mendefinisikan ulang masalah daripada hanya mengoptimalkan jawaban.",
+            "sv": "Jag är villig att omdefiniera ett problem istället för att bara optimera svaret."
           },
           "sourceItem": "OPN7"
         }
@@ -1211,7 +1771,17 @@
             "ko": "잠재적 위험을 감지하면 비교적 빠르게 반응한다.",
             "pt": "Costumo reagir rapidamente a riscos potenciais.",
             "hi": "मैं आमतौर पर संभावित जोखिमों पर तुरंत प्रतिक्रिया देता हूँ।",
-            "de": "Ich reagiere meist schnell auf potenzielle Risiken."
+            "de": "Ich reagiere meist schnell auf potenzielle Risiken.",
+            "it": "Di solito reagisco rapidamente ai potenziali rischi.",
+            "uk": "Я зазвичай швидко реагую на потенційні ризики.",
+            "ar": "عادة ما أستجيب بسرعة للمخاطر المحتملة.",
+            "tr": "Potansiyel risklere genellikle hızlı tepki veririm.",
+            "nl": "Ik reageer meestal snel op mogelijke risico's.",
+            "pl": "Zazwyczaj szybko reaguję na potencjalne zagrożenia.",
+            "vi": "Tôi thường phản ứng tương đối nhanh với các rủi ro tiềm ẩn.",
+            "th": "ฉันมักจะตอบสนองต่อความเสี่ยงที่อาจเกิดขึ้นได้อย่างรวดเร็ว",
+            "id": "Saya biasanya bereaksi cepat terhadap potensi risiko.",
+            "sv": "Jag reagerar oftast snabbt på potentiella risker."
           },
           "sourceItem": "EST5"
         },
@@ -1231,7 +1801,17 @@
             "ko": "모든 일에는 명확한 완료 기준이 있는 것을 선호한다.",
             "pt": "Gosto que o trabalho tenha um critério de conclusão claro.",
             "hi": "मुझे काम के पूरा होने का एक स्पष्ट मानक होना पसंद है।",
-            "de": "Ich mag es, wenn Arbeiten ein klares Kriterium für die Fertigstellung haben."
+            "de": "Ich mag es, wenn Arbeiten ein klares Kriterium für die Fertigstellung haben.",
+            "it": "Mi piace che il lavoro abbia un chiaro standard di completamento.",
+            "uk": "Мені подобається, коли робота має чіткі критерії завершення.",
+            "ar": "أحب أن تكون للمهام معايير إنجاز واضحة.",
+            "tr": "İşlerin net bir tamamlanma standardına sahip olmasını severim.",
+            "nl": "Ik houd ervan als werk duidelijke afvinkcriteria heeft.",
+            "pl": "Lubię, gdy praca ma jasne kryteria zakończenia.",
+            "vi": "Tôi thích mọi việc có tiêu chuẩn hoàn thành rõ ràng.",
+            "th": "ฉันชอบให้งานมีเกณฑ์การเสร็จสมบูรณ์ที่ชัดเจน",
+            "id": "Saya menyukai pekerjaan yang memiliki standar penyelesaian yang jelas.",
+            "sv": "Jag gillar att arbete har en tydlig standard för färdigställande."
           },
           "sourceItem": "CSN6"
         },
@@ -1251,7 +1831,17 @@
             "ko": "여럿이 모인 자리에서 내 입장을 명확히 밝히는 편이다.",
             "pt": "Em grupo, acho fácil expressar minha posição.",
             "hi": "समूह में, मुझे अपना रुख व्यक्त करना आसान लगता है।",
-            "de": "In der Gruppe fällt es mir leicht, meinen Standpunkt zu vertreten."
+            "de": "In der Gruppe fällt es mir leicht, meinen Standpunkt zu vertreten.",
+            "it": "In contesti di gruppo trovo facile esprimere la mia posizione.",
+            "uk": "У групових ситуаціях мені легко висловити свою позицію.",
+            "ar": "في التجمعات، أجد من السهل التعبير عن موقفي.",
+            "tr": "Grup ortamlarında duruşumu ifade etmeyi kolay bulurum.",
+            "nl": "In groepsverband vind ik het makkelijk om mijn standpunt in te nemen.",
+            "pl": "W sytuacjach grupowych łatwo wyrażam swoje stanowisko.",
+            "vi": "Trong bối cảnh đông người, tôi dễ dàng bày tỏ lập trường của mình.",
+            "th": "ในสถานการณ์ที่มีคนเยอะ ฉันมักจะแสดงจุดยืนของตัวเองได้ง่าย",
+            "id": "Dalam situasi kelompok, saya merasa mudah untuk menyatakan posisi saya.",
+            "sv": "I gruppsammanhang tycker jag det är enkelt att uttrycka min ståndpunkt."
           },
           "sourceItem": "EXT7"
         },
@@ -1271,7 +1861,17 @@
             "ko": "근거 없는 무조건적인 양보는 선뜻 받아들이지 않는다.",
             "pt": "Não aceito facilmente concessões sem justificativa.",
             "hi": "मैं बिना किसी कारण के रियायतों को आसानी से स्वीकार नहीं करता।",
-            "de": "Ich lasse mich nicht ohne guten Grund auf Zugeständnisse ein."
+            "de": "Ich lasse mich nicht ohne guten Grund auf Zugeständnisse ein.",
+            "it": "Non accetto facilmente concessioni senza motivo.",
+            "uk": "Я не схильний приймати безпідставні поступки.",
+            "ar": "لا أقبل التنازلات غير المبررة بسهولة.",
+            "tr": "Gerekçesiz tavizleri kolayca kabul etmem.",
+            "nl": "Ik ga niet zomaar akkoord met concessies zonder geldige reden.",
+            "pl": "Niechętnie zgadzam się na ustępstwa bez wyraźnego powodu.",
+            "vi": "Tôi không dễ dàng chấp nhận những nhượng bộ không có căn cứ.",
+            "th": "ฉันไม่ยอมรับการประนีประนอมที่ไม่มีเหตุผลรองรับได้ง่ายๆ",
+            "id": "Saya tidak mudah menerima konsesi tanpa alasan.",
+            "sv": "Jag accepterar inte lätt eftergifter utan anledning."
           },
           "sourceItem": "AGR8"
         }
@@ -1296,7 +1896,17 @@
             "ko": "끊임없이 방식을 바꾸는 것보다 재사용 가능한 노하우와 경험을 가치 있게 여긴다.",
             "pt": "Valorizo mais experiências reutilizáveis do que mudar de ideia a todo momento.",
             "hi": "मैं लगातार नए विचारों को बदलने के बजाय पुनः प्रयोज्य अनुभव को अधिक महत्व देता हूँ।",
-            "de": "Ich schätze wiederverwendbare Erfahrung mehr als ständig neue Ansätze."
+            "de": "Ich schätze wiederverwendbare Erfahrung mehr als ständig neue Ansätze.",
+            "it": "Apprezzo di più l'esperienza riutilizzabile che il continuo cambio di idee.",
+            "uk": "Я більше ціную придатний досвід, ніж постійну зміну підходів.",
+            "ar": "أقدر الخبرة قابلة الاستخدام أكثر من التغيير المستمر في الأفكار.",
+            "tr": "Sürekli fikir değiştirmektense yeniden kullanılabilir deneyime değer veririm.",
+            "nl": "Ik hecht meer waarde aan herbruikbare ervaring dan aan het voortdurend veranderen van aanpak.",
+            "pl": "Cenię doświadczenie, które można wykorzystać ponownie, bardziej niż ciągłą zmianę koncepcji.",
+            "vi": "Tôi coi trọng kinh nghiệm có thể tái sử dụng hơn là liên tục đổi mới tư duy.",
+            "th": "ฉันให้คุณค่ากับประสบการณ์ที่นำกลับมาใช้ใหม่ได้มากกว่าการเปลี่ยนความคิดไปเรื่อยๆ",
+            "id": "Saya lebih menghargai pengalaman yang dapat digunakan kembali daripada terus-menerus mengubah pendekatan.",
+            "sv": "Jag värderar återanvändbar erfarenhet mer än att ständigt byta tillvägagångssätt."
           },
           "sourceItem": "OPN6"
         },
@@ -1316,7 +1926,17 @@
             "ko": "비판이나 지적을 할 때 구체적이고 개선 가능하도록 표현한다.",
             "pt": "Tento fazer críticas específicas e construtivas.",
             "hi": "मैं आलोचना को विशिष्ट और व्यावहारिक बनाने की कोशिश करता हूँ।",
-            "de": "Ich versuche, Kritik spezifisch und lösungsorientiert zu formulieren."
+            "de": "Ich versuche, Kritik spezifisch und lösungsorientiert zu formulieren.",
+            "it": "Cerco di rendere le critiche specifiche e gestibili.",
+            "uk": "Я намагаюся робити критику конкретною та конструктивною.",
+            "ar": "أحاول جعل النقد محددًا وقابلاً للمعالجة.",
+            "tr": "Eleştirileri spesifik ve çözülebilir kılmaya çalışırım.",
+            "nl": "Ik probeer kritiek specifiek en hanteerbaar te maken.",
+            "pl": "Staram się, by krytyka była konkretna i możliwa do przepracowania.",
+            "vi": "Tôi cố gắng đưa ra lời phê bình cụ thể và có thể xử lý được.",
+            "th": "ฉันพยายามทำให้คำวิจารณ์มีความเฉพาะเจาะจงและนำไปปรับปรุงได้",
+            "id": "Saya mencoba membuat kritik menjadi spesifik dan dapat ditindaklanjuti.",
+            "sv": "Jag försöker göra kritik specifik och hanterbar."
           },
           "sourceItem": "AGR7"
         },
@@ -1336,7 +1956,17 @@
             "ko": "주변 사람들의 감정이 치달아도 내 페이스를 유지할 수 있다.",
             "pt": "Quando os outros estão exaltados, consigo manter meu próprio ritmo.",
             "hi": "जब दूसरे भावुक होते हैं, तब भी मैं अपनी गति बनाए रख सकता हूँ।",
-            "de": "Wenn andere aufgewühlt sind, behalte ich mein eigenes Tempo bei."
+            "de": "Wenn andere aufgewühlt sind, behalte ich mein eigenes Tempo bei.",
+            "it": "Quando gli altri sono molto emotivi, riesco comunque a mantenere il mio ritmo.",
+            "uk": "Коли інші емоційні, я все одно можу зберігати свій темп.",
+            "ar": "عندما يكون الآخرون انفعاليين، يمكنني الحفاظ على إيقاعي الخاص.",
+            "tr": "Başka insan duygusal olarak yoğun olduğunda bile kendi tempomu koruyabilirim.",
+            "nl": "Wanneer anderen emotioneel worden, kan ik toch mijn eigen ritme behouden.",
+            "pl": "Gdy emocje innych sięgają zera, ja wciąż potrafię zachować własny rytm.",
+            "vi": "Khi cảm xúc của người khác dâng cao, tôi vẫn có thể giữ nhịp độ của riêng mình.",
+            "th": "เมื่อผู้อื่นมีอารมณ์รุนแรง ฉันยังคงสามารถรักษาจังหวะของตัวเองไว้ได้",
+            "id": "Saat orang lain sangat emosional, saya tetap dapat menjaga ritme saya sendiri.",
+            "sv": "När andra är intensiva kan jag ändå behålla min egen takt."
           },
           "sourceItem": "EST8"
         },
@@ -1356,7 +1986,17 @@
             "ko": "사람들을 적극적으로 대화에 이끌어 들이고 연결한다.",
             "pt": "Conecto ativamente as pessoas na mesma conversa.",
             "hi": "मैं लोगों को एक ही चर्चा में शामिल करने के लिए पहल करता हूँ।",
-            "de": "Ich binde andere aktiv in Gespräche ein."
+            "de": "Ich binde andere aktiv in Gespräche ein.",
+            "it": "Coinvolgo attivamente le persone nella stessa discussione.",
+            "uk": "Я активно залучаю людей до спільного обговорення.",
+            "ar": "أبادر بربط الأشخاص وإشراكهم في نفس النقاش.",
+            "tr": "İnsanları aktif olarak aynı tartışmaya dahil ederim.",
+            "nl": "Ik breng mensen actief samen in hetzelfde gesprek.",
+            "pl": "Aktywnie włączam ludzi do tej samej dyskusji.",
+            "vi": "Tôi chủ động kết nối mọi người vào cùng một cuộc thảo luận.",
+            "th": "ฉันพยายามเชื่อมโยงผู้คนให้เข้ามาอยู่ในการหารือเดียวกัน",
+            "id": "Saya secara aktif menghubungkan orang-orang ke dalam diskusi yang sama.",
+            "sv": "Jag för aktivt samman människor i samma samtal."
           },
           "sourceItem": "EXT9"
         }
@@ -1381,7 +2021,17 @@
             "ko": "영상이 떠오르면 일단 기록해 두고 세부사항은 나중에 보완한다.",
             "pt": "Quando tenho uma inspiração, capturo ela primeiro e cuido dos detalhes depois.",
             "hi": "जब प्रेरणा आती है, तो मैं उसे पहले पकड़ता हूँ और विवरण बाद में भरता हूँ।",
-            "de": "Wenn ich eine Idee habe, halte ich sie zuerst fest und kümmere mich später um Details."
+            "de": "Wenn ich eine Idee habe, halte ich sie zuerst fest und kümmere mich später um Details.",
+            "it": "Quando arriva l'ispirazione, la cogli subito e aggiungo i dettagli dopo.",
+            "uk": "Коли приходить натхнення, я спочатку фіксую його, а деталі додаю пізніше.",
+            "ar": "عندما تأتي الهام، ألتقطها أولاً وأكمل التفاصيل لاحقًا.",
+            "tr": "İlham geldiğinde önce onu yakalar, detayları daha sonra tamamlarım.",
+            "nl": "Wanneer ik inspiratie heb, leg ik die eerst vast en vul de details later in.",
+            "pl": "Gdy przychodzi natchnienie, najpierw je chwytam, a detale uzupełniam później.",
+            "vi": "Khi có nguồn cảm hứng, tôi bắt lấy nó trước rồi bổ sung chi tiết sau.",
+            "th": "เมื่อเกิดแรงบันดาลใจ ฉันจะคว้ามันไว้ก่อน แล้วค่อยเติมรายละเอียดทีหลัง",
+            "id": "Saat inspirasi datang, saya menangkapnya terlebih dahulu dan melengkapi detailnya nanti.",
+            "sv": "När inspirationen kommer fångar jag den först och fyller i detaljer senare."
           },
           "sourceItem": "CSN7"
         },
@@ -1401,7 +2051,17 @@
             "ko": "복잡한 시스템 뒤에 숨겨진 원리와 메커니즘에 큰 관심이 있다.",
             "pt": "Tenho muito interesse nos mecanismos por trás de sistemas complexos.",
             "hi": "जटिल प्रणालियों के पीछे के तंत्र (mechanisms) में मेरी बहुत रुचि है।",
-            "de": "Die Mechanismen hinter komplexen Systemen interessieren mich sehr."
+            "de": "Die Mechanismen hinter komplexen Systemen interessieren mich sehr.",
+            "it": "Sono molto interessato ai meccanismi dietro i sistemi complessi.",
+            "uk": "Мене дуже цікавлять механізми, що лежать в основі складних систем.",
+            "ar": "أنا مهتم جدًا بالآليات الوراثية خلف الأنظمة المعقدة.",
+            "tr": "Karmaşık sistemlerin arkasındaki mekanizmalara çok ilgi duyarım.",
+            "nl": "Ik ben erg geïnteresseerd in de mechanismen achter complexe systemen.",
+            "pl": "Bardzo interesują mnie mechanizmy stojące za złożonymi systemami.",
+            "vi": "Tôi rất hứng thú với cơ chế phía sau các hệ thống phức tạp.",
+            "th": "ฉันสนใจในกลไกที่อยู่เบื้องหลังระบบที่ซับซ้อนอย่างมาก",
+            "id": "Saya sangat tertarik dengan mekanisme di balik sistem yang rumit.",
+            "sv": "Jag är intresserad av mekanismerna bakom komplexa system."
           },
           "sourceItem": "OPN8"
         },
@@ -1421,7 +2081,17 @@
             "ko": "결론이나 데이터 외에도 관련된 사람들의 처지와 맥락을 고려한다.",
             "pt": "Tento levar em consideração a situação das pessoas além das conclusões.",
             "hi": "मैं निष्कर्षों से परे मानवीय स्थिति को ध्यान में रखने की कोशिश करता हूँ।",
-            "de": "Ich versuche, neben sachlichen Ergebnissen auch die menschliche Seite zu berücksichtigen."
+            "de": "Ich versuche, neben sachlichen Ergebnissen auch die menschliche Seite zu berücksichtigen.",
+            "it": "Cerco di considerare la situazione umana al di là delle conclusioni.",
+            "uk": "Я намагаюся враховувати людське становище за межами сухих висновків.",
+            "ar": "أحرص على مراعاة ظروف الأشخاص بعيدًا عن الاستنتاجات فقط.",
+            "tr": "Sonuçların ötesinde insanların durumunu göz önünde bulundurmaya çalışırım.",
+            "nl": "Ik probeer de menselijke kant te blijven zien, los van de conclusie.",
+            "pl": "Staram się pamiętać o sytuacji ludzkiej poza samymi wnioskami.",
+            "vi": "Tôi sẵn sàng lưu tâm đến hoàn cảnh của con người bên cạnh các kết luận.",
+            "th": "ฉันเต็มใจที่จะคำนึงถึงสถานการณ์ของคนนอกเหนือจากข้อสรุป",
+            "id": "Saya mencoba mempertimbangkan situasi manusia di luar kesimpulan semata.",
+            "sv": "Jag försöker behålla den mänskliga situationen i sikte bortom slutsatsen."
           },
           "sourceItem": "AGR9"
         },
@@ -1441,7 +2111,17 @@
             "ko": "분위기의 미세한 어색함이나 이상함을 잘 알아차린다.",
             "pt": "Percebo facilmente quando o clima fica ligeiramente estranho.",
             "hi": "मैं आसानी से भांप लेता हूँ जब माहौल में थोड़ा खिंचाव महसूस होता है।",
-            "de": "Ich spüre es sofort, wenn die Stimmung etwas angespannt ist."
+            "de": "Ich spüre es sofort, wenn die Stimmung etwas angespannt ist.",
+            "it": "Noto facilmente quando l'atmosfera è leggermente strana.",
+            "uk": "Я легко помічаю, коли в атмосфері є найменша неладності.",
+            "ar": "ألاحظ بسهولة التوتر الخفيف في الجو العام.",
+            "tr": "Ortamdaki hafif gariplikleri kolayca sezerim.",
+            "nl": "Ik merk het snel als de sfeer enigszins off is.",
+            "pl": "Łatwo wyczuwam, gdy w atmosferze jest coś nie tak.",
+            "vi": "Tôi dễ dàng nắm bắt được sự bất thường nhỏ trong bầu không khí.",
+            "th": "ฉันมักจะจับความผิดปกติเล็กๆ น้อยๆ ในบรรยากาศได้ง่าย",
+            "id": "Saya mudah menangkap ketika suasana terasa sedikit tidak pas.",
+            "sv": "Jag märker lätt när stämningen kändes lite fel."
           },
           "sourceItem": "EST10"
         }
@@ -1466,7 +2146,17 @@
             "ko": "현장에서 주목받으려 애쓰기보다 글로 내 견해를 명확히 정돈하는 편을 좋아한다.",
             "pt": "Prefiro escrever minha visão claramente do que disputar atenção ao vivo.",
             "hi": "मैं सीधे ध्यान आकर्षित करने के बजाय अपने विचारों को स्पष्ट रूप से लिखना पसंद करता हूँ।",
-            "de": "Ich drücke meine Meinung lieber schriftlich aus, als mündlich um Aufmerksamkeit zu konkurrieren."
+            "de": "Ich drücke meine Meinung lieber schriftlich aus, als mündlich um Aufmerksamkeit zu konkurrieren.",
+            "it": "Preferisco scrivere chiaramente la mia opinione piuttosto che competere per l'attenzione dal vivo.",
+            "uk": "Мені звичніше чітко висловити думку письмово, ніж змагатися за увагу вживу.",
+            "ar": "أفضل كتابة وجهة نظري بوضوح بدلاً من التنافس على الانتباه في المباشر.",
+            "tr": "Fikrimi canlı ortamda dikkat çekmeye çalışmak yerine yazılı olarak net ifade etmeyi tercih ederim.",
+            "nl": "Ik schrijf mijn standpunt liever duidelijk op dan dat ik live om aandacht strijd.",
+            "pl": "Wolę jasno opisać swoje zdanie, niż walczyć o uwagę na żywo.",
+            "vi": "Tôi quen viết rõ quan điểm hơn là tranh giành sự chú ý trực tiếp.",
+            "th": "ฉันชอบเขียนมุมมองของตัวเองให้ชัดเจนมากกว่าการเรียกร้องความสนใจสดๆ",
+            "id": "Saya lebih suka menuliskan pandangan saya secara jelas daripada bersaing mendapatkan perhatian secara langsung.",
+            "sv": "Jag föredrar att skriva mina åsikter tydligt framför att tävla om uppmärksamhet live."
           },
           "sourceItem": "EXT8"
         },
@@ -1486,7 +2176,17 @@
             "ko": "반복적인 업무에서도 일정한 기준과 품질을 유지할 수 있다.",
             "pt": "Consigo manter padrões consistentes em tarefas repetitivas.",
             "hi": "मैं दोहराव वाले कार्यों में स्थिर मानक बनाए रख सकता हूँ।",
-            "de": "Ich kann auch bei wiederkehrenden Aufgaben gleichbleibende Standards halten."
+            "de": "Ich kann auch bei wiederkehrenden Aufgaben gleichbleibende Standards halten.",
+            "it": "Posso mantenere uno standard stabile nei compiti ripetitivi.",
+            "uk": "Я можу зберігати стабільну якість у рутинних завданнях.",
+            "ar": "يمكنني الحفاظ على معايير مستقرة في المهام المكررة.",
+            "tr": "Tekrarlayan görevlerde istikrarlı bir standart koruyabilirim.",
+            "nl": "Ik kan een stabiele standaard handhaven bij herhalende taken.",
+            "pl": "Potrafię utrzymać stały standard w powtarzalnych zadaniach.",
+            "vi": "Tôi có thể duy trì tiêu chuẩn ổn định trong các nhiệm vụ lặp đi lặp lại.",
+            "th": "ฉันสามารถรักษามาตรฐานที่มั่นคงในงานที่ทำซ้ำๆ ได้",
+            "id": "Saya dapat menjaga standar yang stabil dalam tugas-tugas yang berulang.",
+            "sv": "Jag kan hålla stabila standarder i upprepat arbete."
           },
           "sourceItem": "CSN9"
         },
@@ -1506,7 +2206,17 @@
             "ko": "단 한 번의 평가나 시선에 지나치게 연연하지 않는다.",
             "pt": "Geralmente não dou peso excessivo a uma única avaliação.",
             "hi": "मैं आमतौर पर किसी एक मूल्यांकन को बहुत अधिक महत्व नहीं देता।",
-            "de": "Ich messe einer einzelnen Bewertung meist nicht zu viel Gewicht bei."
+            "de": "Ich messe einer einzelnen Bewertung meist nicht zu viel Gewicht bei.",
+            "it": "Di solito non do troppo peso a una singola valutazione.",
+            "uk": "Я зазвичай не надаю надто великого значення одноразовій оцінці.",
+            "ar": "عادة لا أعطي تقييمًا واحدًا وزنًا إضافيًا.",
+            "tr": "Genellikle tek bir değerlendirmeye fazla anlam yüklemem.",
+            "nl": "Ik til meestal niet te zwaar aan één enkele beoordeling.",
+            "pl": "Zazwyczaj nie przywiązuję zbyt dużej wagi do pojedynczej oceny.",
+            "vi": "Tôi thường không coi trọng quá mức một lời đánh giá đơn lẻ.",
+            "th": "ฉันมักจะไม่ให้น้ำหนักกับการประเมินครั้งเดียวมากเกินไป",
+            "id": "Saya biasanya tidak terlalu mementingkan satu penilaian saja.",
+            "sv": "Jag brukar oftast inte ge en enskild utvärdering för stor vikt."
           },
           "sourceItem": "EST10"
         },
@@ -1526,7 +2236,17 @@
             "ko": "모두를 만족시키기보다 판단의 신뢰성과 품질을 우선한다.",
             "pt": "Priorizo a qualidade da decisão em vez de agradar a todos.",
             "hi": "मैं सभी को खुश रखने के बजाय निर्णय की गुणवत्ता को प्राथमिकता देता हूँ।",
-            "de": "Die Qualität einer Entscheidung ist mir wichtiger, als es jedem recht zu machen."
+            "de": "Die Qualität einer Entscheidung ist mir wichtiger, als es jedem recht zu machen.",
+            "it": "Do la priorità alla qualità del giudizio rispetto ad accontentare tutti.",
+            "uk": "Я ставлю якість рішення вище за бажання догодити всім.",
+            "ar": "أفضل جودة الحكم على إرضاء الجميع.",
+            "tr": "Karar kalitesini herkesi memnun etmenin önüne koyarım.",
+            "nl": "Ik stel de kwaliteit van een besluit boven het iedereen naar de zin maken.",
+            "pl": "Stawiam jakość oceny ponad zadowolenie wszystkich.",
+            "vi": "Tôi ưu tiên bảo vệ chất lượng phán đoán hơn là làm hài lòng tất cả mọi người.",
+            "th": "ฉันให้ความสำคัญกับคุณภาพของการตัดสินใจมากกว่าการทำให้ทุกคนพอใจ",
+            "id": "Saya memprioritaskan kualitas keputusan daripada menyenangkan semua orang.",
+            "sv": "Jag prioriterar kvaliteten i omdömet framför att göra alla nöjda."
           },
           "sourceItem": "AGR1"
         }
@@ -1551,7 +2271,17 @@
             "ko": "이 상황에 또 다른 설명이나 해석이 존재하지 않는지 자주 질문한다.",
             "pt": "Muitas vezes me pergunto se existe outra explicação para o que está acontecendo.",
             "hi": "मैं अक्सर पूछता हूँ कि क्या हो रहा है इसके लिए कोई अन्य स्पष्टीकरण है।",
-            "de": "Ich frage mich oft, ob es eine andere Erklärung für etwas gibt."
+            "de": "Ich frage mich oft, ob es eine andere Erklärung für etwas gibt.",
+            "it": "Chiedo spesso se c'è un'altra spiegazione per ciò che accade.",
+            "uk": "Я часто питаю себе, чи є інше пояснення того, що відбувається.",
+            "ar": "غالبا ما أسأل: هل هناك تفسير آخر لهذا الأمر.",
+            "tr": "Sık sık şunu sorarım: Bu durumun başka bir açıklaması olabilir mi?",
+            "nl": "Ik vraag me vaak af of er een andere verklaring is voor wat er gebeurt.",
+            "pl": "Często pytam: czy jest inne wyjaśnienie tego, co się dzieje?",
+            "vi": "Tôi thường đặt câu hỏi: liệu sự việc này còn có một cách giải thích nào khác không.",
+            "th": "ฉันมักจะถามว่า: มีคำอธิบายอื่นสำหรับเรื่องนี้อีกหรือไม่",
+            "id": "Saya sering bertanya: apakah ada penjelasan lain untuk hal ini.",
+            "sv": "Jag frågar ofta om det finns en annan förklaring till det som händer."
           },
           "sourceItem": "OPN9"
         },
@@ -1571,7 +2301,17 @@
             "ko": "협업할 때 실시간으로 빠르게 피드백을 주고받는 것을 선호한다.",
             "pt": "Gosto da troca rápida de feedbacks no trabalho em equipe.",
             "hi": "मुझे सहयोग में त्वरित फीडबैक का आदान-प्रदान पसंद है।",
-            "de": "Ich mag schnellen Feedback-Austausch in der Zusammenarbeit."
+            "de": "Ich mag schnellen Feedback-Austausch in der Zusammenarbeit.",
+            "it": "Mi piace il rapido scambio di feedback nella collaborazione.",
+            "uk": "Мені подобається швидкий обмін фідбеком під час співпраці.",
+            "ar": "أحب التبادل السريع للملاحظات أثناء التعاون.",
+            "tr": "İşbirliği yaparken hızlı geri bildirim alışverişini severim.",
+            "nl": "Ik houd van snelle feedbackuitwisseling in samenwerking.",
+            "pl": "Lubię szybką wymianę informacji zwrotnych podczas współpracy.",
+            "vi": "Tôi thích việc trao đổi phản hồi nhanh chóng trong quá trình hợp tác.",
+            "th": "ฉันชอบการแลกเปลี่ยนคำติชมอย่างรวดเร็วในการทำงานร่วมกัน",
+            "id": "Saya menyukai pertukaran umpan balik yang cepat dalam kolaborasi.",
+            "sv": "Jag gillar snabbt feedback-utbyte i samarbete."
           },
           "sourceItem": "EXT10"
         },
@@ -1591,7 +2331,17 @@
             "ko": "모든 일을 항상 정해진 순서대로 처리하지는 않는다.",
             "pt": "Nem sempre resolvo as coisas numa ordem fixa.",
             "hi": "मैं हमेशा निश्चित क्रम में काम नहीं करता।",
-            "de": "Ich arbeite Dinge nicht immer in einer festen Reihenfolge ab."
+            "de": "Ich arbeite Dinge nicht immer in einer festen Reihenfolge ab.",
+            "it": "Non gestisco sempre le cose in un ordine fisso.",
+            "uk": "Я не завжди обробляю справи у строго визначеному порядку.",
+            "ar": "لا أتعامل دائمًا مع الأمور بترتيب ثابت.",
+            "tr": "İşleri her zaman sabit bir sırayla halletmem.",
+            "nl": "Ik handel dingen niet altijd in een vaste volgorde af.",
+            "pl": "Nie zawsze załatwiam sprawy w ustalonej kolejności.",
+            "vi": "Tôi không phải lúc nào cũng xử lý mọi việc theo một thứ tự cố định.",
+            "th": "ฉันไม่ได้จัดการสิ่งต่างๆ ตามลำดับที่แน่นอนเสมอไป",
+            "id": "Saya tidak selalu menangani berbagai hal dalam urutan yang tetap.",
+            "sv": "Jag hanterar inte alltid saker i en fast ordning."
           },
           "sourceItem": "CSN1"
         },
@@ -1611,7 +2361,17 @@
             "ko": "해결되지 않은 문제는 머릿속에 오래 남아 잔상을 남긴다.",
             "pt": "Problemas não resolvidos costumam ficar na minha cabeça por um tempo.",
             "hi": "अनसुलझे मुद्दे मेरे दिमाग में कुछ समय तक टिके रहते हैं।",
-            "de": "Ungelöste Probleme beschäftigen mich meist noch eine Weile."
+            "de": "Ungelöste Probleme beschäftigen mich meist noch eine Weile.",
+            "it": "I problemi non risolti tendono a rimanere nella mia mente per un po'.",
+            "uk": "Невирішені питання зазвичай довго залишаються в моїй голові.",
+            "ar": "المشاكل غير المحلولة تميل إلى البقاء في ذهني لفترة طويلة.",
+            "tr": "Çözülmemiş sorunlar kafamda uzun süre kalma eğilimindedir.",
+            "nl": "Onopgeloste kwesties blijven vaak een tijdje in mijn hoofd hangen.",
+            "pl": "Nierozwiązane sprawy mają tendencję do długiego pozostawania w mojej głowie.",
+            "vi": "Những vấn đề chưa được giải quyết có xu hướng đọng lại lâu trong tâm trí tôi.",
+            "th": "ปัญหาที่ยังไม่ได้รับการแก้ไขมักจะอยู่ในหัวของฉันเป็นเวลานาน",
+            "id": "Masalah yang belum terselesaikan cenderung bertahan di pikiran saya cukup lama.",
+            "sv": "Olösta frågor tenderar att stanna kvar i mitt huvud ett tag."
           },
           "sourceItem": "EST2"
         }
@@ -1636,7 +2396,17 @@
             "ko": "내 판단이 정확하면서도 타인에게 상처를 주지 않기를 바란다.",
             "pt": "Quero que meu julgamento seja preciso e evite magoar os outros desnecessariamente.",
             "hi": "मैं चाहता हूँ कि मेरा निर्णय सटीक हो और अनावश्यक नुकसान से बचा जा सके।",
-            "de": "Ich möchte, dass mein Urteil präzise ist und niemanden unnötig verletzt."
+            "de": "Ich möchte, dass mein Urteil präzise ist und niemanden unnötig verletzt.",
+            "it": "Voglio che il mio giudizio sia preciso ed eviti danni inutili.",
+            "uk": "Я хочу, щоб мої рішення були точними та не завдавали зайвого болю.",
+            "ar": "أريد أن تكون أحكامي دقيقة وألا تؤذي الآخرين بقدر الإمكان.",
+            "tr": "Kararlarımın hem doğru olmasını hem de insanları incitmemesini isterim.",
+            "nl": "Ik wil dat mijn oordeel nauwkeurig is en onnodige schade voorkomt.",
+            "pl": "Chcę, by moje oceny były trafne i zarazem nie raniły niepotrzebnie innych.",
+            "vi": "Tôi mong phán đoán của mình vừa chính xác vừa tránh làm tổn thương người khác.",
+            "th": "ฉันต้องการให้การตัดสินใจของฉันแม่นยำและหลีกเลี่ยงการทำร้ายผู้อื่นโดยไม่จำเป็น",
+            "id": "Saya ingin penilaian saya akurat dan juga menghindari menyakiti orang lain secara tidak perlu.",
+            "sv": "Jag vill att mitt omdöme ska vara exakt och undvika onödig skada."
           },
           "sourceItem": "AGR10"
         },
@@ -1656,7 +2426,17 @@
             "ko": "감정을 일단 뒤로하고 눈앞의 과제부터 먼저 처리할 수 있다.",
             "pt": "Consigo colocar a emoção de lado e focar em fazer o próximo passo.",
             "hi": "मैं भावनाओं को एक तरफ रख सकता हूँ और पहले अगला कदम उठा सकता हूँ।",
-            "de": "Ich kann Emotionen beiseitestellen und erst die Arbeit erledigen."
+            "de": "Ich kann Emotionen beiseitestellen und erst die Arbeit erledigen.",
+            "it": "Posso mettere da parte le emozioni e completare prima l'azione successiva.",
+            "uk": "Я можу відкласти емоції і спочатку зробити наступний крок.",
+            "ar": "يمكنني تنحية العاطفة جانباً وإكمال الخطوة التالية أولاً.",
+            "tr": "Duyguları bir kenara bırakıp önce sıradaki işi tamamlayabilirim.",
+            "nl": "Ik kan emoties aan de kant zetten en eerst de volgende actie afronden.",
+            "pl": "Potrafię odłożyć emocje na bok i najpierw wykonać kolejny krok.",
+            "vi": "Tôi có thể gạt cảm xúc sang một bên để hoàn thành công việc trước mắt trước.",
+            "th": "ฉันสามารถวางอารมณ์ไว้ข้างๆ และทำขั้นตอนต่อไปให้เสร็จก่อนได้",
+            "id": "Saya dapat menyampingkan emosi dan menyelesaikan tindakan selanjutnya terlebih dahulu.",
+            "sv": "Jag kan lägga känslorna åt sidan och slutföra nästa handling först."
           },
           "sourceItem": "EST1"
         },
@@ -1676,7 +2456,17 @@
             "ko": "결과가 명확하고 불확실성이 적은 문제를 더 좋아한다.",
             "pt": "Prefiro problemas com resultados bem definidos.",
             "hi": "मैं निश्चित परिणामों वाली समस्याओं को पसंद करता हूँ।",
-            "de": "Ich bevorzuge Probleme mit eindeutigen Ergebnissen."
+            "de": "Ich bevorzuge Probleme mit eindeutigen Ergebnissen.",
+            "it": "Preferisco problemi con risultati definiti.",
+            "uk": "Я віддаю перевагу завданням із чіткими результатами.",
+            "ar": "أفضل المشاكل ذات النتائج الواضحة.",
+            "tr": "Sonucu net olan problemleri tercih ederim.",
+            "nl": "Ik geef de voorkeur aan problemen met een duidelijk resultaat.",
+            "pl": "Wolę problemy o jasnym i jednoznacznym wyniku.",
+            "vi": "Tôi thích những vấn đề có kết quả rõ ràng.",
+            "th": "ฉันชอบปัญหาที่มีผลลัพธ์ที่ชัดเจนมากกว่า",
+            "id": "Saya lebih menyukai masalah dengan hasil yang pasti.",
+            "sv": "Jag föredrar problem med definitiva resultat."
           },
           "sourceItem": "OPN2"
         },
@@ -1696,7 +2486,17 @@
             "ko": "장기적인 목표를 오늘 실행할 수 있는具体的な 행동으로 전환한다.",
             "pt": "Transformo metas de longo prazo em ações práticas para o dia de hoje.",
             "hi": "मैं दीर्घकालिक लक्ष्यों को उन कार्यों में बदल देता हूँ जिन्हें मैं आज कर सकता हूँ।",
-            "de": "Ich wandle langfristige Ziele in konkrete Schritte für heute um."
+            "de": "Ich wandle langfristige Ziele in konkrete Schritte für heute um.",
+            "it": "Trasformo gli obiettivi a lungo termine in azioni che posso eseguire oggi.",
+            "uk": "Я перетворюю довгострокові цілі на кроки, які можу зробити сьогодні.",
+            "ar": "أحول الأهداف طويلة الأجل إلى إجراءات قابلة للتنفيذ اليوم.",
+            "tr": "Uzun vadeli hedefleri bugün yapabileceğim eylemlere dönüştürürüm.",
+            "nl": "Ik vertaal langetermijndoelen in acties die ik vandaag kan uitvoeren.",
+            "pl": "Zamieniam długoterminowe cele na konkretne działania na dziś.",
+            "vi": "Tôi chuyển hóa các mục tiêu dài hạn thành những hành động có thể thực thi ngay hôm nay.",
+            "th": "ฉันเปลี่ยนเป้าหมายระยะยาวให้เป็นแอ็กชันที่สามารถทำได้ในวันนี้",
+            "id": "Saya mengubah tujuan jangka panjang menjadi tindakan yang dapat saya lakukan hari ini.",
+            "sv": "Jag omvandlar långsiktiga mål till handlingar jag kan ta idag."
           },
           "sourceItem": "CSN3"
         }

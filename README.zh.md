@@ -12,7 +12,7 @@
 - 根据当前不确定度和维度覆盖度自适应选择下一题
 - 前端基于块内成对偏好进行 MAP 风格估计
 - 亮色 / 暗色模式切换
-- 多语言支持（已集成英语、中文、西班牙语、法语、日语、俄语、韩语、葡萄牙语、印地语、德语 10 种语言，文案由 Gemini 翻译）
+- 多语言支持（已集成英语、中文、西班牙语、法语、日语、俄语、韩语、葡萄牙语、印地语、德语、意大利语、乌克兰语、阿拉伯语、土耳其语、荷兰语、波兰语、越南语、泰语、印尼语、瑞典语 20 种语言，文案由 Gemini 翻译）
 - 支持 GitHub Pages 静态部署
 
 ## 数据与校准
@@ -94,7 +94,7 @@ src/styles/           Tailwind 入口与全局样式
 
 ## 多语言
 
-已支持 10 种语言（题库及 UI 文案由 Gemini 翻译）：
+已支持 20 种语言（题库及 UI 文案由 Gemini 翻译）：
 
 - 英语（`en`）：`/tirt-ocean-quiz/quiz/`
 - 中文（`zh`）：`/tirt-ocean-quiz/zh/quiz/`
@@ -106,6 +106,16 @@ src/styles/           Tailwind 入口与全局样式
 - 葡萄牙语（`pt`）：`/tirt-ocean-quiz/pt/quiz/`
 - 印地语（`hi`）：`/tirt-ocean-quiz/hi/quiz/`
 - 德语（`de`）：`/tirt-ocean-quiz/de/quiz/`
+- 意大利语（`it`）：`/tirt-ocean-quiz/it/quiz/`
+- 乌克兰语（`uk`）：`/tirt-ocean-quiz/uk/quiz/`
+- 阿拉伯语（`ar`）：`/tirt-ocean-quiz/ar/quiz/`
+- 土耳其语（`tr`）：`/tirt-ocean-quiz/tr/quiz/`
+- 荷兰语（`nl`）：`/tirt-ocean-quiz/nl/quiz/`
+- 波兰语（`pl`）：`/tirt-ocean-quiz/pl/quiz/`
+- 越南语（`vi`）：`/tirt-ocean-quiz/vi/quiz/`
+- 泰语（`th`）：`/tirt-ocean-quiz/th/quiz/`
+- 印尼语（`id`）：`/tirt-ocean-quiz/id/quiz/`
+- 瑞典语（`sv`）：`/tirt-ocean-quiz/sv/quiz/`
 
 多语言层采用注册表设计，可方便扩展其他语言。
 

@@ -12,7 +12,7 @@ The system is designed for a clean academic interface, session-level shuffled qu
 - Adaptive next-block selection based on current uncertainty and trait coverage
 - Client-side MAP-style scoring over pairwise preferences
 - Light and dark mode
-- Multi-language support (10 languages: English, Chinese, Spanish, French, Japanese, Russian, Korean, Portuguese, Hindi, German; translated with Gemini)
+- Multi-language support (20 languages: English, Chinese, Spanish, French, Japanese, Russian, Korean, Portuguese, Hindi, German, Italian, Ukrainian, Arabic, Turkish, Dutch, Polish, Vietnamese, Thai, Indonesian, Swedish; translated with Gemini)
 - Static deployment with GitHub Pages
 
 ## Data And Calibration
@@ -94,7 +94,7 @@ src/styles/           Tailwind entry and global styles
 
 ## Languages
 
-Supports 10 languages (item bank & UI translated with Gemini):
+Supports 20 languages (item bank & UI translated with Gemini):
 
 - English (`en`): `/tirt-ocean-quiz/quiz/`
 - Chinese (`zh`): `/tirt-ocean-quiz/zh/quiz/`
@@ -106,6 +106,16 @@ Supports 10 languages (item bank & UI translated with Gemini):
 - Portuguese (`pt`): `/tirt-ocean-quiz/pt/quiz/`
 - Hindi (`hi`): `/tirt-ocean-quiz/hi/quiz/`
 - German (`de`): `/tirt-ocean-quiz/de/quiz/`
+- Italian (`it`): `/tirt-ocean-quiz/it/quiz/`
+- Ukrainian (`uk`): `/tirt-ocean-quiz/uk/quiz/`
+- Arabic (`ar`): `/tirt-ocean-quiz/ar/quiz/`
+- Turkish (`tr`): `/tirt-ocean-quiz/tr/quiz/`
+- Dutch (`nl`): `/tirt-ocean-quiz/nl/quiz/`
+- Polish (`pl`): `/tirt-ocean-quiz/pl/quiz/`
+- Vietnamese (`vi`): `/tirt-ocean-quiz/vi/quiz/`
+- Thai (`th`): `/tirt-ocean-quiz/th/quiz/`
+- Indonesian (`id`): `/tirt-ocean-quiz/id/quiz/`
+- Swedish (`sv`): `/tirt-ocean-quiz/sv/quiz/`
 
 The i18n layer is registry-based, allowing easy extension to additional locales by adding configs and text dictionaries.
 
