@@ -4,7 +4,7 @@ import { advance, clearState, loadState, saveState, type QuizState } from './qui
 import { createSeed } from './random';
 import { estimateFromAnswers, TRAITS } from './tirt-estimator';
 import type { QuizBlock, ShownBlock, Trait } from './types';
-import type { Locale as LocaleCode } from '../i18n/locales';
+import { normalizeLocale, type Locale as LocaleCode } from '../i18n/locales';
 import QRCode from 'qrcode';
 
 
@@ -836,10 +836,6 @@ function radarPoint(index: number, center: number, radius: number): { x: number;
 
 function clamp(value: number, min: number, max: number): number {
   return Math.max(min, Math.min(max, value));
-}
-
-function normalizeLocale(value: string | undefined): LocaleCode {
-  return value === 'en' ? 'en' : 'zh';
 }
 
 function assetPath(path: string): string {
