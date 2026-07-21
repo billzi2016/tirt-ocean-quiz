@@ -47,7 +47,7 @@ pnpm dev
 打开：
 
 ```text
-http://127.0.0.1:4321/tirt-ocean-quiz/quiz/
+http://127.0.0.1:4321/tirt-ocean-quiz/zh/quiz/
 ```
 
 如果默认端口被占用，Astro 会自动使用其他本地端口。
@@ -96,8 +96,8 @@ src/styles/           Tailwind 入口与全局样式
 
 当前路由：
 
-- 中文：`/tirt-ocean-quiz/quiz/`
-- 英文：`/tirt-ocean-quiz/en/quiz/`
+- 英文：`/tirt-ocean-quiz/quiz/`
+- 中文：`/tirt-ocean-quiz/zh/quiz/`
 
 多语言层采用注册表设计，后续新增西班牙语、法语、俄语等语言时，扩展 locale 配置和对应文案即可。
 

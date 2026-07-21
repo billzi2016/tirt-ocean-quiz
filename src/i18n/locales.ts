@@ -7,17 +7,17 @@ export interface LocaleConfig {
 }
 
 export const locales: LocaleConfig[] = [
-  { code: 'zh', label: 'zh', pathPrefix: '' },
-  { code: 'en', label: 'en', pathPrefix: '/en' },
+  { code: 'en', label: 'en', pathPrefix: '' },
+  { code: 'zh', label: 'zh', pathPrefix: '/zh' },
 ];
 
-export const defaultLocale: Locale = 'zh';
+export const defaultLocale: Locale = 'en';
 
 export function normalizeLocale(input: string | undefined): Locale {
   return locales.some((locale) => locale.code === input) ? (input as Locale) : defaultLocale;
 }
 
 export function localizedPath(locale: Locale, pathname: string): string {
-  const config = locales.find((item) => item.code === locale) ?? locales[0];
+  const config = locales.find((item) => item.code === locale) ?? locales.find((item) => item.code === defaultLocale) ?? locales[0];
   return `${config.pathPrefix}${pathname}` || '/';
 }

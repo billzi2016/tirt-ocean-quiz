@@ -96,8 +96,8 @@ src/styles/           Tailwind entry and global styles
 
 Current routes:
 
-- Chinese: `/tirt-ocean-quiz/quiz/`
-- English: `/tirt-ocean-quiz/en/quiz/`
+- English: `/tirt-ocean-quiz/quiz/`
+- Chinese: `/tirt-ocean-quiz/zh/quiz/`
 
 The i18n layer is registry-based, so Spanish, French, Russian, or other locales can be added by extending the locale config and text dictionaries.
 
