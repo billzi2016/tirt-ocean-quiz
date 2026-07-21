@@ -8,10 +8,11 @@ interface Props {
 
 const { title, description = '基于 Thurstonian IRT 的迫选法大五人格自适应测评。' } = Astro.props;
 const iconPath = `${import.meta.env.BASE_URL}icon.png`;
+const pageLang = Astro.url.pathname.includes('/zh/') ? 'zh-CN' : 'en';
 ---
 
 <!doctype html>
-<html lang={Astro.url.pathname.includes('/en') ? 'en' : 'zh-CN'}>
+<html lang={pageLang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
