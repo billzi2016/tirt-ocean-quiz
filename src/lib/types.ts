@@ -35,4 +35,5 @@ export interface Evaluation {
   title: string;
   subtitle: string;
   summary: string;
+  examples: string[];
 }

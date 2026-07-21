@@ -12,65 +12,68 @@ const { locale } = Astro.props;
 <main
   data-quiz-app
   data-locale={locale}
-  class="mx-auto flex min-h-[calc(100vh-118px)] max-w-6xl flex-col px-4 py-8 sm:px-6"
+  class="mx-auto flex min-h-[calc(100vh-126px)] max-w-6xl flex-col px-4 py-6 sm:px-6 sm:py-8"
 >
-  <section class="flex min-h-[620px] flex-1 border hairline bg-white shadow-line dark:border-slate-800 dark:bg-slate-950">
+  <section class="flex min-h-[680px] flex-1 overflow-hidden rounded-[32px] border hairline bg-white shadow-line dark:border-slate-800 dark:bg-slate-950">
     <div id="intro" class="flex w-full flex-col justify-between p-6 sm:p-10 lg:p-14">
-      <div class="max-w-4xl pt-10 sm:pt-16">
-        <h1 class="max-w-3xl text-4xl font-semibold leading-[0.98] text-slate-950 dark:text-white sm:text-6xl lg:text-7xl">
+      <div class="max-w-4xl pt-8 sm:pt-14">
+        <div class="mb-7 inline-flex rounded-full border border-teal-200 bg-teal-50 px-4 py-2 text-sm font-semibold text-teal-800 dark:border-teal-400/30 dark:bg-teal-400/10 dark:text-teal-200">
+          学术方法 · 百万级数据 · 快速评估
+        </div>
+        <h1 class="max-w-4xl text-5xl font-black leading-[0.96] text-slate-950 dark:text-white sm:text-7xl lg:text-8xl">
           {t(locale, 'introTitle')}
         </h1>
-        <p class="mt-8 max-w-3xl text-base font-medium leading-8 text-slate-600 dark:text-slate-300 sm:text-lg">
+        <p class="mt-8 max-w-3xl text-xl font-semibold leading-9 text-slate-600 dark:text-slate-300 sm:text-2xl sm:leading-10">
           {t(locale, 'introCopy')}
         </p>
         <button
           id="start"
-          class="mt-10 w-fit border border-slate-950 bg-slate-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800 disabled:cursor-wait disabled:border-slate-300 disabled:bg-slate-100 disabled:text-slate-400 dark:border-white dark:bg-white dark:text-slate-950 dark:hover:bg-slate-200 dark:disabled:border-slate-700 dark:disabled:bg-slate-900 dark:disabled:text-slate-500"
+          class="mt-10 min-h-16 w-full rounded-3xl border border-slate-950 bg-slate-950 px-8 py-4 text-xl font-black text-white transition hover:bg-slate-800 disabled:cursor-wait disabled:border-slate-300 disabled:bg-slate-100 disabled:text-slate-400 dark:border-white dark:bg-white dark:text-slate-950 dark:hover:bg-slate-200 dark:disabled:border-slate-700 dark:disabled:bg-slate-900 dark:disabled:text-slate-500 sm:w-fit"
         >
           {t(locale, 'start')}
         </button>
       </div>
-      <div class="mt-12 grid gap-3 border-t hairline pt-5 text-xs text-slate-500 dark:border-slate-800 dark:text-slate-400 sm:grid-cols-3">
-        <div>
-          <span class="data-label block text-signal dark:text-teal-300">1,015,342</span>
+      <div class="mt-12 grid gap-3 border-t hairline pt-5 text-sm font-semibold text-slate-500 dark:border-slate-800 dark:text-slate-400 sm:grid-cols-3">
+        <div class="rounded-3xl bg-slate-50 p-4 dark:bg-slate-900">
+          <span class="data-label block text-base text-signal dark:text-teal-300">1,015,342</span>
           <span>{t(locale, 'responses')}</span>
         </div>
-        <div>
-          <span class="data-label block text-signal dark:text-teal-300">20 / 80</span>
+        <div class="rounded-3xl bg-slate-50 p-4 dark:bg-slate-900">
+          <span class="data-label block text-base text-signal dark:text-teal-300">20 题</span>
           <span>{t(locale, 'blocks')}</span>
         </div>
-        <div>
-          <span class="data-label block text-signal dark:text-teal-300">Adaptive</span>
+        <div class="rounded-3xl bg-slate-50 p-4 dark:bg-slate-900">
+          <span class="data-label block text-base text-signal dark:text-teal-300">自适应</span>
           <span>{t(locale, 'adaptiveFoot')}</span>
         </div>
       </div>
     </div>
 
     <div id="quiz" class="hidden w-full p-4 sm:p-6 lg:p-8">
-      <div class="mb-6 border-b hairline pb-5 dark:border-slate-800">
+      <div class="mb-6 rounded-[28px] bg-slate-50 p-4 dark:bg-slate-900/70 sm:p-5">
         <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
           <div>
             <p class="data-label text-xs text-slate-500 dark:text-slate-400" id="block-counter">{t(locale, 'progress')}</p>
-            <h2 class="mt-1 text-xl font-semibold text-slate-950 dark:text-white">{t(locale, 'adaptive')}</h2>
+            <h2 class="mt-1 text-2xl font-black text-slate-950 dark:text-white">{t(locale, 'adaptive')}</h2>
           </div>
-          <div class="data-label text-xs text-teal-800 dark:text-teal-200">
+          <div class="data-label rounded-full bg-white px-3 py-2 text-xs text-teal-800 dark:bg-slate-950 dark:text-teal-200">
             <span>{t(locale, 'accuracy')}: </span><span id="accuracy">10%</span>
           </div>
         </div>
         <div class="grid gap-2">
-          <div class="h-2 bg-slate-100 dark:bg-slate-800">
-            <div id="progress-fill" class="h-2 bg-slate-950 transition-all dark:bg-white" style="width: 0%"></div>
+          <div class="h-3 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
+            <div id="progress-fill" class="h-3 rounded-full bg-slate-950 transition-all dark:bg-white" style="width: 0%"></div>
           </div>
-          <div class="h-1 bg-slate-100 dark:bg-slate-800">
-            <div id="confidence-fill" class="h-1 bg-teal-600 transition-all dark:bg-teal-300" style="width: 10%"></div>
+          <div class="h-2 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
+            <div id="confidence-fill" class="h-2 rounded-full bg-teal-500 transition-all dark:bg-teal-300" style="width: 10%"></div>
           </div>
         </div>
       </div>
 
-      <div class="mb-4 grid grid-cols-[minmax(0,1fr)_88px_88px] gap-3">
+      <div class="mb-4 hidden grid-cols-[minmax(0,1fr)_128px_128px] gap-3 sm:grid">
         <div></div>
-        <div class="data-label text-center text-xs text-slate-500 dark:text-slate-400">{t(locale, 'best')}</div>
-        <div class="data-label text-center text-xs text-slate-500 dark:text-slate-400">{t(locale, 'worst')}</div>
+        <div class="data-label text-center text-sm text-slate-500 dark:text-slate-400">{t(locale, 'best')}</div>
+        <div class="data-label text-center text-sm text-slate-500 dark:text-slate-400">{t(locale, 'worst')}</div>
       </div>
 
       <div class="grid gap-3">
@@ -78,13 +81,13 @@ const { locale } = Astro.props;
       </div>
 
       <div class="mt-6 flex items-center justify-between gap-3">
-        <button id="restart" class="border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 hover:border-slate-500 dark:border-slate-700 dark:text-slate-200 dark:hover:border-slate-400">
+        <button id="restart" class="min-h-12 rounded-2xl border border-slate-300 px-5 py-3 text-base font-bold text-slate-700 hover:border-slate-500 dark:border-slate-700 dark:text-slate-200 dark:hover:border-slate-400">
           {t(locale, 'restart')}
         </button>
         <button
           id="next"
           disabled
-          class="border border-slate-950 bg-slate-950 px-5 py-2.5 text-sm font-semibold text-white transition enabled:hover:bg-slate-800 disabled:cursor-not-allowed disabled:border-slate-200 disabled:bg-slate-100 disabled:text-slate-400 dark:border-white dark:bg-white dark:text-slate-950 dark:enabled:hover:bg-slate-200 dark:disabled:border-slate-800 dark:disabled:bg-slate-900 dark:disabled:text-slate-600"
+          class="min-h-12 rounded-2xl border border-slate-950 bg-slate-950 px-6 py-3 text-base font-black text-white transition enabled:hover:bg-slate-800 disabled:cursor-not-allowed disabled:border-slate-200 disabled:bg-slate-100 disabled:text-slate-400 dark:border-white dark:bg-white dark:text-slate-950 dark:enabled:hover:bg-slate-200 dark:disabled:border-slate-800 dark:disabled:bg-slate-900 dark:disabled:text-slate-600"
         >
           {t(locale, 'next')}
         </button>
@@ -92,26 +95,52 @@ const { locale } = Astro.props;
     </div>
 
     <div id="result" class="hidden w-full p-4 sm:p-6 lg:p-8">
-      <div class="mb-5 flex items-start justify-between gap-4 border-b hairline pb-4 dark:border-slate-800">
+      <div class="mb-6 flex items-start justify-between gap-4 rounded-[28px] bg-slate-50 p-5 dark:bg-slate-900/70">
         <div>
           <p class="data-label text-xs text-slate-500 dark:text-slate-400">{t(locale, 'result')}</p>
-          <h2 id="result-title" class="mt-1 text-3xl font-semibold text-slate-950 dark:text-white"></h2>
-          <p id="result-subtitle" class="mt-2 text-sm text-slate-500 dark:text-slate-400"></p>
+          <h2 id="result-title" class="mt-2 text-4xl font-black text-slate-950 dark:text-white sm:text-6xl"></h2>
+          <p id="result-subtitle" class="mt-3 text-base font-semibold text-slate-500 dark:text-slate-400"></p>
         </div>
-        <button id="restart-result" class="border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 hover:border-slate-500 dark:border-slate-700 dark:text-slate-200 dark:hover:border-slate-400">
-          {t(locale, 'restart')}
-        </button>
+        <div class="flex flex-col gap-2 sm:flex-row">
+          <button id="share-result" class="min-h-12 rounded-2xl border border-slate-950 bg-slate-950 px-5 py-3 text-base font-black text-white hover:bg-slate-800 dark:border-white dark:bg-white dark:text-slate-950 dark:hover:bg-slate-200">
+            {t(locale, 'sharePoster')}
+          </button>
+          <button id="restart-result" class="min-h-12 rounded-2xl border border-slate-300 px-5 py-3 text-base font-bold text-slate-700 hover:border-slate-500 dark:border-slate-700 dark:text-slate-200 dark:hover:border-slate-400">
+            {t(locale, 'restart')}
+          </button>
+        </div>
       </div>
-      <div class="grid gap-6 lg:grid-cols-[360px_minmax(0,1fr)]">
-        <canvas id="radar" width="720" height="720" class="aspect-square w-full border hairline bg-white dark:border-slate-800 dark:bg-slate-950"></canvas>
+      <div class="grid gap-6 lg:grid-cols-[380px_minmax(0,1fr)]">
+        <canvas id="radar" width="720" height="720" class="aspect-square w-full rounded-[28px] border hairline bg-white dark:border-slate-800 dark:bg-slate-950"></canvas>
         <div>
-          <p id="result-summary" class="text-lg leading-8 text-slate-700 dark:text-slate-200"></p>
+          <p id="result-summary" class="rounded-[28px] bg-slate-50 p-5 text-xl font-bold leading-9 text-slate-700 dark:bg-slate-900/70 dark:text-slate-200"></p>
+          <div id="result-examples" class="mt-4 grid gap-3"></div>
+          <p class="mt-4 rounded-3xl bg-teal-50 p-4 text-base font-semibold leading-7 text-teal-900 dark:bg-teal-400/10 dark:text-teal-100">
+            {t(locale, 'percentileHint')}
+          </p>
           <div id="trait-bars" class="mt-6 grid gap-3"></div>
           <p class="mt-6 text-sm leading-6 text-slate-500 dark:text-slate-400">{t(locale, 'disclaimer')}</p>
         </div>
       </div>
     </div>
   </section>
+
+  <div id="share-modal" class="fixed inset-0 z-50 hidden bg-slate-950/80 p-4 backdrop-blur">
+    <div class="mx-auto flex h-full max-w-md flex-col">
+      <div class="mb-3 flex items-center justify-between gap-3">
+        <p class="text-sm font-semibold text-white">{t(locale, 'longPress')}</p>
+        <button id="share-close" class="min-h-11 rounded-2xl border border-white/20 px-4 py-2 text-sm font-bold text-white">
+          {t(locale, 'close')}
+        </button>
+      </div>
+      <div class="min-h-0 flex-1 overflow-auto rounded-[28px] bg-white p-2">
+        <img id="poster-image" alt="share poster" class="mx-auto aspect-[9/16] h-auto max-h-full w-full rounded-[22px] object-contain" />
+      </div>
+      <button id="poster-save" class="mt-3 min-h-12 rounded-2xl bg-white px-5 py-3 text-base font-black text-slate-950">
+        {t(locale, 'saveImage')}
+      </button>
+    </div>
+  </div>
 </main>
 
 <script>
