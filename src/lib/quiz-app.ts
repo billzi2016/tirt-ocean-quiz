@@ -4,9 +4,10 @@ import { advance, clearState, loadState, saveState, type QuizState } from './qui
 import { createSeed } from './random';
 import { estimateFromAnswers, TRAITS } from './tirt-estimator';
 import type { QuizBlock, ShownBlock, Trait } from './types';
+import type { Locale as LocaleCode } from '../i18n/locales';
 import QRCode from 'qrcode';
 
-type LocaleCode = 'zh' | 'en';
+
 type Percentiles = Record<Trait, number>;
 
 const TOTAL_BLOCKS = 20;
@@ -14,28 +15,40 @@ const TOTAL_BLOCKS = 20;
 const labels: Record<LocaleCode, { best: string; worst: string; next: string; complete: string }> = {
   zh: { best: '最符合', worst: '最不符合', next: '确认，下一题', complete: '查看结果' },
   en: { best: 'Fits me', worst: 'Not me', next: 'Confirm and continue', complete: 'View result' },
+  es: { best: 'Más me describe', worst: 'Menos me describe', next: 'Confirmar y continuar', complete: 'Ver resultados' },
+  fr: { best: 'Me correspond le plus', worst: 'Me correspond le moins', next: 'Confirmer et continuer', complete: 'Voir les résultats' },
+  ja: { best: '最も当てはまる', worst: '最も当てはまらない', next: '確定して次へ', complete: '結果を見る' },
+  ru: { best: 'Больше про меня', worst: 'Меньше про меня', next: 'Подтвердить и далее', complete: 'Посмотреть результат' },
+  ko: { best: '가장 해당함', worst: '가장 해당 안 됨', next: '확인 및 다음', complete: '결과 보기' },
+  pt: { best: 'Mais me descreve', worst: 'Menos me descreve', next: 'Confirmar e continuar', complete: 'Ver resultados' },
+  hi: { best: 'सबसे अधिक लागू', worst: 'सबसे कम लागू', next: 'पुष्टि करें और आगे बढ़ें', complete: 'परिणाम देखें' },
+  de: { best: 'Trifft am meisten zu', worst: 'Trifft am wenigsten zu', next: 'Bestätigen und weiter', complete: 'Ergebnis anzeigen' },
 };
 
 const traitNames: Record<LocaleCode, Record<Trait, string>> = {
   zh: { O: '探索新鲜感', C: '自律执行力', E: '社交能量', A: '共情合作感', N: '情绪敏锐度' },
-  en: {
-    O: 'Openness',
-    C: 'Conscientiousness',
-    E: 'Extraversion',
-    A: 'Agreeableness',
-    N: 'Emotional sensitivity',
-  },
+  en: { O: 'Openness', C: 'Conscientiousness', E: 'Extraversion', A: 'Agreeableness', N: 'Emotional sensitivity' },
+  es: { O: 'Apertura', C: 'Responsabilidad', E: 'Extraversión', A: 'Amabilidad', N: 'Sensibilidad emocional' },
+  fr: { O: 'Ouverture', C: 'Conscienciosité', E: 'Extraversion', A: 'Agréabilité', N: 'Sensibilité émotionnelle' },
+  ja: { O: '開放性', C: '誠実性', E: '外向性', A: '協調性', N: '情緒敏感性' },
+  ru: { O: 'Открытость', C: 'Добросовестность', E: 'Экстраверсия', A: 'Доброжелательность', N: 'Эмоциональность' },
+  ko: { O: '개방성', C: '성실성', E: '외향성', A: '우호성', N: '정서적 민감성' },
+  pt: { O: 'Abertura', C: 'Conscienciosidade', E: 'Extroversão', A: 'Amabilidade', N: 'Sensibilidade emocional' },
+  hi: { O: 'खुलापन', C: 'कर्तव्यनिष्ठता', E: 'बहिर्मुखता', A: 'सहमतता', N: 'भावनात्मक संवेदनशीलता' },
+  de: { O: 'Offenheit', C: 'Gewissenhaftigkeit', E: 'Extraversion', A: 'Verträglichkeit', N: 'Emotionale Empfindlichkeit' },
 };
 
 const radarTraitNames: Record<LocaleCode, Record<Trait, string>> = {
   zh: traitNames.zh,
-  en: {
-    O: 'Openness',
-    C: 'Conscient.',
-    E: 'Extraversion',
-    A: 'Agreeableness',
-    N: 'Emotional',
-  },
+  en: { O: 'Openness', C: 'Conscient.', E: 'Extraversion', A: 'Agreeableness', N: 'Emotional' },
+  es: { O: 'Apertura', C: 'Responsab.', E: 'Extraversión', A: 'Amabilidad', N: 'Sensibilidad' },
+  fr: { O: 'Ouverture', C: 'Conscience', E: 'Extraversion', A: 'Agréabilité', N: 'Sensibilité' },
+  ja: { O: '開放性', C: '誠実性', E: '外向性', A: '協調性', N: '情緒敏感性' },
+  ru: { O: 'Открытость', C: 'Добросовест.', E: 'Экстраверсия', A: 'Доброжелати.', N: 'Эмоциональн.' },
+  ko: { O: '개방성', C: '성실성', E: '외향성', A: '우호성', N: '정서민감성' },
+  pt: { O: 'Abertura', C: 'Consciência', E: 'Extroversão', A: 'Amabilidade', N: 'Sensibilidade' },
+  hi: { O: 'खुलापन', C: 'कर्तव्यनिष्ठता', E: 'बहिर्मुखता', A: 'सहमतता', N: 'संवेदनशीलता' },
+  de: { O: 'Offenheit', C: 'Gewissenh.', E: 'Extraversion', A: 'Verträglichk.', N: 'Empfindlichk.' },
 };
 
 const traitExplain: Record<LocaleCode, Record<Trait, string>> = {
@@ -53,11 +66,75 @@ const traitExplain: Record<LocaleCode, Record<Trait, string>> = {
     A: 'Empathy, cooperation, and attention to other people’s feelings.',
     N: 'Sensitivity to stress, risk, and emotional shifts.',
   },
+  es: {
+    O: 'Interés en nuevas ideas, conceptos abstractos y perspectivas alternativas.',
+    C: 'Planificación, estabilidad en la ejecución y atención a la calidad.',
+    E: 'Energía obtenida de la interacción social, la expresión y los estímulos.',
+    A: 'Empatía, cooperación y atención a los sentimientos de los demás.',
+    N: 'Sensibilidad ante el estrés, el riesgo y los cambios emocionales.',
+  },
+  fr: {
+    O: 'Intérêt pour les idées nouvelles, les concepts abstraits et d’autres perspectives.',
+    C: 'Planification, rigueur dans l’exécution et souci de la qualité.',
+    E: 'Énergie tirée des interactions sociales, de l’expression et des échanges.',
+    A: 'Empathie, esprit de coopération et attention portée aux autres.',
+    N: 'Sensibilité au stress, aux risques et aux variations émotionnelles.',
+  },
+  ja: {
+    O: '新しい発想や抽象的トピック、未知の領域に対する興味の強さ。',
+    C: '計画性、実行の安定感、完成度の高さに対するこだわり。',
+    E: '他者との対話や交流、外部刺激からエネルギーを得る度合い。',
+    A: '共感力、協調性、他者の立場や感情に対する配慮の深さ。',
+    N: 'プレッシャーや環境の変化、感情の波に対する敏感さ。',
+  },
+  ru: {
+    O: 'Интерес к новым идеям, абстрактным концепциям и альтернативным взглядам.',
+    C: 'Планирование, стабильность исполнения и внимание к качеству.',
+    E: 'Энергия от социального взаимодействия, самовыражения и внешних стимулов.',
+    A: 'Эмпатия, сотрудничество и внимание к чувствам других людей.',
+    N: 'Чувствительность к стрессу, рискам и эмоциональным колебаниям.',
+  },
+  ko: {
+    O: '새로운 아이디어, 추상적 개념 및 다양한 관점에 대한 관심.',
+    C: '계획성, 실행의 안정성 및 품질에 대한 세심한 주안점.',
+    E: '사회적 상호작용, 표현 및 외부 자극으로부터 얻는 에너지.',
+    A: '공감 능력, 협동심 및 타인의 감정에 대한 배려.',
+    N: '스트레스, 위험 요소 및 감정 변화에 대한 민감도.',
+  },
+  pt: {
+    O: 'Interesse por novas ideias, conceitos abstratos e visões alternativas.',
+    C: 'Planejamento, estabilidade na execução e foco na qualidade.',
+    E: 'Energia obtida por meio de interações sociais e expressão.',
+    A: 'Empatia, cooperação e atenção aos sentimentos dos outros.',
+    N: 'Sensibilidade ao estresse, aos riscos e às oscilações emocionais.',
+  },
+  hi: {
+    O: 'नए विचारों, अमूर्त अवधारणाओं और वैकल्पिक दृष्टिकोणों में रुचि।',
+    C: 'योजना, निष्पादन की स्थिरता और गुणवत्ता पर ध्यान।',
+    E: 'सामाजिक मेलजोल, अभिव्यक्ति और बाहरी प्रेरणा से प्राप्त ऊर्जा।',
+    A: 'सहानुभूति, सहयोग और दूसरों की भावनाओं पर ध्यान।',
+    N: 'तनाव, जोखिम और भावनात्मक बदलावों के प्रति संवेदनशीलता।',
+  },
+  de: {
+    O: 'Interesse an neuen Ideen, abstrakten Konzepten und neuen Perspektiven.',
+    C: 'Planung, Verlässlichkeit bei der Umsetzung und hohes Qualitätsbewusstsein.',
+    E: 'Energie aus sozialen Kontakten, Selbstausdruck und äußeren Impulsen.',
+    A: 'Empathie, Kooperationsbereitschaft und Rücksicht auf die Gefühle anderer.',
+    N: 'Empfindlichkeit gegenüber Stress, Risiken und Stimmungsschwankungen.',
+  },
 };
 
 const levelNames: Record<LocaleCode, string[]> = {
   zh: ['极低', '偏低', '中等', '偏高', '极高'],
   en: ['Very low', 'Low', 'Moderate', 'High', 'Very high'],
+  es: ['Muy bajo', 'Bajo', 'Moderado', 'Alto', 'Muy alto'],
+  fr: ['Très bas', 'Bas', 'Modéré', 'Élevé', 'Très élevé'],
+  ja: ['極めて低い', 'やや低い', '平均的', 'やや高い', '極めて高い'],
+  ru: ['Очень низкий', 'Низкий', 'Средний', 'Высокий', 'Очень высокий'],
+  ko: ['매우 낮음', '낮음', '보통', '높음', '매우 높음'],
+  pt: ['Muito baixo', 'Baixo', 'Moderado', 'Alto', 'Muito alto'],
+  hi: ['बहुत कम', 'कम', 'मध्यम', 'उच्च', 'बहुत उच्च'],
+  de: ['Sehr niedrig', 'Niedrig', 'Mittel', 'Hoch', 'Sehr hoch'],
 };
 
 interface Runtime {
@@ -355,12 +432,28 @@ function profileCompliment(locale: LocaleCode, percentiles: Percentiles): string
   const profileSpread = (Math.max(...TRAITS.map((trait) => percentiles[trait])) - Math.min(...TRAITS.map((trait) => percentiles[trait]))) / 100;
   const share = clamp(34 - topTwoDistance * 19 - profileSpread * 11, 2.4, 38.6);
   const shareText = share.toFixed(1);
-  if (locale === 'zh') {
-    return share < 5 ? `你属于 ${shareText}% 的人 · 你很独特！` : `你属于 ${shareText}% 的人 · 你很随和！`;
+  switch (locale) {
+    case 'zh':
+      return share < 5 ? `你属于 ${shareText}% 的人 · 你很独特！` : `你属于 ${shareText}% 的人 · 你很随和！`;
+    case 'es':
+      return share < 5 ? `Perteneces al ${shareText}% de personas · ¡Eres único!` : `Perteneces al ${shareText}% de personas · ¡Eres equilibrado!`;
+    case 'fr':
+      return share < 5 ? `Vous faites partie des ${shareText}% de personnes · Vous êtes unique !` : `Vous faites partie des ${shareText}% de personnes · Vous êtes équilibré !`;
+    case 'ja':
+      return share < 5 ? `上位 ${shareText}% のユニーク型 · あなたは特異で個性的！` : `上位 ${shareText}% のバランス型 · あなたは柔軟で親しみやすい！`;
+    case 'ru':
+      return share < 5 ? `Вы входите в ${shareText}% людей · Вы уникальны!` : `Вы входите в ${shareText}% людей · Вы гармоничны!`;
+    case 'ko':
+      return share < 5 ? `상위 ${shareText}% 의 특별한 타입 · 당신은 독창적입니다!` : `상위 ${shareText}% 의 타입 · 당신은 균형 잡힌 사람입니다!`;
+    case 'pt':
+      return share < 5 ? `Você pertence aos ${shareText}% das pessoas · Você é único!` : `Você pertence aos ${shareText}% das pessoas · Você é equilibrado!`;
+    case 'hi':
+      return share < 5 ? `आप ${shareText}% लोगों में से हैं · आप अद्वितीय हैं!` : `आप ${shareText}% लोगों में से हैं · आप सहज हैं!`;
+    case 'de':
+      return share < 5 ? `Sie gehören zu den ${shareText}% der Menschen · Sie sind einzigartig!` : `Sie gehören zu den ${shareText}% der Menschen · Sie sind ausgeglichen!`;
+    default:
+      return share < 5 ? `You are among ${shareText}% of people · You are unique!` : `You are among ${shareText}% of people · You are easygoing!`;
   }
-  return share < 5
-    ? `You are among ${shareText}% of people · You are unique!`
-    : `You are among ${shareText}% of people · You are easygoing!`;
 }
 
 async function showSharePoster(runtime: Runtime, dom: DomRefs): Promise<void> {
@@ -460,8 +553,16 @@ async function renderPoster(
 
   ctx.fillStyle = '#5eead4';
   ctx.font = '900 42px system-ui';
-  ctx.fillText(locale === 'zh' ? '测测你是什么' : 'What kind of person', 90, footerY + 32);
-  ctx.fillText(locale === 'zh' ? '样的人？' : 'are you?', 90, footerY + 86);
+  const line1Map: Record<LocaleCode, string> = {
+    zh: '测测你是什么', en: 'What kind of person', es: '¿Qué tipo de persona', fr: 'Quel genre de personne',
+    ja: 'あなたはどんな', ru: 'Какой вы', ko: '당신은 어떤', pt: 'Que tipo de pessoa', hi: 'आप किस प्रकार के', de: 'Was für ein Mensch'
+  };
+  const line2Map: Record<LocaleCode, string> = {
+    zh: '样的人？', en: 'are you?', es: 'eres tú?', fr: 'êtes-vous ?',
+    ja: 'タイプの人？', ru: 'человек?', ko: '사람인가요?', pt: 'você é?', hi: 'व्यक्ति हैं?', de: 'sind Sie?'
+  };
+  ctx.fillText(line1Map[locale] ?? line1Map.en, 90, footerY + 32);
+  ctx.fillText(line2Map[locale] ?? line2Map.en, 90, footerY + 86);
   ctx.fillStyle = '#94a3b8';
   ctx.font = '700 28px system-ui';
   ctx.fillText('billzi2016.github.io/tirt-ocean-quiz', 90, footerY + 138);

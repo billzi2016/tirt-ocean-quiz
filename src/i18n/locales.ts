@@ -1,4 +1,4 @@
-export type Locale = 'zh' | 'en';
+export type Locale = 'en' | 'zh' | 'es' | 'fr' | 'ja' | 'ru' | 'ko' | 'pt' | 'hi' | 'de';
 
 export interface LocaleConfig {
   code: Locale;
@@ -7,8 +7,16 @@ export interface LocaleConfig {
 }
 
 export const locales: LocaleConfig[] = [
-  { code: 'en', label: 'en', pathPrefix: '' },
-  { code: 'zh', label: 'zh', pathPrefix: '/zh' },
+  { code: 'en', label: 'EN', pathPrefix: '' },
+  { code: 'zh', label: 'ZH', pathPrefix: '/zh' },
+  { code: 'es', label: 'ES', pathPrefix: '/es' },
+  { code: 'fr', label: 'FR', pathPrefix: '/fr' },
+  { code: 'ja', label: 'JA', pathPrefix: '/ja' },
+  { code: 'ru', label: 'RU', pathPrefix: '/ru' },
+  { code: 'ko', label: 'KO', pathPrefix: '/ko' },
+  { code: 'pt', label: 'PT', pathPrefix: '/pt' },
+  { code: 'hi', label: 'HI', pathPrefix: '/hi' },
+  { code: 'de', label: 'DE', pathPrefix: '/de' },
 ];
 
 export const defaultLocale: Locale = 'en';

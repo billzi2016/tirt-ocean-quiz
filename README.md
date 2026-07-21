@@ -12,7 +12,7 @@ The system is designed for a clean academic interface, session-level shuffled qu
 - Adaptive next-block selection based on current uncertainty and trait coverage
 - Client-side MAP-style scoring over pairwise preferences
 - Light and dark mode
-- Extensible i18n structure for future languages
+- Multi-language support (10 languages: English, Chinese, Spanish, French, Japanese, Russian, Korean, Portuguese, Hindi, German; translated with Gemini)
 - Static deployment with GitHub Pages
 
 ## Data And Calibration
@@ -94,12 +94,27 @@ src/styles/           Tailwind entry and global styles
 
 ## Languages
 
-Current routes:
+Supports 10 languages (item bank & UI translated with Gemini):
 
-- English: `/tirt-ocean-quiz/quiz/`
-- Chinese: `/tirt-ocean-quiz/zh/quiz/`
+- English (`en`): `/tirt-ocean-quiz/quiz/`
+- Chinese (`zh`): `/tirt-ocean-quiz/zh/quiz/`
+- Spanish (`es`): `/tirt-ocean-quiz/es/quiz/`
+- French (`fr`): `/tirt-ocean-quiz/fr/quiz/`
+- Japanese (`ja`): `/tirt-ocean-quiz/ja/quiz/`
+- Russian (`ru`): `/tirt-ocean-quiz/ru/quiz/`
+- Korean (`ko`): `/tirt-ocean-quiz/ko/quiz/`
+- Portuguese (`pt`): `/tirt-ocean-quiz/pt/quiz/`
+- Hindi (`hi`): `/tirt-ocean-quiz/hi/quiz/`
+- German (`de`): `/tirt-ocean-quiz/de/quiz/`
 
-The i18n layer is registry-based, so Spanish, French, Russian, or other locales can be added by extending the locale config and text dictionaries.
+The i18n layer is registry-based, allowing easy extension to additional locales by adding configs and text dictionaries.
+
+## Disclaimer
+
+1. **AI-Generated Translations**: The item bank, UI labels, trait explanations, and assessment reports across non-English locales are translated/localized using Gemini AI. While designed to preserve original psychometric nuances, variations in phrasing across languages may occur.
+2. **Non-Clinical Use**: This assessment system is designed solely for self-exploration, personal insight, academic research, and technological demonstration.
+3. **Not a Medical Diagnosis**: This assessment is not a clinical psychological evaluation tool, medical diagnostic tool, or employment screening system. It does not provide medical, psychiatric, or mental health diagnoses.
+4. **Professional Consultation**: Users requiring psychological diagnosis or mental health guidance should consult a qualified healthcare professional.
 
 ## Method References
 

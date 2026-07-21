@@ -13,7 +13,15 @@
           "mu": 0.362,
           "text": {
             "zh": "我会主动寻找新的解释框架，而不是停在第一个答案。",
-            "en": "I look for new ways to frame a question rather than stopping at the first answer."
+            "en": "I look for new ways to frame a question rather than stopping at the first answer.",
+            "es": "Busco nuevas formas de plantear una pregunta en lugar de quedarme con la primera respuesta.",
+            "fr": "Je cherche de nouvelles façons de poser un problème au lieu de m'arrêter à la première réponse.",
+            "ja": "最初の答えで満足せず、新しい視点やフレームワークを探す。",
+            "ru": "Я ищу новые способы сформулировать вопрос, вместо того чтобы останавливаться на первом ответе.",
+            "ko": "첫 번째 답변에 머무르지 않고, 문제를 해석하는 새로운 프레임워크를 적극적으로 찾는다.",
+            "pt": "Procuro novas maneiras de enquadrar uma questão em vez de me contentar com a primeira resposta.",
+            "hi": "मैं पहले उत्तर पर रुकने के बजाय किसी प्रश्न को देखने के नए तरीकों की तलाश करता हूँ।",
+            "de": "Ich suche nach neuen Wegen, eine Frage zu formulieren, anstatt beim ersten Ansatz stehen zu bleiben."
           },
           "sourceItem": "OPN1"
         },
@@ -25,7 +33,15 @@
           "mu": -0.2931,
           "text": {
             "zh": "我习惯把复杂任务拆成可检查的步骤。",
-            "en": "I tend to break complex work into steps that can be checked."
+            "en": "I tend to break complex work into steps that can be checked.",
+            "es": "Suelo dividir las tareas complejas en pasos verificables.",
+            "fr": "J'ai l'habitude de découper les tâches complexes en étapes vérifiables.",
+            "ja": "複雑なタスクをチェック可能なステップに分解するのが習慣だ。",
+            "ru": "Я обычно разбиваю сложные задачи на проверяемые шаги.",
+            "ko": "복잡한 업무를 검증 가능한 단계로 나누어 처리하는 편이다.",
+            "pt": "Costumo dividir tarefas complexas em etapas verificáveis.",
+            "hi": "मैं जटिल कार्यों को ऐसे चरणों में विभाजित करता हूँ जिनकी जाँच की जा सके।",
+            "de": "Ich teile komplexe Aufgaben meist in überprüfbare Schritte ein."
           },
           "sourceItem": "CSN2"
         },
@@ -37,7 +53,15 @@
           "mu": -0.1178,
           "text": {
             "zh": "长时间密集社交后，我通常需要明显的恢复时间。",
-            "en": "After dense social time, I usually need real recovery time."
+            "en": "After dense social time, I usually need real recovery time.",
+            "es": "Tras momentos de intensa socialización, suelo necesitar un tiempo claro de recuperación.",
+            "fr": "Après des moments de socialisation intense, j'ai généralement besoin d'un temps de récupération.",
+            "ja": "長時間の密な社交の後は、しっかりとした一人での回復時間が必要だ。",
+            "ru": "После интенсивного общения мне обычно требуется время на восстановление.",
+            "ko": "오랜 시간 집중적인 사교 활동을 한 후에는 확실한 회복 시간이 필요하다.",
+            "pt": "Após períodos de intensa socialização, costumo precisar de um tempo claro de recuperação.",
+            "hi": "सघन सामाजिक मेलजोल के बाद, मुझे आमतौर पर आराम और रिकवरी के समय की आवश्यकता होती है।",
+            "de": "Nach intensiven sozialen Kontakten brauche ich normalerweise Zeit für mich zur Erholung."
           },
           "sourceItem": "EXT3"
         },
@@ -49,7 +73,15 @@
           "mu": 0.8367,
           "text": {
             "zh": "讨论有分歧时，我会先确认对方真正担心什么。",
-            "en": "In disagreement, I first try to understand what the other person is concerned about."
+            "en": "In disagreement, I first try to understand what the other person is concerned about.",
+            "es": "En un desacuerdo, primero intento entender qué le preocupa realmente a la otra persona.",
+            "fr": "En cas de désaccord, j'essaie d'abord de comprendre ce qui préoccupe vraiment l'autre personne.",
+            "ja": "議論で意見が分かれた時、まず相手が何を本当に心配しているかを確認する。",
+            "ru": "При разногласиях я сначала пытаюсь понять, что на самом деле волнует собеседника.",
+            "ko": "의견이 대립할 때, 상대방이 정말로 우려하는 바가 무엇인지 먼저 파악한다.",
+            "pt": "Numa divergência, tento primeiro compreender o que realmente preocupa a outra pessoa.",
+            "hi": "असहमति होने पर, मैं सबसे पहले यह समझने की कोशिश करता हूँ कि दूसरे व्यक्ति की वास्तविक चिंता क्या है।",
+            "de": "Bei Meinungsverschiedenheiten versuche ich zuerst zu verstehen, was die andere Person wirklich sorgt."
           },
           "sourceItem": "AGR4"
         }
@@ -66,7 +98,15 @@
           "mu": -0.6613,
           "text": {
             "zh": "细小的不确定性也会让我在脑中反复推演。",
-            "en": "Small uncertainties can make me replay possibilities in my head."
+            "en": "Small uncertainties can make me replay possibilities in my head.",
+            "es": "Las pequeñas incertidumbres pueden hacer que dé vueltas a las posibilidades en mi cabeza.",
+            "fr": "De petites incertitudes peuvent me faire rejouer les scénarios dans ma tête.",
+            "ja": "些細な不確実性でも、頭の中で可能性を何度も反芻してしまう。",
+            "ru": "Небольшие неопределенности заставляют меня прокручивать сценарии в голове.",
+            "ko": "작은 불확실성이라도 머릿속에서 여러 가능성을 계속 반추하게 만든다.",
+            "pt": "Pequenas incertezas podem me fazer remoer possibilidades na cabeça.",
+            "hi": "छोटी-छोटी अनिश्चितताएं भी मुझे दिमाग में बार-बार संभावनाओं के बारे में सोचने पर मजबूर कर सकती हैं।",
+            "de": "Kleine Unsicherheiten lassen mich oft verschiedene Szenarien im Kopf durchspielen."
           },
           "sourceItem": "EST2"
         },
@@ -78,7 +118,15 @@
           "mu": 0.782,
           "text": {
             "zh": "如果任务不紧急，我容易先放到一边。",
-            "en": "If a task is not urgent, I can easily set it aside."
+            "en": "If a task is not urgent, I can easily set it aside.",
+            "es": "Si una tarea no es urgente, me resulta fácil dejarla para después.",
+            "fr": "Si une tâche n'est pas urgente, je peux facilement la mettre de côté.",
+            "ja": "緊急でないタスクは、後回しにしがちだ。",
+            "ru": "Если задача не срочная, я легко могу отложить её на потом.",
+            "ko": "급하지 않은 일이라면 쉽게 뒤로 미뤄두곤 한다.",
+            "pt": "Se uma tarefa não for urgente, é fácil deixá-la para depois.",
+            "hi": "यदि कोई कार्य आवश्यक नहीं है, तो मैं उसे आसानी से एक तरफ रख सकता हूँ।",
+            "de": "Wenn eine Aufgabe nicht dringend ist, schiebe ich sie leicht auf."
           },
           "sourceItem": "CSN3"
         },
@@ -90,7 +138,15 @@
           "mu": 0.7452,
           "text": {
             "zh": "抽象概念会自然吸引我的注意力。",
-            "en": "Abstract ideas naturally catch my attention."
+            "en": "Abstract ideas naturally catch my attention.",
+            "es": "Las ideas abstractas atraen naturalmente mi atención.",
+            "fr": "Les idées abstraites attirent naturellement mon attention.",
+            "ja": "抽象的な概念には自然と興味を惹かれる。",
+            "ru": "Абстрактные идеи естественным образом привлекают мое внимание.",
+            "ko": "추상적인 개념에 자연스럽게 관심이 끌린다.",
+            "pt": "Ideias abstratas atraem naturalmente a minha atenção.",
+            "hi": "अमूर्त विचार (abstract ideas) स्वाभाविक रूप से मेरा ध्यान आकर्षित करते हैं।",
+            "de": "Abstrakte Ideen wecken ganz natürlich mein Interesse."
           },
           "sourceItem": "OPN4"
         },
@@ -102,7 +158,15 @@
           "mu": -0.0424,
           "text": {
             "zh": "我常在对话中快速进入状态。",
-            "en": "I usually warm up quickly in conversation."
+            "en": "I usually warm up quickly in conversation.",
+            "es": "Suelo entrar en ritmo rápidamente en las conversaciones.",
+            "fr": "Je me sens généralement à l'aise très vite dans une conversation.",
+            "ja": "会話の中ではすぐに馴染んで打ち解けることができる。",
+            "ru": "Я обычно быстро включаюсь в разговор.",
+            "ko": "대화 속에서 금방 분위기에 적응하고 활기를 띤다.",
+            "pt": "Costumo me engajar rapidamente em conversas.",
+            "hi": "मैं आमतौर पर बातचीत में जल्दी घुल-मिल जाता हूँ।",
+            "de": "Ich finde in Gesprächen meist schnell Anschluss."
           },
           "sourceItem": "EXT5"
         }
@@ -119,7 +183,15 @@
           "mu": 0.3526,
           "text": {
             "zh": "必要时，我会直接指出问题，不太绕弯。",
-            "en": "When needed, I point out the issue directly."
+            "en": "When needed, I point out the issue directly.",
+            "es": "Cuando es necesario, señalo los problemas directamente sin rodeos.",
+            "fr": "Quand c'est nécessaire, je pointe le problème directement sans détours.",
+            "ja": "必要な時は遠回しにせず、直接問題点を指摘する。",
+            "ru": "При необходимости я указываю на проблему напрямую, без экивоков.",
+            "ko": "필요할 때는 돌려 말하지 않고 직접적으로 문제를 지적한다.",
+            "pt": "Quando necessário, aponto os problemas diretamente sem rodeios.",
+            "hi": "जरूरत पड़ने पर, मैं बिना घुमा-फिराए सीधे समस्या की ओर इशारा करता हूँ।",
+            "de": "Wenn nötig, spreche ich Probleme direkt und ohne Umschweife an."
           },
           "sourceItem": "AGR3"
         },
@@ -131,7 +203,15 @@
           "mu": 0.0185,
           "text": {
             "zh": "我会为重要事情预留缓冲，而不是卡到最后一刻。",
-            "en": "For important things, I leave a buffer instead of cutting it close."
+            "en": "For important things, I leave a buffer instead of cutting it close.",
+            "es": "Para cosas importantes, dejo un margen en lugar de apurar hasta el último minuto.",
+            "fr": "Pour les choses importantes, je prévois una marge plutôt que d'attendre la dernière minute.",
+            "ja": "重要な事柄には、ギリギリまで延ばさず余裕（バッファー）を持たせる。",
+            "ru": "Для важных дел я оставляю запас времени, а не делаю всё в последний момент.",
+            "ko": "중요한 일에는 마감 직전까지 몰리지 않도록 여유 시간을 둔다.",
+            "pt": "Para coisas importantes, deixo uma margem de tempo em vez de deixar para a última hora.",
+            "hi": "महत्वपूर्ण कार्यों के लिए, मैं अंतिम समय तक प्रतीक्षा करने के बजाय एक बफर रखता हूँ।",
+            "de": "Bei wichtigen Dingen plane ich Pufferzeit ein, anstatt alles auf den letzten Drücker zu erledigen."
           },
           "sourceItem": "CSN4"
         },
@@ -143,7 +223,15 @@
           "mu": -0.512,
           "text": {
             "zh": "压力升高时，我通常还能保持稳定判断。",
-            "en": "When pressure rises, I can usually keep my judgment steady."
+            "en": "When pressure rises, I can usually keep my judgment steady.",
+            "es": "Cuando aumenta la presión, suelo mantener un juicio estable.",
+            "fr": "Lorsque la pression augmente, je peux généralement garder un jugement stable.",
+            "ja": "プレッシャーが高まっても、通常は安定した判断を保つことができる。",
+            "ru": "При повышении давления я обычно сохраняю хладнокровие и суждение.",
+            "ko": "압박감이 높아져도 보통은 의사결정의 안정성을 유지한다.",
+            "pt": "Quando a pressão aumenta, costumo manter o discernimento estável.",
+            "hi": "दबाव बढ़ने पर भी मैं आमतौर पर अपना निर्णय स्थिर रख सकता हूँ।",
+            "de": "Wenn der Druck steigt, kann ich meist ein klares und stabiles Urteil bewahren."
           },
           "sourceItem": "EST5"
         },
@@ -155,7 +243,15 @@
           "mu": 0.9852,
           "text": {
             "zh": "我更信任已经验证过的方法。",
-            "en": "I tend to trust methods that have already been tested."
+            "en": "I tend to trust methods that have already been tested.",
+            "es": "Suelo confiar más en métodos que ya han sido probados.",
+            "fr": "J'ai tendance à faire confiance aux méthodes qui ont déjà fait leurs preuves.",
+            "ja": "すでに検証された確実な方法を信頼する傾向がある。",
+            "ru": "Я больше доверяю уже проверенным методам.",
+            "ko": "이미 검증되고 확립된 방식을 더 신뢰한다.",
+            "pt": "Tendo a confiar mais em métodos que já foram comprovados.",
+            "hi": "मैं उन तरीकों पर अधिक भरोसा करता हूँ जो पहले से ही आज़माए जा चुके हैं।",
+            "de": "Ich vertraue eher auf Methoden, die sich bereits bewährt haben."
           },
           "sourceItem": "OPN6"
         }
@@ -172,7 +268,15 @@
           "mu": -0.6559,
           "text": {
             "zh": "我常把气氛带动起来，让事情开始流动。",
-            "en": "I often lift the room and get things moving."
+            "en": "I often lift the room and get things moving.",
+            "es": "A menudo animo el ambiente y hago que las cosas comiencen a fluir.",
+            "fr": "J'anime souvent l'ambiance et je fais avancer les choses.",
+            "ja": "その場の雰囲気を盛り上げ、物事を前に進めることが多い。",
+            "ru": "Я часто оживляю обстановку и сдвигаю дела с мёртвой точки.",
+            "ko": "분위기를 주도하여 일이 활기차게 진행되도록 만든다.",
+            "pt": "Muitas vezes animo o ambiente e faço as coisas acontecerem.",
+            "hi": "मैं अक्सर माहौल में ऊर्जा भरता हूँ और चीजों को आगे बढ़ाता हूँ।",
+            "de": "Ich belebe oft die Stimmung und bringe Dinge in Schwung."
           },
           "sourceItem": "EXT4"
         },
@@ -184,7 +288,15 @@
           "mu": 0.5034,
           "text": {
             "zh": "我会留意自己的表达是否让别人难堪。",
-            "en": "I pay attention to whether my words put others in a hard spot."
+            "en": "I pay attention to whether my words put others in a hard spot.",
+            "es": "Presto atención a si mis palabras ponen a otros en una situación difícil.",
+            "fr": "Je fais attention à ce que mes paroles ne mettent pas les autres dans l'embarras.",
+            "ja": "自分の発言が他者を気まずい立場に追い込んでいないか配慮する。",
+            "ru": "Я слежу за тем, чтобы мои слова не ставили других в неловкое положение.",
+            "ko": "내 표현이 다른 사람을 곤란하게 만들지 않는지 주의 깊게 살핀다.",
+            "pt": "Presto atenção para saber se as minhas palavras deixam os outros desconfortáveis.",
+            "hi": "मैं इस बात का ध्यान रखता हूँ कि मेरे शब्द दूसरों को असहज न करें।",
+            "de": "Ich achte darauf, ob meine Worte andere in eine unangenehme Lage bringen."
           },
           "sourceItem": "AGR5"
         },
@@ -196,7 +308,15 @@
           "mu": -0.1047,
           "text": {
             "zh": "我有时会凭当下状态推进，而不是严格按计划。",
-            "en": "I sometimes move by feel rather than by a strict plan."
+            "en": "I sometimes move by feel rather than by a strict plan.",
+            "es": "A veces me muevo según la intuición del momento en lugar de seguir un plan estricto.",
+            "fr": "Je marche parfois au feeling plutôt que de suivre un plan strict.",
+            "ja": "厳密な計画よりも、その時の感覚や状態に合わせて進めることがある。",
+            "ru": "Иногда я действую по настроению, а не по строгому плану.",
+            "ko": "엄격한 계획보다는 그 순간의 상태나 느낌에 따라 추진할 때가 있다.",
+            "pt": "Às vezes aja de acordo com o momento em vez de seguir um plano rígido.",
+            "hi": "मैं कभी-कभी सख्त योजना के बजाय उस समय की भावना के अनुसार कार्य करता हूँ।",
+            "de": "Ich handle manchmal lieber nach Gefühl als nach einem strengen Plan."
           },
           "sourceItem": "CSN6"
         },
@@ -208,7 +328,15 @@
           "mu": -0.3216,
           "text": {
             "zh": "别人语气的细微变化会明显影响我。",
-            "en": "Small shifts in someone's tone can affect me noticeably."
+            "en": "Small shifts in someone's tone can affect me noticeably.",
+            "es": "Los cambios sutiles en el tono de alguien me afectan de manera notable.",
+            "fr": "Les nuances de ton chez quelqu'un m'affectent de façon perceptible.",
+            "ja": "相手のトーンの些細な変化が、自分に明確な影響を与える。",
+            "ru": "Небольшие изменения в тоне собеседника заметно влияют на меня.",
+            "ko": "상대방 어조의 미세한 변화가 나에게 명확한 영향을 미친다.",
+            "pt": "Mudanças sutis no tom de alguém me afetam notavelmente.",
+            "hi": "किसी के लहजे में सूक्ष्म बदलाव मुझे स्पष्ट रूप से प्रभावित करते हैं।",
+            "de": "Feine Veränderungen im Tonfall anderer treffen mich spürbar."
           },
           "sourceItem": "EST7"
         }
@@ -225,7 +353,15 @@
           "mu": 0.5151,
           "text": {
             "zh": "我喜欢把不相关的信息连接成新的想法。",
-            "en": "I like connecting unrelated information into new ideas."
+            "en": "I like connecting unrelated information into new ideas.",
+            "es": "Me gusta conectar información no relacionada para crear nuevas ideas.",
+            "fr": "J'aime connecter des informations sans lien apparent pour créer de nouvelles idées.",
+            "ja": "一見無関係な情報を結びつけて新しいアイデアを生み出すのが好きだ。",
+            "ru": "Мне нравится связывать несвязанную информацию в новые идеи.",
+            "ko": "서로 관련 없는 정보를 연결하여 새로운 아이디어를 만들어내는 것을 좋아한다.",
+            "pt": "Gosto de conectar informações não relacionadas para gerar novas ideias.",
+            "hi": "मुझे असंबद्ध जानकारी को नए विचारों से जोड़ना पसंद है।",
+            "de": "Ich verknüpfe gerne unzusammenhängende Informationen zu neuen Ideen."
           },
           "sourceItem": "OPN5"
         },
@@ -237,7 +373,15 @@
           "mu": 0.336,
           "text": {
             "zh": "我更愿意在安静环境里完成关键思考。",
-            "en": "I prefer doing important thinking in a quiet setting."
+            "en": "I prefer doing important thinking in a quiet setting.",
+            "es": "Prefiero realizar mis reflexiones más importantes en un entorno tranquilo.",
+            "fr": "Je préfère accomplir mes réflexions clés dans un environnement calme.",
+            "ja": "重要な思考は静かな環境で集中して行いたい。",
+            "ru": "Я предпочитаю обдумывать важные вещи в тишине.",
+            "ko": "핵심적인 성찰이나 사고는 조용한 환경에서 하는 것을 선호한다.",
+            "pt": "Prefiro fazer minhas reflexões importantes num ambiente tranquilo.",
+            "hi": "मैं शांत वातावरण में महत्वपूर्ण विचार-विमर्श करना पसंद करता हूँ।",
+            "de": "Ich denke über wichtige Dinge am liebsten in einer ruhigen Umgebung nach."
           },
           "sourceItem": "EXT6"
         },
@@ -249,7 +393,15 @@
           "mu": 0.5835,
           "text": {
             "zh": "如果一个观点站不住，我不会因为场面而放过它。",
-            "en": "If an idea does not hold up, I will not spare it just to keep the mood easy."
+            "en": "If an idea does not hold up, I will not spare it just to keep the mood easy.",
+            "es": "Si una idea no se sostiene, no la dejaré pasar solo para mantener la armonía.",
+            "fr": "Si una idée ne tient pas la route, je ne la laisserai pas passer juste pour faire plaisir.",
+            "ja": "観点が論理的に破綻している場合、場を保つためだけにスルーすることはない。",
+            "ru": "Если идея не выдерживает критики, я не стану молчать ради сохранения вежливости.",
+            "ko": "어떤 주장이 타당하지 않다면, 분위기 때문에 그냥 넘어가 주지 않는다.",
+            "pt": "Se uma ideia não se sustenta, não vou fingir concordar apenas para manter a simpatia.",
+            "hi": "यदि कोई विचार सही नहीं है, तो मैं केवल माहौल बनाए रखने के लिए उसे जाने नहीं दूँगा।",
+            "de": "Wenn eine Idee nicht hält, weiche ich nicht nur um der guten Stimmung willen aus."
           },
           "sourceItem": "AGR7"
         },
@@ -261,7 +413,15 @@
           "mu": -0.6496,
           "text": {
             "zh": "突发变化出现时，我通常先处理事实。",
-            "en": "When something unexpected happens, I usually deal with the facts first."
+            "en": "When something unexpected happens, I usually deal with the facts first.",
+            "es": "Cuando ocurre algo inesperado, suelo enfocarme primero en los hechos.",
+            "fr": "Face à un imprévu, je traite généralement les faits en premier.",
+            "ja": "予期せぬ変化が起きた時、まずは事実の把握と処理を優先する。",
+            "ru": "При внезапных изменениях я обычно сначала опираюсь на факты.",
+            "ko": "돌발 상황이 발생했을 때, 감정보다 사실관계를 먼저 처리한다.",
+            "pt": "Quando ocorre um imprevisto, costumo focar primeiro nos fatos.",
+            "hi": "जब कुछ अप्रत्याशित होता है, तो मैं आमतौर पर पहले तथ्यों से निपटता हूँ।",
+            "de": "Wenn etwas Unerwartetes passiert, kümmere ich mich meist zuerst um die Fakten."
           },
           "sourceItem": "EST8"
         }
@@ -278,7 +438,15 @@
           "mu": -0.1047,
           "text": {
             "zh": "我会把承诺当成需要兑现的工程约束。",
-            "en": "I treat commitments as constraints that need to be met."
+            "en": "I treat commitments as constraints that need to be met.",
+            "es": "Considero los compromisos como restricciones que deben cumplirse estrictamente.",
+            "fr": "Je considère les engagements comme des exigences à respecter rigoureusement.",
+            "ja": "約束やコミットメントは絶対に守るべき制約として捉える。",
+            "ru": "Я отношусь к обязательствам как к обязательным ограничениям.",
+            "ko": "약속이나 공약은 반드시 지켜야 하는 실천적 제약으로 여긴다.",
+            "pt": "Encaro compromissos como regras que precisam ser cumpridas.",
+            "hi": "मैं प्रतिबद्धताओं (commitments) को पूरा की जाने वाली शर्तों के रूप में देखता हूँ।",
+            "de": "Ich betrachte Zusagen als verbindliche Vorgaben, die eingehalten werden müssen."
           },
           "sourceItem": "CSN6"
         },
@@ -290,7 +458,15 @@
           "mu": 0.8538,
           "text": {
             "zh": "如果目标明确，我不太需要额外探索。",
-            "en": "When the goal is clear, I do not need much extra exploration."
+            "en": "When the goal is clear, I do not need much extra exploration.",
+            "es": "Si el objetivo está claro, no necesito explorar caminos adicionales.",
+            "fr": "Si l'objectif est clair, je n'ai pas vraiment besoin d'explorer davantage.",
+            "ja": "目標が明確であれば、わざわざ余計な探索をする必要を感じない。",
+            "ru": "Если цель ясна, мне не требуется дополнительный поиск.",
+            "ko": "목표가 명확하다면 굳이 추가적인 탐색을 할 필요를 느끼지 않는다.",
+            "pt": "Quando o objetivo está claro, não preciso de muitas explorações extras.",
+            "hi": "जब लक्ष्य स्पष्ट होता है, तो मुझे अतिरिक्त अन्वेषण की अधिक आवश्यकता नहीं होती है।",
+            "de": "Wenn das Ziel klar ist, brauche ich keine große zusätzliche Erkundung."
           },
           "sourceItem": "OPN7"
         },
@@ -302,7 +478,15 @@
           "mu": -0.8822,
           "text": {
             "zh": "我从高质量互动里获得能量。",
-            "en": "Good interaction gives me energy."
+            "en": "Good interaction gives me energy.",
+            "es": "Obtengo energía de las interacciones de alta calidad con otros.",
+            "fr": "Je tire mon énergie des interactions de qualité.",
+            "ja": "質の高い対話や交流からエネルギーを得る。",
+            "ru": "Я заряжаюсь энергией от качественного взаимодействия.",
+            "ko": "질 높은 상호작용과 대화에서 에너지를 얻는다.",
+            "pt": "Ganho energia através de interações de alta qualidade.",
+            "hi": "मुझे गुणवत्तापूर्ण बातचीत और मेलजोल से ऊर्जा मिलती है।",
+            "de": "Gute und gehaltvolle Gespräche geben mir Energie."
           },
           "sourceItem": "EXT8"
         },
@@ -314,7 +498,15 @@
           "mu": 0.6491,
           "text": {
             "zh": "我愿意为关系中的长期信任多做一点。",
-            "en": "I am willing to do a little extra for long-term trust."
+            "en": "I am willing to do a little extra for long-term trust.",
+            "es": "Estoy dispuesto a hacer un esfuerzo extra por la confianza a largo plazo.",
+            "fr": "Je suis prêt à faire un effort supplémentaire pour la confiance à long terme.",
+            "ja": "人間関係における長期的な信頼のためなら、少し余分な努力を惜しまない。",
+            "ru": "Я готов сделать чуть больше ради долгосрочного доверия.",
+            "ko": "관계 속에서의 장기적인 신뢰를 위해 기꺼이 조금 더 노력한다.",
+            "pt": "Estou disposto a fazer um esforço extra pela confiança a longo prazo.",
+            "hi": "मैं दीर्घकालिक विश्वास के लिए थोड़ा अतिरिक्त प्रयास करने को तैयार हूँ।",
+            "de": "Ich bin bereit, für langfristiges Vertrauen etwas mehr zu tun."
           },
           "sourceItem": "AGR9"
         }
@@ -331,7 +523,15 @@
           "mu": -0.3216,
           "text": {
             "zh": "我很快能察觉自己情绪里的波动。",
-            "en": "I notice shifts in my own emotions quickly."
+            "en": "I notice shifts in my own emotions quickly.",
+            "es": "Noto rápidamente los cambios en mis propias emociones.",
+            "fr": "Je remarque rapidement les variations de mes propres émotions.",
+            "ja": "自分の感情の波や変化を素早く察知できる。",
+            "ru": "Я быстро замечаю изменения в собственном настроении.",
+            "ko": "내 감정의 동요나 변화를 빠르게 감지한다.",
+            "pt": "Percebo rapidamente as oscilações nas minhas próprias emoções.",
+            "hi": "मैं अपनी भावनाओं में आने वाले बदलावों को जल्दी समझ लेता हूँ।",
+            "de": "Ich bemerke Veränderungen in meinen eigenen Gefühlen sehr schnell."
           },
           "sourceItem": "EST7"
         },
@@ -343,7 +543,15 @@
           "mu": 0.0303,
           "text": {
             "zh": "我的工作区通常能反映出我正在处理什么。",
-            "en": "My workspace usually reflects what I am working on."
+            "en": "My workspace usually reflects what I am working on.",
+            "es": "Mi espacio de trabajo suele reflejar aquello en lo que estoy trabajando.",
+            "fr": "Mon espace de travail reflète généralement ce sur quoi je travaille.",
+            "ja": "自分のデスクや作業スペースには、取り組んでいる仕事が直感的に表れる。",
+            "ru": "Мое рабочее место обычно отражает то, чем я занят.",
+            "ko": "내 작업 공간은 보통 내가 현재 다루고 있는 일을 반영한다.",
+            "pt": "Meu espaço de trabalho geralmente reflete o que estou fazendo.",
+            "hi": "मेरा कार्यक्षेत्र आमतौर पर यह दर्शाता है कि मैं किस पर काम कर रहा हूँ।",
+            "de": "Mein Arbeitsplatz spiegelt meist wider, woran ich gerade arbeite."
           },
           "sourceItem": "CSN8"
         },
@@ -355,7 +563,15 @@
           "mu": -0.3469,
           "text": {
             "zh": "我不需要成为注意力中心也能很自在。",
-            "en": "I can feel at ease without being the center of attention."
+            "en": "I can feel at ease without being the center of attention.",
+            "es": "Puedo sentirme a gusto sin necesidad de ser el centro de atención.",
+            "fr": "Je me sens très bien sans être le centre de l'attention.",
+            "ja": "注目の的にならなくても、十分に居心地よく過ごせる。",
+            "ru": "Мне комфортно, даже если я не нахожусь в центре внимания.",
+            "ko": "관심의 중심에 서지 않아도 충분히 편안함을 느낀다.",
+            "pt": "Sinto-me confortável sem precisar ser o centro das atenções.",
+            "hi": "मैं ध्यान का केंद्र बने बिना भी सहज महसूस कर सकता हूँ।",
+            "de": "Ich fühle mich auch wohl, ohne im Mittelpunkt zu stehen."
           },
           "sourceItem": "EXT9"
         },
@@ -367,7 +583,15 @@
           "mu": 0.7236,
           "text": {
             "zh": "我会被语言、图像或模型里的细节吸引。",
-            "en": "I am drawn to details in language, images, or models."
+            "en": "I am drawn to details in language, images, or models.",
+            "es": "Me atraen los detalles en el lenguaje, las imágenes o los modelos.",
+            "fr": "Je suis attiré par les détails dans le langage, les images ou les modèles.",
+            "ja": "言葉、画像、あるいはモデル内の細かいディテールに惹きつけられる。",
+            "ru": "Меня привлекают детали в языке, изображениях или моделях.",
+            "ko": "언어, 이미지, 시스템 모델 등의 세부 사항에 깊이 매료된다.",
+            "pt": "Sou atraído por detalhes na linguagem, imagens ou modelos.",
+            "hi": "मैं भाषा, छवियों या मॉडलों के विवरण की ओर आकर्षित होता हूँ।",
+            "de": "Details in Sprache, Bildern oder Modellen faszinieren mich."
           },
           "sourceItem": "OPN10"
         }
@@ -384,7 +608,15 @@
           "mu": 0.4931,
           "text": {
             "zh": "我能比较自然地站到对方处境里想一想。",
-            "en": "I can naturally consider a situation from the other person's side."
+            "en": "I can naturally consider a situation from the other person's side.",
+            "es": "Puedo ponerme de forma natural en el lugar de la otra persona.",
+            "fr": "Je peux naturellement me mettre à la place de l'autre.",
+            "ja": "相手の立場や状況に自然と身を置いて考えることができる。",
+            "ru": "Я могу естественным образом встать на место другого человека.",
+            "ko": "상대방의 입장에 서서 생각하는 것이 비교적 자연스럽다.",
+            "pt": "Consigo me colocar naturalmente no lugar da outra pessoa.",
+            "hi": "मैं स्वाभाविक रूप से दूसरे व्यक्ति की स्थिति में जाकर सोच सकता हूँ।",
+            "de": "Ich kann mich leicht in die Lage des anderen versetzen."
           },
           "sourceItem": "AGR8"
         },
@@ -396,7 +628,15 @@
           "mu": -0.2078,
           "text": {
             "zh": "我不会轻易被一时的不顺带偏。",
-            "en": "A temporary setback does not easily throw me off."
+            "en": "A temporary setback does not easily throw me off.",
+            "es": "Un contratiempo temporal no me desanima fácilmente.",
+            "fr": "Un échec temporaire ne me déstabilise pas facilement.",
+            "ja": "一時的な不運や挫折に簡単に振り回されることはない。",
+            "ru": "Временная неудача не может легко выбить меня из колеи.",
+            "ko": "일시적인 차질이나 안 풀리는 일에 쉽게 좌절하지 않는다.",
+            "pt": "Um contratempo temporário não me desanima facilmente.",
+            "hi": "एक क्षणिक असफलता मुझे आसानी से विचलित नहीं करती।",
+            "de": "Ein vorübergehender Rückschlag wirft mich nicht leicht aus der Bahn."
           },
           "sourceItem": "EST9"
         },
@@ -408,7 +648,15 @@
           "mu": 0.1949,
           "text": {
             "zh": "我有时会先试起来，再回头整理流程。",
-            "en": "I sometimes start experimenting first and organize the process later."
+            "en": "I sometimes start experimenting first and organize the process later.",
+            "es": "A veces empiezo a experimentar primero y organizo el proceso después.",
+            "fr": "J'essaie parfois d'abord avant d'organiser le processus après coup.",
+            "ja": "まず試してみて、後からプロセスを整えることがある。",
+            "ru": "Иногда я сначала пробую сделать, а потом систематизирую процесс.",
+            "ko": "일단 먼저 시도해 본 뒤 나중에 정식 절차를 정리하곤 한다.",
+            "pt": "Às vezes começo a testar primeiro e organizo o processo depois.",
+            "hi": "मैं कभी-कभी पहले प्रयोग करना शुरू करता हूँ और प्रक्रिया को बाद में व्यवस्थित करता हूँ।",
+            "de": "Ich probiere manchmal erst Dinge aus und strukturiere den Ablauf später."
           },
           "sourceItem": "CSN10"
         },
@@ -420,7 +668,15 @@
           "mu": -0.8117,
           "text": {
             "zh": "陌生场合里，我通常能主动打开话题。",
-            "en": "In unfamiliar settings, I can usually open a conversation."
+            "en": "In unfamiliar settings, I can usually open a conversation.",
+            "es": "En entornos desconocidos, suelo romper el hielo e iniciar la conversación.",
+            "fr": "Dans un environnement inconnu, je peux généralement engager la conversation.",
+            "ja": "見知らぬ場所や環境でも、自分から会話のきっかけを作ることができる。",
+            "ru": "В незнакомой обстановке я обычно могу заговорить первым.",
+            "ko": "낯선 자리에서도 보통 먼저 대화를 시작할 수 있다.",
+            "pt": "Em ambientes estranhos, costumo tomar a iniciativa de conversar.",
+            "hi": "अपरिचित परिस्थितियों में, मैं आमतौर पर बातचीत शुरू कर सकता हूँ।",
+            "de": "In fremder Umgebung kann ich meist leicht ein Gespräch beginnen."
           },
           "sourceItem": "EXT1"
         }
@@ -437,7 +693,15 @@
           "mu": 0.9925,
           "text": {
             "zh": "我喜欢规则清楚、边界稳定的任务。",
-            "en": "I like tasks with clear rules and stable boundaries."
+            "en": "I like tasks with clear rules and stable boundaries.",
+            "es": "Me gustan las tareas con reglas claras y límites estables.",
+            "fr": "J'aime les tâches avec des règles claires et des cadres stables.",
+            "ja": "ルールが明確で境界が安定しているタスクを好む。",
+            "ru": "Мне нравятся задачи с чёткими правилами и устойчивыми рамками.",
+            "ko": "규칙이 명확하고 경계가 안정적인 업무를 선호한다.",
+            "pt": "Gosto de tarefas com regras claras e limites estáveis.",
+            "hi": "मुझे स्पष्ट नियमों और स्थिर सीमाओं वाले कार्य पसंद हैं।",
+            "de": "Ich mag Aufgaben mit klaren Regeln und festen Rahmenbedingungen."
           },
           "sourceItem": "OPN9"
         },
@@ -449,7 +713,15 @@
           "mu": 0.1949,
           "text": {
             "zh": "我会复查关键细节，即使这会多花时间。",
-            "en": "I review key details even when it takes extra time."
+            "en": "I review key details even when it takes extra time.",
+            "es": "Reviso los detalles clave aunque eso me tome tiempo adicional.",
+            "fr": "Je vérifie les détails clés même si cela prend du temps supplémentaire.",
+            "ja": "時間がかかっても、キーとなるディテールは必ず再確認する。",
+            "ru": "Я перепроверяю ключевые детали, даже если это требует времени.",
+            "ko": "시간이 더 걸리더라도 핵심적인 세부사항은 다시 점검한다.",
+            "pt": "Reviso detalhes importantes mesmo que isso leve mais tempo.",
+            "hi": "मैं महत्वपूर्ण विवरणों की समीक्षा करता हूँ भले ही इसमें अतिरिक्त समय लगे।",
+            "de": "Ich prüfe wichtige Details nach, auch wenn es extra Zeit kostet."
           },
           "sourceItem": "CSN10"
         },
@@ -461,7 +733,15 @@
           "mu": 0.5153,
           "text": {
             "zh": "我不太会为了避免冲突而改变判断。",
-            "en": "I do not often change my judgment just to avoid conflict."
+            "en": "I do not often change my judgment just to avoid conflict.",
+            "es": "No suelo cambiar mi juicio solo para evitar un conflicto.",
+            "fr": "Je ne change pas mon jugement simplement pour éviter un conflit.",
+            "ja": "衝突を避けるためだけに自分の判断を変えることはめったにない。",
+            "ru": "Я редко меняю свое мнение только ради того, чтобы избежать конфликта.",
+            "ko": "갈등을 피하려고 내 판단을 쉽게 바꾸지 않는다.",
+            "pt": "Não costumo mudar meu julgamento apenas para evitar conflitos.",
+            "hi": "मैं केवल टकराव से बचने के लिए अपने फैसले नहीं बदलता।",
+            "de": "Ich ändere mein Urteil selten nur, um Konflikten aus dem Weg zu gehen."
           },
           "sourceItem": "AGR1"
         },
@@ -473,7 +753,15 @@
           "mu": -0.6613,
           "text": {
             "zh": "临近截止时，我会明显感到紧绷。",
-            "en": "As a deadline approaches, I feel noticeably tense."
+            "en": "As a deadline approaches, I feel noticeably tense.",
+            "es": "A medida que se acerca una fecha límite, me siento notablemente tenso.",
+            "fr": "À l'approche d'une échéance, je me sens nettement tendu.",
+            "ja": "締め切りが近づくと、明確な緊張感や焦りを感じる。",
+            "ru": "При приближении дедлайна я чувствую сильное напряжение.",
+            "ko": "마감 기한이 다가오면 뚜렷한 긴장감을 느낀다.",
+            "pt": "À medida que o prazo se aproxima, sinto-me visivelmente tenso.",
+            "hi": "जैसे-जैसे समय-सीमा (deadline) नजदीक आती है, मैं स्पष्ट तनाव महसूस करता हूँ।",
+            "de": "Wenn eine Frist näher rückt, verspüre ich deutliche Anspannung."
           },
           "sourceItem": "EST2"
         }
@@ -490,7 +778,15 @@
           "mu": -0.9678,
           "text": {
             "zh": "我喜欢把想法说出来，在交流中调整它。",
-            "en": "I like saying ideas out loud and refining them through exchange."
+            "en": "I like saying ideas out loud and refining them through exchange.",
+            "es": "Me gusta expresar mis ideas en voz alta y afinarlas mediante el intercambio.",
+            "fr": "J'aime exprimer mes idées à voix haute et les affiner par l'échange.",
+            "ja": "アイデアを声に出して話し、議論を通じてブラッシュアップするのが好きだ。",
+            "ru": "Мне нравится проговаривать идеи вслух и дорабатывать их в общении.",
+            "ko": "생각을 말로 표현하고 대화를 통해 구체화하는 것을 좋아한다.",
+            "pt": "Gosto de falar as minhas ideias em voz alta e ajustá-las conversando.",
+            "hi": "मुझे अपने विचारों को बोलकर व्यक्त करना और चर्चा के माध्यम से उन्हें सुधारना पसंद है।",
+            "de": "Ich spreche Ideen gerne laut aus, um sie im Gespräch zu verfeinern."
           },
           "sourceItem": "EXT10"
         },
@@ -502,7 +798,15 @@
           "mu": 0.362,
           "text": {
             "zh": "我会主动理解陌生领域的底层逻辑。",
-            "en": "I try to understand the underlying logic of unfamiliar fields."
+            "en": "I try to understand the underlying logic of unfamiliar fields.",
+            "es": "Intento comprender la lógica fundamental de campos desconocidos.",
+            "fr": "J'essaie de comprendre la logique sous-jacente des domaines inconnus.",
+            "ja": "未経験の分野でも、その根本的なロジックを理解しようと努める。",
+            "ru": "Я стараюсь понять внутреннюю логику незнакомых областей.",
+            "ko": "생소한 분야라도 그 근본적인 논리와 원리를 이해하려고 노력한다.",
+            "pt": "Tento entender a lógica fundamental de áreas desconhecidas.",
+            "hi": "मैं अपरिचित क्षेत्रों के मूल तर्क को समझने की कोशिश करता हूँ।",
+            "de": "Ich versuche, die grundlegende Logik fremder Themengebiete zu verstehen."
           },
           "sourceItem": "OPN1"
         },
@@ -514,7 +818,15 @@
           "mu": -0.2931,
           "text": {
             "zh": "我不喜欢被过细的流程锁住。",
-            "en": "I dislike being locked into overly detailed procedures."
+            "en": "I dislike being locked into overly detailed procedures.",
+            "es": "No me gusta estar atado a procedimientos excesivamente detallados.",
+            "fr": "Je n'aime pas être enfermé dans des procédures trop détaillées.",
+            "ja": "細かすぎるマニュアルやプロセスに縛られるのは苦手だ。",
+            "ru": "Мне не нравится быть зажатым в рамки слишком детальных инструкций.",
+            "ko": "지나치게 세세한 절차나 규칙에 얽매이는 것을 싫어한다.",
+            "pt": "Não gosto de me sentir preso a processos excessivamente detalhados.",
+            "hi": "मुझे बहुत अधिक विस्तृत प्रक्रियाओं में बंधना पसंद नहीं है।",
+            "de": "Ich mag es nicht, in zu detaillierte Abläufe eingezwängt zu sein."
           },
           "sourceItem": "CSN2"
         },
@@ -526,7 +838,15 @@
           "mu": 0.3526,
           "text": {
             "zh": "我通常愿意先给别人一个善意解释。",
-            "en": "I usually start with a charitable interpretation of others."
+            "en": "I usually start with a charitable interpretation of others.",
+            "es": "Suelo comenzar dando a los demás una interpretación bienintencionada.",
+            "fr": "J'accorde généralement le bénéfice du doute aux autres.",
+            "ja": "他人の言動に対して、まずは善意の解釈から入ることが多い。",
+            "ru": "Я обычно предпочитаю сначала истолковывать поступки людей в их пользу.",
+            "ko": "다른 사람의 행동을 일단 호의적으로 해석해 주려고 한다.",
+            "pt": "Geralmente dou às pessoas uma interpretação bem-intencionada.",
+            "hi": "मैं आमतौर पर दूसरों के इरादों को सकारात्मक रूप से समझने की कोशिश करता हूँ।",
+            "de": "Ich begegne den Absichten anderer meist mit Wohlwollen."
           },
           "sourceItem": "AGR3"
         }
@@ -543,7 +863,15 @@
           "mu": -0.0032,
           "text": {
             "zh": "我能比较快地从负面反馈里恢复过来。",
-            "en": "I recover fairly quickly from negative feedback."
+            "en": "I recover fairly quickly from negative feedback.",
+            "es": "Me recupero bastante rápido de los comentarios negativos.",
+            "fr": "Je me remets assez rapidement des critiques négatives.",
+            "ja": "ネガティブなフィードバックを受けても、比較的手早く立ち直れる。",
+            "ru": "Я достаточно быстро восстанавливаюсь после негативной обратной связи.",
+            "ko": "부정적인 피드백을 받아도 비교적 빠르게 회복한다.",
+            "pt": "Recupero-me rapidamente de feedbacks negativos.",
+            "hi": "मैं नकारात्मक प्रतिक्रिया (feedback) से काफी जल्दी उबर जाता हूँ।",
+            "de": "Ich erhole mich recht schnell von negativem Feedback."
           },
           "sourceItem": "EST1"
         },
@@ -555,7 +883,15 @@
           "mu": 0.6451,
           "text": {
             "zh": "我会注意一个决定对别人造成的连带影响。",
-            "en": "I consider the ripple effects a decision may have on others."
+            "en": "I consider the ripple effects a decision may have on others.",
+            "es": "Considero los efectos secundarios que una decisión puede tener en los demás.",
+            "fr": "Je fais attention aux répercussions qu'une décision peut avoir sur autrui.",
+            "ja": "自分の決断が他人に与える波及効果や影響に配慮する。",
+            "ru": "Я учитываю косвенное влияние своих решений на окружающих.",
+            "ko": "어떤 결정이 다른 사람들에게 미칠 파급 효과를 염두에 둔다.",
+            "pt": "Presto atenção aos efeitos que uma decisão pode causar nos outros.",
+            "hi": "मैं ध्यान रखता हूँ कि किसी फैसले का दूसरों पर क्या प्रभाव पड़ेगा।",
+            "de": "Ich bedenke die Auswirkungen, die eine Entscheidung auf andere haben kann."
           },
           "sourceItem": "AGR2"
         },
@@ -567,7 +903,15 @@
           "mu": 0.811,
           "text": {
             "zh": "没有标准答案的问题会让我更投入。",
-            "en": "Questions without standard answers engage me more."
+            "en": "Questions without standard answers engage me more.",
+            "es": "Las preguntas sin respuesta estándar me motivan más.",
+            "fr": "Les questions sans réponse toute faite me stimulent davantage.",
+            "ja": "模範解答のない問題の方が、より意欲的に取り組める。",
+            "ru": "Вопросы без стандартных ответов увлекают меня сильнее.",
+            "ko": "정답이 정해져 있지 않은 문제일수록 더 흥미를 느낀다.",
+            "pt": "Questões sem resposta padrão me deixam mais motivado.",
+            "hi": "बिना मानक उत्तरों वाले प्रश्न मुझे अधिक आकर्षित करते हैं।",
+            "de": "Fragen ohne Standardantworten reizen mich besonders."
           },
           "sourceItem": "OPN3"
         },
@@ -579,7 +923,15 @@
           "mu": -0.6559,
           "text": {
             "zh": "我更常先观察，再决定是否加入讨论。",
-            "en": "I more often observe first before joining a discussion."
+            "en": "I more often observe first before joining a discussion.",
+            "es": "Suelo observar primero antes de decidir unirme a una discusión.",
+            "fr": "J'observe souvent d'abord avant de décider de participer à la discussion.",
+            "ja": "議論に入る前に、まずは状況を観察してから参加を決める。",
+            "ru": "Я чаще сначала наблюдаю, прежде чем вступить в обсуждение.",
+            "ko": "토론에 참여하기 전에 먼저 상황을 관찰하는 편이다.",
+            "pt": "Prefiro observar primeiro antes de decidir entrar numa discussão.",
+            "hi": "मैं अक्सर चर्चा में शामिल होने से पहले अवलोकन करना पसंद करता हूँ।",
+            "de": "Ich beobachte meist erst, bevor ich mich an einer Diskussion beteilige."
           },
           "sourceItem": "EXT4"
         }
@@ -596,7 +948,15 @@
           "mu": -0.2931,
           "text": {
             "zh": "我对自己交出去的东西有明确质量线。",
-            "en": "I have a clear quality bar for what I hand over."
+            "en": "I have a clear quality bar for what I hand over.",
+            "es": "Tengo un estándar de calidad claro para lo que entrego.",
+            "fr": "J'ai une exigence de qualité claire pour ce que je livre.",
+            "ja": "自分が提出・成果物として出すものに対して、明確な me 品質基準を持っている。",
+            "ru": "У меня есть четкая планка качества для моей работы.",
+            "ko": "내가 제출하거나 완성하는 결과물에 대해 명확한 품질 기준을 가지고 있다.",
+            "pt": "Tenho um padrão de qualidade claro para o trabalho que entrego.",
+            "hi": "मेरे द्वारा प्रस्तुत किए जाने वाले कार्य के लिए मेरे पास एक स्पष्ट गुणवत्ता मानक है।",
+            "de": "Ich habe einen klaren Qualitätsanspruch an meine Ergebnisse."
           },
           "sourceItem": "CSN2"
         },
@@ -608,7 +968,15 @@
           "mu": 0.7152,
           "text": {
             "zh": "我会提前担心一些尚未发生的问题。",
-            "en": "I sometimes worry ahead about things that have not happened."
+            "en": "I sometimes worry ahead about things that have not happened.",
+            "es": "A veces me preocupo por adelantado por cosas que aún no han sucedido.",
+            "fr": "Il m'arrive de m'inquiéter à l'avance pour des choses qui ne se sont pas produites.",
+            "ja": "まだ起きていない問題について、事前に取り越し苦労をすることがある。",
+            "ru": "Иногда я заранее переживаю о том, что еще не произошло.",
+            "ko": "아직 일어나지 않은 문제에 대해 미리 걱정하곤 한다.",
+            "pt": "Às vezes me me me me preocupo com antecedência sobre coisas que ainda não aconteceram.",
+            "hi": "मैं कभी-कभी उन बातों के बारे में पहले से चिंता करता हूँ जो अभी तक नहीं हुई हैं।",
+            "de": "Ich mache mir manchmal im Voraus Sorgen über Dinge, die noch gar nicht eingetreten sind."
           },
           "sourceItem": "EST3"
         },
@@ -620,7 +988,15 @@
           "mu": -0.6559,
           "text": {
             "zh": "我愿意在群体里承担可见的角色。",
-            "en": "I am willing to take a visible role in a group."
+            "en": "I am willing to take a visible role in a group.",
+            "es": "Estoy dispuesto a asumir un rol visible en un grupo.",
+            "fr": "Je suis prêt à assumer un rôle visible dans un groupe.",
+            "ja": "集団の中で目立つ役割や中心的な役割を引き受けることに抵抗はない。",
+            "ru": "Я готов брать на себя заметную роль в группе.",
+            "ko": "집단 내에서 눈에 띄거나 리더십 있는 역할을 기꺼이 맡는다.",
+            "pt": "Estou disposto a assumir um papel de destaque num grupo.",
+            "hi": "मैं किसी समूह में एक दृश्य (visible) भूमिका निभाने के लिए तैयार हूँ।",
+            "de": "Ich bin bereit, in einer Gruppe eine sichtbare Rolle zu übernehmen."
           },
           "sourceItem": "EXT4"
         },
@@ -632,7 +1008,15 @@
           "mu": 0.5151,
           "text": {
             "zh": "我更偏好清楚、直接、少歧义的信息。",
-            "en": "I prefer information that is clear, direct, and low in ambiguity."
+            "en": "I prefer information that is clear, direct, and low in ambiguity.",
+            "es": "Prefiero la información clara, directa y poco ambigua.",
+            "fr": "Je préfère les informations claires, directes et peu ambiguës.",
+            "ja": "明確で直接的、あいまいさの少ない情報を好む。",
+            "ru": "Я предпочитаю четкую, прямую информацию без двусмысленностей.",
+            "ko": "명확하고 직접적이며 애매모호함이 적은 정보를 선호한다.",
+            "pt": "Prefiro informações claras, diretas e sem ambiguidades.",
+            "hi": "मैं ऐसी जानकारी पसंद करता हूँ जो स्पष्ट, सीधी और स्पष्ट हो।",
+            "de": "Ich bevorzuge klare, direkte und eindeutige Informationen."
           },
           "sourceItem": "OPN5"
         }
@@ -649,7 +1033,15 @@
           "mu": 0.3526,
           "text": {
             "zh": "我会把效率放在照顾所有感受之前。",
-            "en": "I can put efficiency ahead of accommodating every feeling."
+            "en": "I can put efficiency ahead of accommodating every feeling.",
+            "es": "Puedo priorizar la eficiencia sobre complacer las emociones de todos.",
+            "fr": "Je peux faire passer l'efficacité avant le confort émotionnel de chacun.",
+            "ja": "全員の感情に配慮することよりも、効率を優先することがある。",
+            "ru": "Я могу поставить эффективность выше учёта всех чувств.",
+            "ko": "모든 사람의 기분을 맞추는 것보다 효율성을 우선시할 수 있다.",
+            "pt": "Posso colocar a eficiência acima de agradar a todos os sentimentos.",
+            "hi": "मैं सभी की भावनाओं को समायोजित करने से पहले दक्षता को प्राथमिकता दे सकता हूँ।",
+            "de": "Ich kann Effizienz über das Befinden aller Beteiligten stellen."
           },
           "sourceItem": "AGR3"
         },
@@ -661,7 +1053,15 @@
           "mu": 0.7452,
           "text": {
             "zh": "我喜欢在熟悉事物里发现新的层次。",
-            "en": "I like finding new layers in familiar things."
+            "en": "I like finding new layers in familiar things.",
+            "es": "Me gusta descubrir nuevas perspectivas en cosas familiares.",
+            "fr": "J'aime découvrir de nouvelles facettes dans ce qui m'est familier.",
+            "ja": "見慣れた物事の中に、新しい発見や層を見出すのが好きだ。",
+            "ru": "Мне нравится находить новые грани в привычных вещах.",
+            "ko": "익숙한 대상 속에서 새로운 면모나 깊이를 발견하는 것을 좋아한다.",
+            "pt": "Gosto de descobrir novos ângulos em coisas familiares.",
+            "hi": "मुझे परिचित चीजों में नए पहलुओं की खोज करना पसंद है।",
+            "de": "Ich entdecke gerne neue Facetten an vertrauten Dingen."
           },
           "sourceItem": "OPN4"
         },
@@ -673,7 +1073,15 @@
           "mu": -0.8213,
           "text": {
             "zh": "我通常会把重要信息记录下来。",
-            "en": "I usually record important information."
+            "en": "I usually record important information.",
+            "es": "Suelo registrar por escrito la información importante.",
+            "fr": "J'ai l'habitude de noter les informations importantes.",
+            "ja": "重要な情報はノートやメモに記録に残すようにしている。",
+            "ru": "Я обычно записываю важную информацию.",
+            "ko": "중요한 정보는 항상 기록해 두는 편이다.",
+            "pt": "Costumo registrar informações importantes.",
+            "hi": "मैं आमतौर पर महत्वपूर्ण जानकारी को नोट करता हूँ।",
+            "de": "Ich halte wichtige Informationen meist schriftlich fest."
           },
           "sourceItem": "CSN5"
         },
@@ -685,7 +1093,15 @@
           "mu": -0.4853,
           "text": {
             "zh": "我很少因为小失误长时间责备自己。",
-            "en": "I rarely blame myself for long over small mistakes."
+            "en": "I rarely blame myself for long over small mistakes.",
+            "es": "Rara vez me culpo durante mucho tiempo por pequeños errores.",
+            "fr": "Je me reproche rarement mes petites erreurs pendant longtemps.",
+            "ja": "小さなミスに対して長期間自分を責め続けることは滅多にない。",
+            "ru": "Я редко долго виню себя за мелкие ошибки.",
+            "ko": "소소한 실수에 대해 오래 자책하지 않는다.",
+            "pt": "Raramente fico me culpando por muito tempo por pequenos erros.",
+            "hi": "मैं शायद ही कभी छोटी गलतियों के लिए लंबे समय तक खुद को दोष देता हूँ।",
+            "de": "Ich mache mir wegen kleiner Fehler selten lange Vorwürfe."
           },
           "sourceItem": "EST6"
         }
@@ -702,7 +1118,15 @@
           "mu": -0.6559,
           "text": {
             "zh": "我可以长时间独立工作而不觉得缺少什么。",
-            "en": "I can work independently for long stretches without feeling that something is missing."
+            "en": "I can work independently for long stretches without feeling that something is missing.",
+            "es": "Puedo trabajar de forma independiente durante mucho tiempo sin sentir que me falta algo.",
+            "fr": "Je peux travailler seul pendant de longues périodes sans ressentir de manque.",
+            "ja": "人と関わらず長期間一人で作業しても、物足りなさを感じない。",
+            "ru": "Я могу долго работать самостоятельно, не чувствуя нехватки чего-либо.",
+            "ko": "오랜 시간 혼자 독립적으로 일해도 별다른 외로움이나 공허함을 느끼지 않는다.",
+            "pt": "Consigo trabalhar de forma independente por longos períodos sem sentir falta de nada.",
+            "hi": "मैं बिना किसी कमी के लंबे समय तक स्वतंत्र रूप से काम कर सकता हूँ।",
+            "de": "Ich kann lange Zeit unabhängig arbeiten, ohne dass mir etwas fehlt."
           },
           "sourceItem": "EXT4"
         },
@@ -714,7 +1138,15 @@
           "mu": 0.5034,
           "text": {
             "zh": "我会主动修复关系里的小裂缝。",
-            "en": "I take initiative to repair small strains in a relationship."
+            "en": "I take initiative to repair small strains in a relationship.",
+            "es": "Tomo la iniciativa para reparar pequeñas tensiones en las relaciones.",
+            "fr": "Je prends l'initiative de réparer les petites frictions dans une relation.",
+            "ja": "人間関係の小さなすれ違いや亀裂を自分から修復しようとする。",
+            "ru": "Я проявляю инициативу, чтобы сгладить небольшие трещины в отношениях.",
+            "ko": "관계에서 생긴 작은 금이나 오해를 먼저 회복하려고 노력한다.",
+            "pt": "Tomo a iniciativa para reparar pequenos atritos nos relacionamentos.",
+            "hi": "मैं रिश्तों में छोटी-छोटी दरारों को सुधारने की पहल करता हूँ।",
+            "de": "Ich ergreife die Initiative, um kleine Spannungen in Beziehungen zu klären."
           },
           "sourceItem": "AGR5"
         },
@@ -726,7 +1158,15 @@
           "mu": -0.1047,
           "text": {
             "zh": "我的兴趣变化快，计划也会随之调整。",
-            "en": "My interests shift quickly, and my plans shift with them."
+            "en": "My interests shift quickly, and my plans shift with them.",
+            "es": "Mis intereses cambian rápidamente y mis planes se adaptan a ellos.",
+            "fr": "Mes intérêts changent vite et mes plans s'adaptent en conséquence.",
+            "ja": "関心が移り変わりやすく、それに合わせて計画も柔軟に変える。",
+            "ru": "Мои интересы быстро меняются, и мои планы меняются вместе с ними.",
+            "ko": "흥미가 빠르게 바뀌며, 그에 따라 계획도 함께 조정된다.",
+            "pt": "Meus interesses mudam rápido e meus planos se adaptam a eles.",
+            "hi": "मेरी रुचियां जल्दी बदलती हैं, और मेरी योजनाएं भी उनके साथ बदलती हैं।",
+            "de": "Meine Interessen ändern sich schnell und meine Pläne passen sich an."
           },
           "sourceItem": "CSN6"
         },
@@ -738,7 +1178,15 @@
           "mu": 0.8538,
           "text": {
             "zh": "我愿意重新定义一个问题，而不是只优化答案。",
-            "en": "I am willing to redefine a problem instead of only optimizing the answer."
+            "en": "I am willing to redefine a problem instead of only optimizing the answer.",
+            "es": "Estoy dispuesto a redefinir un problema en lugar de solo optimizar la respuesta.",
+            "fr": "Je préfère redéfinir un problème plutôt que de simplement optimiser la solution.",
+            "ja": "単に回答を最適化するだけでなく、問題そのものを再定義したい。",
+            "ru": "Я готов переформулировать проблему, а не просто улучшать решение.",
+            "ko": "기존 해답을 최적화하는 데 그치지 않고 문제 자체를 재정의하려고 한다.",
+            "pt": "Estou disposto a redefinir um problema em vez de apenas otimizar a resposta.",
+            "hi": "मैं केवल उत्तर को बेहतर बनाने के बजाय समस्या को फिर से परिभाषित करने को तैयार हूँ।",
+            "de": "Ich definiere ein Problem lieber neu, anstatt nur die Antwort zu optimieren."
           },
           "sourceItem": "OPN7"
         }
@@ -755,7 +1203,15 @@
           "mu": -0.512,
           "text": {
             "zh": "我对潜在风险的反应通常比较快。",
-            "en": "I usually react quickly to potential risks."
+            "en": "I usually react quickly to potential risks.",
+            "es": "Suelo reaccionar rápidamente ante riesgos potenciales.",
+            "fr": "Je réagis généralement vite aux risques potentiels.",
+            "ja": "潜在的なリスクに対して敏鋭かつ迅速に反応する。",
+            "ru": "Я обычно быстро реагирую на потенциальные риски.",
+            "ko": "잠재적 위험을 감지하면 비교적 빠르게 반응한다.",
+            "pt": "Costumo reagir rapidamente a riscos potenciais.",
+            "hi": "मैं आमतौर पर संभावित जोखिमों पर तुरंत प्रतिक्रिया देता हूँ।",
+            "de": "Ich reagiere meist schnell auf potenzielle Risiken."
           },
           "sourceItem": "EST5"
         },
@@ -767,7 +1223,15 @@
           "mu": -0.1047,
           "text": {
             "zh": "我喜欢让事情有明确的完成标准。",
-            "en": "I like work to have a clear standard of completion."
+            "en": "I like work to have a clear standard of completion.",
+            "es": "Me gusta que el trabajo tenga un criterio claro de finalización.",
+            "fr": "J'aime que le travail ait des critères d'achèvement clairs.",
+            "ja": "物事には明確な完了基準やゴールを設定したい。",
+            "ru": "Мне нравится, когда у работы есть чёткий критерий завершения.",
+            "ko": "모든 일에는 명확한 완료 기준이 있는 것을 선호한다.",
+            "pt": "Gosto que o trabalho tenha um critério de conclusão claro.",
+            "hi": "मुझे काम के पूरा होने का एक स्पष्ट मानक होना पसंद है।",
+            "de": "Ich mag es, wenn Arbeiten ein klares Kriterium für die Fertigstellung haben."
           },
           "sourceItem": "CSN6"
         },
@@ -779,7 +1243,15 @@
           "mu": -0.5308,
           "text": {
             "zh": "我在多人场景中容易表达自己的立场。",
-            "en": "In group settings, I find it easy to state my position."
+            "en": "In group settings, I find it easy to state my position.",
+            "es": "En grupos, me resulta fácil expresar mi postura.",
+            "fr": "Dans un groupe, je trouve facile d'exprimer ma position.",
+            "ja": "集団や大勢の前でも自分の立場や主張を言いやすい。",
+            "ru": "В группе мне легко высказывать свою позицию.",
+            "ko": "여럿이 모인 자리에서 내 입장을 명확히 밝히는 편이다.",
+            "pt": "Em grupo, acho fácil expressar minha posição.",
+            "hi": "समूह में, मुझे अपना रुख व्यक्त करना आसान लगता है।",
+            "de": "In der Gruppe fällt es mir leicht, meinen Standpunkt zu vertreten."
           },
           "sourceItem": "EXT7"
         },
@@ -791,7 +1263,15 @@
           "mu": 0.4931,
           "text": {
             "zh": "我不太接受没有依据的让步。",
-            "en": "I do not readily accept concessions without a reason."
+            "en": "I do not readily accept concessions without a reason.",
+            "es": "No suelo aceptar concesiones que carezcan de fundamento.",
+            "fr": "Je n'accepte pas facilement les concessions sans raison valable.",
+            "ja": "根拠のない妥協や根回しを受け入れるのは難しい。",
+            "ru": "Я не склонен к необоснованным уступкам.",
+            "ko": "근거 없는 무조건적인 양보는 선뜻 받아들이지 않는다.",
+            "pt": "Não aceito facilmente concessões sem justificativa.",
+            "hi": "मैं बिना किसी कारण के रियायतों को आसानी से स्वीकार नहीं करता।",
+            "de": "Ich lasse mich nicht ohne guten Grund auf Zugeständnisse ein."
           },
           "sourceItem": "AGR8"
         }
@@ -808,7 +1288,15 @@
           "mu": 0.9852,
           "text": {
             "zh": "我更看重可复用的经验，而不是不断换新思路。",
-            "en": "I value reusable experience more than constantly changing approaches."
+            "en": "I value reusable experience more than constantly changing approaches.",
+            "es": "Valoro más la experiencia reutilizable que cambiar constantemente de enfoque.",
+            "fr": "Je valorise plus l'expérience réutilisable que le changement permanent d'approche.",
+            "ja": "次々と新しいアイディアを追うより、再利用可能な経験や知識を重視する。",
+            "ru": "Я больше ценю применимый опыт, чем постоянную смену идей.",
+            "ko": "끊임없이 방식을 바꾸는 것보다 재사용 가능한 노하우와 경험을 가치 있게 여긴다.",
+            "pt": "Valorizo mais experiências reutilizáveis do que mudar de ideia a todo momento.",
+            "hi": "मैं लगातार नए विचारों को बदलने के बजाय पुनः प्रयोज्य अनुभव को अधिक महत्व देता हूँ।",
+            "de": "Ich schätze wiederverwendbare Erfahrung mehr als ständig neue Ansätze."
           },
           "sourceItem": "OPN6"
         },
@@ -820,7 +1308,15 @@
           "mu": 0.5835,
           "text": {
             "zh": "我会尽量让批评听起来具体而可处理。",
-            "en": "I try to make criticism specific and workable."
+            "en": "I try to make criticism specific and workable.",
+            "es": "Intento que las críticas sean específicas y constructivas.",
+            "fr": "J'essaie de rendre les critiques précises et constructives.",
+            "ja": "批判をする際は、具体的で改善可能な形にするよう努める。",
+            "ru": "Я стараюсь делать критику конкретной и конструктивной.",
+            "ko": "비판이나 지적을 할 때 구체적이고 개선 가능하도록 표현한다.",
+            "pt": "Tento fazer críticas específicas e construtivas.",
+            "hi": "मैं आलोचना को विशिष्ट और व्यावहारिक बनाने की कोशिश करता हूँ।",
+            "de": "Ich versuche, Kritik spezifisch und lösungsorientiert zu formulieren."
           },
           "sourceItem": "AGR7"
         },
@@ -832,7 +1328,15 @@
           "mu": -0.6496,
           "text": {
             "zh": "别人情绪很强时，我仍能保持自己的节奏。",
-            "en": "When others are intense, I can still keep my own pace."
+            "en": "When others are intense, I can still keep my own pace.",
+            "es": "Cuando otros están tensos, puedo mantener mi propio ritmo.",
+            "fr": "Quand les autres sont sous tension, je peux garder mon propre rythme.",
+            "ja": "周囲の感情が高ぶっていても、自分のペースを保つことができる。",
+            "ru": "Когда другие эмоциональны, я могу сохранять свой темп.",
+            "ko": "주변 사람들의 감정이 치달아도 내 페이스를 유지할 수 있다.",
+            "pt": "Quando os outros estão exaltados, consigo manter meu próprio ritmo.",
+            "hi": "जब दूसरे भावुक होते हैं, तब भी मैं अपनी गति बनाए रख सकता हूँ।",
+            "de": "Wenn andere aufgewühlt sind, behalte ich mein eigenes Tempo bei."
           },
           "sourceItem": "EST8"
         },
@@ -844,7 +1348,15 @@
           "mu": -0.3469,
           "text": {
             "zh": "我会主动把人连接到同一个讨论里。",
-            "en": "I actively bring people into the same conversation."
+            "en": "I actively bring people into the same conversation.",
+            "es": "Busco unir a las personas en una misma conversación.",
+            "fr": "J'essaie d'inclure les gens dans la même discussion.",
+            "ja": "周囲の人々を積極的に同じ議論に引き込み、繋げる。",
+            "ru": "Я активно привлекаю людей к общему обсуждению.",
+            "ko": "사람들을 적극적으로 대화에 이끌어 들이고 연결한다.",
+            "pt": "Conecto ativamente as pessoas na mesma conversa.",
+            "hi": "मैं लोगों को एक ही चर्चा में शामिल करने के लिए पहल करता हूँ।",
+            "de": "Ich binde andere aktiv in Gespräche ein."
           },
           "sourceItem": "EXT9"
         }
@@ -861,7 +1373,15 @@
           "mu": 0.4577,
           "text": {
             "zh": "灵感来时，我会先抓住它，细节之后再补。",
-            "en": "When inspiration comes, I capture it first and fill in details later."
+            "en": "When inspiration comes, I capture it first and fill in details later.",
+            "es": "Cuando llega la inspiración, la capturo primero y pulo los detalles después.",
+            "fr": "Quand l'inspiration vient, je la note d'abord et je peaufine les détails plus tard.",
+            "ja": "ひらめきがあったらまず形にし、細かい部分は後から補う。",
+            "ru": "Когда приходит вдохновение, я сначала фиксирую суть, а детали дорабатываю позже.",
+            "ko": "영상이 떠오르면 일단 기록해 두고 세부사항은 나중에 보완한다.",
+            "pt": "Quando tenho uma inspiração, capturo ela primeiro e cuido dos detalhes depois.",
+            "hi": "जब प्रेरणा आती है, तो मैं उसे पहले पकड़ता हूँ और विवरण बाद में भरता हूँ।",
+            "de": "Wenn ich eine Idee habe, halte ich sie zuerst fest und kümmere mich später um Details."
           },
           "sourceItem": "CSN7"
         },
@@ -873,7 +1393,15 @@
           "mu": -0.1496,
           "text": {
             "zh": "我对复杂系统背后的机制很有兴趣。",
-            "en": "I am interested in the mechanisms behind complex systems."
+            "en": "I am interested in the mechanisms behind complex systems.",
+            "es": "Me interesan los mecanismos detrás de los sistemas complejos.",
+            "fr": "Je m'intéresse aux mécanismes derrière les systèmes complexes.",
+            "ja": "複雑なシステムの裏側にあるメカニズムや構造に興味がある。",
+            "ru": "Меня интересуют механизмы, стоящие за сложными системами.",
+            "ko": "복잡한 시스템 뒤에 숨겨진 원리와 메커니즘에 큰 관심이 있다.",
+            "pt": "Tenho muito interesse nos mecanismos por trás de sistemas complexos.",
+            "hi": "जटिल प्रणालियों के पीछे के तंत्र (mechanisms) में मेरी बहुत रुचि है।",
+            "de": "Die Mechanismen hinter komplexen Systemen interessieren mich sehr."
           },
           "sourceItem": "OPN8"
         },
@@ -885,7 +1413,15 @@
           "mu": 0.6491,
           "text": {
             "zh": "我愿意在结论之外保留人的处境。",
-            "en": "I try to keep the human situation in view beyond the conclusion."
+            "en": "I try to keep the human situation in view beyond the conclusion.",
+            "es": "Intento considerar la situación humana más allá de las conclusiones.",
+            "fr": "J'essaie de garder en vue l'aspect humain au-delà des simples conclusions.",
+            "ja": "論理的な結論だけでなく、関わる人の状況や感情も考慮する。",
+            "ru": "Я стараюсь учитывать человеческий фактор помимо сухих выводов.",
+            "ko": "결론이나 데이터 외에도 관련된 사람들의 처지와 맥락을 고려한다.",
+            "pt": "Tento levar em consideração a situação das pessoas além das conclusões.",
+            "hi": "मैं निष्कर्षों से परे मानवीय स्थिति को ध्यान में रखने की कोशिश करता हूँ।",
+            "de": "Ich versuche, neben sachlichen Ergebnissen auch die menschliche Seite zu berücksichtigen."
           },
           "sourceItem": "AGR9"
         },
@@ -897,7 +1433,15 @@
           "mu": -0.5718,
           "text": {
             "zh": "我容易捕捉到氛围中细微的不对劲。",
-            "en": "I easily notice when the atmosphere feels slightly off."
+            "en": "I easily notice when the atmosphere feels slightly off.",
+            "es": "Noto fácilmente cuando el ambiente se siente ligeramente tenso.",
+            "fr": "Je remarque facilement quand l'atmosphère devient un peu lourde.",
+            "ja": "場の空気や雰囲気がわずかに異様なことにすぐ気づく。",
+            "ru": "Я легко замечаю, когда атмосфера становится слегка напряженной.",
+            "ko": "분위기의 미세한 어색함이나 이상함을 잘 알아차린다.",
+            "pt": "Percebo facilmente quando o clima fica ligeiramente estranho.",
+            "hi": "मैं आसानी से भांप लेता हूँ जब माहौल में थोड़ा खिंचाव महसूस होता है।",
+            "de": "Ich spüre es sofort, wenn die Stimmung etwas angespannt ist."
           },
           "sourceItem": "EST10"
         }
@@ -914,7 +1458,15 @@
           "mu": -0.8822,
           "text": {
             "zh": "我更习惯把观点写清楚，而不是现场争取注意。",
-            "en": "I prefer writing my view clearly to competing for attention live."
+            "en": "I prefer writing my view clearly to competing for attention live.",
+            "es": "Prefiero redactar mi punto de vista claramente antes que competir por atención en vivo.",
+            "fr": "Je préfère écrire clairement ma position plutôt que de capter l'attention en direct.",
+            "ja": "その場で目立とうとするより、文章で自分の意見を明確に伝える方を好む。",
+            "ru": "Мне проще чётко изложить мнение письменно, чем привлекать внимание вживую.",
+            "ko": "현장에서 주목받으려 애쓰기보다 글로 내 견해를 명확히 정돈하는 편을 좋아한다.",
+            "pt": "Prefiro escrever minha visão claramente do que disputar atenção ao vivo.",
+            "hi": "मैं सीधे ध्यान आकर्षित करने के बजाय अपने विचारों को स्पष्ट रूप से लिखना पसंद करता हूँ।",
+            "de": "Ich drücke meine Meinung lieber schriftlich aus, als mündlich um Aufmerksamkeit zu konkurrieren."
           },
           "sourceItem": "EXT8"
         },
@@ -926,7 +1478,15 @@
           "mu": -0.1016,
           "text": {
             "zh": "我能在重复任务里保持稳定标准。",
-            "en": "I can keep stable standards in repetitive work."
+            "en": "I can keep stable standards in repetitive work.",
+            "es": "Puedo mantener estándares constantes en tareas repetitivas.",
+            "fr": "Je peux maintenir des normes stables dans des tâches répétitives.",
+            "ja": "繰り返し作業においても、安定した高いクオリティを維持できる。",
+            "ru": "Я могу сохранять высокие стандарты даже в рутинной работе.",
+            "ko": "반복적인 업무에서도 일정한 기준과 품질을 유지할 수 있다.",
+            "pt": "Consigo manter padrões consistentes em tarefas repetitivas.",
+            "hi": "मैं दोहराव वाले कार्यों में स्थिर मानक बनाए रख सकता हूँ।",
+            "de": "Ich kann auch bei wiederkehrenden Aufgaben gleichbleibende Standards halten."
           },
           "sourceItem": "CSN9"
         },
@@ -938,7 +1498,15 @@
           "mu": -0.5718,
           "text": {
             "zh": "我通常不会把一次评价看得过重。",
-            "en": "I usually do not give one evaluation too much weight."
+            "en": "I usually do not give one evaluation too much weight.",
+            "es": "Suelo no dar demasiado peso a una sola evaluación.",
+            "fr": "Je ne donne généralement pas trop d'importance à une évaluation isolée.",
+            "ja": "一度の評価や感想に過剰にとらわれることはない。",
+            "ru": "Я обычно не придаю слишком большого значения единичной оценке.",
+            "ko": "단 한 번의 평가나 시선에 지나치게 연연하지 않는다.",
+            "pt": "Geralmente não dou peso excessivo a uma única avaliação.",
+            "hi": "मैं आमतौर पर किसी एक मूल्यांकन को बहुत अधिक महत्व नहीं देता।",
+            "de": "Ich messe einer einzelnen Bewertung meist nicht zu viel Gewicht bei."
           },
           "sourceItem": "EST10"
         },
@@ -950,7 +1518,15 @@
           "mu": 0.5153,
           "text": {
             "zh": "我会优先保护判断质量，而不是让所有人满意。",
-            "en": "I prioritize the quality of judgment over keeping everyone pleased."
+            "en": "I prioritize the quality of judgment over keeping everyone pleased.",
+            "es": "Priorizo la calidad del juicio sobre complacer a todo el mundo.",
+            "fr": "Je donne la priorité à la qualité du jugement plutôt qu'à plaire à tout le monde.",
+            "ja": "全員を満足させることよりも、判断の質や正しさを優先する。",
+            "ru": "Я ставлю качество решения выше желания угодить всем.",
+            "ko": "모두를 만족시키기보다 판단의 신뢰성과 품질을 우선한다.",
+            "pt": "Priorizo a qualidade da decisão em vez de agradar a todos.",
+            "hi": "मैं सभी को खुश रखने के बजाय निर्णय की गुणवत्ता को प्राथमिकता देता हूँ।",
+            "de": "Die Qualität einer Entscheidung ist mir wichtiger, als es jedem recht zu machen."
           },
           "sourceItem": "AGR1"
         }
@@ -967,7 +1543,15 @@
           "mu": 0.9925,
           "text": {
             "zh": "我常会问：这件事还有没有另一种解释。",
-            "en": "I often ask whether there is another explanation for what is happening."
+            "en": "I often ask whether there is another explanation for what is happening.",
+            "es": "A menudo me pregunto si existe otra explicación para lo que sucede.",
+            "fr": "Je me demande souvent s'il existe una autre explication à ce qui se passe.",
+            "ja": "「これには別の見方や理由がないか？」と常に問いかける。",
+            "ru": "Я часто спрашиваю себя, есть ли другое объяснение происходящему.",
+            "ko": "이 상황에 또 다른 설명이나 해석이 존재하지 않는지 자주 질문한다.",
+            "pt": "Muitas vezes me pergunto se existe outra explicação para o que está acontecendo.",
+            "hi": "मैं अक्सर पूछता हूँ कि क्या हो रहा है इसके लिए कोई अन्य स्पष्टीकरण है।",
+            "de": "Ich frage mich oft, ob es eine andere Erklärung für etwas gibt."
           },
           "sourceItem": "OPN9"
         },
@@ -979,7 +1563,15 @@
           "mu": -0.9678,
           "text": {
             "zh": "我喜欢在合作中快速交换反馈。",
-            "en": "I like fast feedback exchange in collaboration."
+            "en": "I like fast feedback exchange in collaboration.",
+            "es": "Me gusta el intercambio rápido de comentarios en la colaboración.",
+            "fr": "J'aime les retours rapides lors d'un travail d'équipe.",
+            "ja": "チームでの協力において、スピーディーなフィードバックを交わすのが好きだ。",
+            "ru": "Мне нравится быстрый обмен мнениями в работе.",
+            "ko": "협업할 때 실시간으로 빠르게 피드백을 주고받는 것을 선호한다.",
+            "pt": "Gosto da troca rápida de feedbacks no trabalho em equipe.",
+            "hi": "मुझे सहयोग में त्वरित फीडबैक का आदान-प्रदान पसंद है।",
+            "de": "Ich mag schnellen Feedback-Austausch in der Zusammenarbeit."
           },
           "sourceItem": "EXT10"
         },
@@ -991,7 +1583,15 @@
           "mu": -0.0112,
           "text": {
             "zh": "我不总是按固定顺序处理事情。",
-            "en": "I do not always handle things in a fixed order."
+            "en": "I do not always handle things in a fixed order.",
+            "es": "No siempre manejo las cosas en un orden fijo.",
+            "fr": "Je ne traite pas toujours les choses dans un ordre fixe.",
+            "ja": "常に決まった順番通りにタスクを処理するわけではない。",
+            "ru": "Я не всегда действую в строго определённом порядке.",
+            "ko": "모든 일을 항상 정해진 순서대로 처리하지는 않는다.",
+            "pt": "Nem sempre resolvo as coisas numa ordem fixa.",
+            "hi": "मैं हमेशा निश्चित क्रम में काम नहीं करता।",
+            "de": "Ich arbeite Dinge nicht immer in einer festen Reihenfolge ab."
           },
           "sourceItem": "CSN1"
         },
@@ -1003,7 +1603,15 @@
           "mu": -0.6613,
           "text": {
             "zh": "尚未解决的问题会在我脑中停留较久。",
-            "en": "Unresolved issues tend to stay in my mind for a while."
+            "en": "Unresolved issues tend to stay in my mind for a while.",
+            "es": "Los asuntos sin resolver tienden a quedarse en mi mente por un tiempo.",
+            "fr": "Les problèmes non résolus ont tendance à me trotter dans la tête.",
+            "ja": "未解決の課題や問題は、頭の中に長く残りやすい。",
+            "ru": "Нерешённые вопросы обычно долго остаются у меня в голове.",
+            "ko": "해결되지 않은 문제는 머릿속에 오래 남아 잔상을 남긴다.",
+            "pt": "Problemas não resolvidos costumam ficar na minha cabeça por um tempo.",
+            "hi": "अनसुलझे मुद्दे मेरे दिमाग में कुछ समय तक टिके रहते हैं।",
+            "de": "Ungelöste Probleme beschäftigen mich meist noch eine Weile."
           },
           "sourceItem": "EST2"
         }
@@ -1020,7 +1628,15 @@
           "mu": 0.1988,
           "text": {
             "zh": "我希望自己的判断既准确，也尽量不伤人。",
-            "en": "I want my judgment to be accurate and also avoid unnecessary harm."
+            "en": "I want my judgment to be accurate and also avoid unnecessary harm.",
+            "es": "Quiero que mi juicio sea preciso y también evitar daños innecesarios.",
+            "fr": "Je veux que mon jugement soit précis tout en évitant de blesser inutilement.",
+            "ja": "自分の判断が正確であると同時に、相手を不要に傷つけないよう配慮したい。",
+            "ru": "Я хочу, чтобы мое решение было точным и не причиняло лишнего вреда.",
+            "ko": "내 판단이 정확하면서도 타인에게 상처를 주지 않기를 바란다.",
+            "pt": "Quero que meu julgamento seja preciso e evite magoar os outros desnecessariamente.",
+            "hi": "मैं चाहता हूँ कि मेरा निर्णय सटीक हो और अनावश्यक नुकसान से बचा जा सके।",
+            "de": "Ich möchte, dass mein Urteil präzise ist und niemanden unnötig verletzt."
           },
           "sourceItem": "AGR10"
         },
@@ -1032,7 +1648,15 @@
           "mu": -0.0032,
           "text": {
             "zh": "我能把情绪放在一边，先完成眼前动作。",
-            "en": "I can set emotion aside and complete the next action first."
+            "en": "I can set emotion aside and complete the next action first.",
+            "es": "Puedo dejar de lado las emociones y completar el siguiente paso primero.",
+            "fr": "Je peux mettre mes émotions de côté et accomplir la prochaine action.",
+            "ja": "感情を一旦脇に置き、目の前の行動を冷静にこなすことができる。",
+            "ru": "Я могу отложить эмоции и сначала сделать то, что нужно.",
+            "ko": "감정을 일단 뒤로하고 눈앞의 과제부터 먼저 처리할 수 있다.",
+            "pt": "Consigo colocar a emoção de lado e focar em fazer o próximo passo.",
+            "hi": "मैं भावनाओं को एक तरफ रख सकता हूँ और पहले अगला कदम उठा सकता हूँ।",
+            "de": "Ich kann Emotionen beiseitestellen und erst die Arbeit erledigen."
           },
           "sourceItem": "EST1"
         },
@@ -1044,7 +1668,15 @@
           "mu": 0.6814,
           "text": {
             "zh": "我更喜欢结果明确的问题。",
-            "en": "I prefer problems with definite outcomes."
+            "en": "I prefer problems with definite outcomes.",
+            "es": "Prefiero problemas con resultados definidos.",
+            "fr": "Je préfère les problèmes avec des résultats clairs.",
+            "ja": "成果や結論が明確に出る問題を好む。",
+            "ru": "Я предпочитаю задачи с понятным конечным результатом.",
+            "ko": "결과가 명확하고 불확실성이 적은 문제를 더 좋아한다.",
+            "pt": "Prefiro problemas com resultados bem definidos.",
+            "hi": "मैं निश्चित परिणामों वाली समस्याओं को पसंद करता हूँ।",
+            "de": "Ich bevorzuge Probleme mit eindeutigen Ergebnissen."
           },
           "sourceItem": "OPN2"
         },
@@ -1056,7 +1688,15 @@
           "mu": 0.782,
           "text": {
             "zh": "我会把长期目标转化成今天能执行的动作。",
-            "en": "I turn long-term goals into actions I can take today."
+            "en": "I turn long-term goals into actions I can take today.",
+            "es": "Convierto los objetivos a largo plazo en acciones que puedo realizar hoy.",
+            "fr": "Je transforme les objectifs à long terme en actions concrètes pour aujourd'hui.",
+            "ja": "長期的な目標を、今日実行できるアクションに分解・変換する。",
+            "ru": "Я превращаю долгосрочные цели в конкретные шаги на сегодня.",
+            "ko": "장기적인 목표를 오늘 실행할 수 있는具体的な 행동으로 전환한다.",
+            "pt": "Transformo metas de longo prazo em ações práticas para o dia de hoje.",
+            "hi": "मैं दीर्घकालिक लक्ष्यों को उन कार्यों में बदल देता हूँ जिन्हें मैं आज कर सकता हूँ।",
+            "de": "Ich wandle langfristige Ziele in konkrete Schritte für heute um."
           },
           "sourceItem": "CSN3"
         }

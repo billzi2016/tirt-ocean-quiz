@@ -1,0 +1,20 @@
+---
+import Header from '../../components/Header.astro';
+import QuizApp from '../../components/QuizApp.astro';
+import Layout from '../../layouts/Layout.astro';
+import { locales, type Locale } from '../../i18n/locales';
+
+export function getStaticPaths() {
+  return locales
+    .filter((l) => l.code !== 'en')
+    .map((l) => ({ params: { lang: l.code } }));
+}
+
+const { lang } = Astro.params;
+const locale = lang as Locale;
+---
+
+<Layout locale={locale} title="TIRT Ocean | Adaptive Big Five Assessment">
+  <Header locale={locale} />
+  <QuizApp locale={locale} />
+</Layout>
