@@ -62,6 +62,7 @@ const levelNames: Record<LocaleCode, string[]> = {
 
 interface Runtime {
   locale: LocaleCode;
+  shouldResume: boolean;
   sourceBlocks: QuizBlock[];
   blocks: ShownBlock[];
   state: QuizState | null;
@@ -77,6 +78,7 @@ export function mountQuizApp(): void {
   const locale = normalizeLocale(app.dataset.locale);
   const runtime: Runtime = {
     locale,
+    shouldResume: app.dataset.resume !== 'false',
     sourceBlocks: [],
     blocks: [],
     state: null,
@@ -110,6 +112,11 @@ async function init(runtime: Runtime, dom: DomRefs): Promise<void> {
   }
   const data = (await response.json()) as { blocks: QuizBlock[] };
   runtime.sourceBlocks = data.blocks;
+  if (!runtime.shouldResume) {
+    showIntro(dom);
+    return;
+  }
+
   runtime.state = loadState();
   if (runtime.state && !isValidState(runtime.sourceBlocks, runtime.state)) {
     clearState();
@@ -195,12 +202,16 @@ function renderCurrentBlock(runtime: Runtime, dom: DomRefs): void {
   dom.next.disabled = true;
 
   const estimate = estimateFromAnswers(runtime.blocks, runtime.state.answers);
+  const confidence = displayConfidence(estimate.accuracy, runtime.state.answers.length);
   const progressPercent = Math.round((runtime.state.answers.length / TOTAL_BLOCKS) * 100);
-  dom.accuracy.textContent = `${estimate.accuracy}%`;
-  dom.counter.textContent = `${runtime.state.answers.length + 1} / ${TOTAL_BLOCKS} 题 ·`;
+  dom.accuracy.textContent = `${confidence}%`;
+  dom.counter.textContent =
+    runtime.locale === 'zh'
+      ? `${runtime.state.answers.length + 1} / ${TOTAL_BLOCKS} 题 ·`
+      : `${runtime.state.answers.length + 1} / ${TOTAL_BLOCKS} ·`;
   dom.progressPercent.textContent = `${progressPercent}%`;
   dom.progressFill.style.width = `${progressPercent}%`;
-  dom.confidenceFill.style.width = `${estimate.accuracy}%`;
+  dom.confidenceFill.style.width = `${confidence}%`;
 
   const block = runtime.blocks.find((item) => item.id === runtime.state?.currentBlockId);
   if (!block) {
@@ -328,6 +339,11 @@ function renderTraitBars(dom: DomRefs, locale: LocaleCode, percentiles: Percenti
 function getLevel(value: number, locale: LocaleCode): string {
   const index = value < 15 ? 0 : value < 40 ? 1 : value < 60 ? 2 : value < 85 ? 3 : 4;
   return levelNames[locale][index];
+}
+
+function displayConfidence(raw: number, answeredCount: number): number {
+  const progressFloor = Math.round(18 + (answeredCount / TOTAL_BLOCKS) * 74);
+  return clamp(Math.max(raw, progressFloor), 10, 96);
 }
 
 async function showSharePoster(runtime: Runtime, dom: DomRefs): Promise<void> {

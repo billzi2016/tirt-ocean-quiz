@@ -4,14 +4,16 @@ import { t } from '../i18n/ui';
 
 interface Props {
   locale: Locale;
+  resume?: boolean;
 }
 
-const { locale } = Astro.props;
+const { locale, resume = true } = Astro.props;
 ---
 
 <main
   data-quiz-app
   data-locale={locale}
+  data-resume={resume ? 'true' : 'false'}
   class="mx-auto flex min-h-[calc(100vh-48px)] max-w-6xl flex-col px-4 pb-3 pt-1 sm:px-6 sm:pb-4 sm:pt-2"
 >
   <section class="flex min-h-[560px] flex-1 overflow-hidden rounded-[32px] border hairline bg-white shadow-line dark:border-slate-800 dark:bg-slate-950 lg:min-h-[calc(100vh-64px)]">
