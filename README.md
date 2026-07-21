@@ -33,6 +33,12 @@ The raw CSV stays local under `raw_data/` and is not committed to GitHub. The re
 
 ## Local Development
 
+Live site:
+
+```text
+https://billzi2016.github.io/tirt-ocean-quiz/
+```
+
 ```bash
 pnpm install
 pnpm dev

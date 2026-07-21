@@ -4,6 +4,7 @@ import { advance, clearState, loadState, saveState, type QuizState } from './qui
 import { createSeed } from './random';
 import { estimateFromAnswers, TRAITS } from './tirt-estimator';
 import type { QuizBlock, ShownBlock, Trait } from './types';
+import QRCode from 'qrcode';
 
 type LocaleCode = 'zh' | 'en';
 type Percentiles = Record<Trait, number>;
@@ -82,7 +83,9 @@ export function mountQuizApp(): void {
   dom.restart.addEventListener('click', () => reset(runtime, dom));
   dom.restartResult.addEventListener('click', () => reset(runtime, dom));
   dom.next.addEventListener('click', () => submitAnswer(runtime, dom));
-  dom.shareResult.addEventListener('click', () => showSharePoster(runtime, dom));
+  dom.shareResult.addEventListener('click', () => {
+    void showSharePoster(runtime, dom);
+  });
   dom.shareClose.addEventListener('click', () => dom.shareModal.classList.add('hidden'));
   dom.posterSave.addEventListener('click', () => savePoster(dom));
 
@@ -181,9 +184,11 @@ function renderCurrentBlock(runtime: Runtime, dom: DomRefs): void {
   dom.next.disabled = true;
 
   const estimate = estimateFromAnswers(runtime.blocks, runtime.state.answers);
+  const progressPercent = Math.round((runtime.state.answers.length / TOTAL_BLOCKS) * 100);
   dom.accuracy.textContent = `${estimate.accuracy}%`;
-  dom.counter.textContent = `${runtime.state.answers.length + 1} / ${TOTAL_BLOCKS}`;
-  dom.progressFill.style.width = `${Math.round((runtime.state.answers.length / TOTAL_BLOCKS) * 100)}%`;
+  dom.counter.textContent = `${runtime.state.answers.length + 1}/${TOTAL_BLOCKS} 题 ·`;
+  dom.progressPercent.textContent = `${progressPercent}%`;
+  dom.progressFill.style.width = `${progressPercent}%`;
   dom.confidenceFill.style.width = `${estimate.accuracy}%`;
 
   const block = runtime.blocks.find((item) => item.id === runtime.state?.currentBlockId);
@@ -201,8 +206,8 @@ function renderCurrentBlock(runtime: Runtime, dom: DomRefs): void {
     row.innerHTML = `
       <p class="text-xl font-bold leading-8 text-slate-800 dark:text-slate-100 sm:text-2xl sm:leading-9">${escapeHtml(text)}</p>
       <div class="grid grid-cols-2 gap-3 sm:contents">
-        <button type="button" data-role="best" data-item="${item.id}" aria-pressed="false" class="choice-button min-h-16 rounded-3xl border border-slate-300 px-4 py-3 text-lg font-black text-slate-600 transition hover:border-teal-700 hover:text-teal-800 dark:border-slate-700 dark:text-slate-300 dark:hover:border-teal-300 dark:hover:text-teal-200 sm:min-h-20">${labels[runtime.locale].best}</button>
-        <button type="button" data-role="worst" data-item="${item.id}" aria-pressed="false" class="choice-button min-h-16 rounded-3xl border border-slate-300 px-4 py-3 text-lg font-black text-slate-600 transition hover:border-amber-700 hover:text-amber-800 dark:border-slate-700 dark:text-slate-300 dark:hover:border-amber-300 dark:hover:text-amber-200 sm:min-h-20">${labels[runtime.locale].worst}</button>
+        <button type="button" data-role="best" data-item="${item.id}" aria-pressed="false" class="choice-button min-h-16 whitespace-nowrap rounded-3xl border border-slate-300 px-3 py-3 text-base font-black text-slate-600 transition hover:border-teal-700 hover:text-teal-800 dark:border-slate-700 dark:text-slate-300 dark:hover:border-teal-300 dark:hover:text-teal-200 sm:min-h-20 sm:px-4 sm:text-lg">${labels[runtime.locale].best}</button>
+        <button type="button" data-role="worst" data-item="${item.id}" aria-pressed="false" class="choice-button min-h-16 whitespace-nowrap rounded-3xl border border-slate-300 px-3 py-3 text-base font-black text-slate-600 transition hover:border-amber-700 hover:text-amber-800 dark:border-slate-700 dark:text-slate-300 dark:hover:border-amber-300 dark:hover:text-amber-200 sm:min-h-20 sm:px-4 sm:text-lg">${labels[runtime.locale].worst}</button>
       </div>
     `;
     dom.options.append(row);
@@ -266,7 +271,7 @@ function showResult(runtime: Runtime, dom: DomRefs): void {
   dom.resultSummary.textContent = report.summary;
   renderExamples(dom, report.examples);
   renderTraitBars(dom, runtime.locale, estimate.percentiles);
-  renderRadar(dom.radar, estimate.percentiles);
+  renderRadar(dom.radar, runtime.locale, estimate.percentiles);
 }
 
 function renderExamples(dom: DomRefs, examples: string[]): void {
@@ -314,10 +319,17 @@ function getLevel(value: number, locale: LocaleCode): string {
   return levelNames[locale][index];
 }
 
-function showSharePoster(runtime: Runtime, dom: DomRefs): void {
+async function showSharePoster(runtime: Runtime, dom: DomRefs): Promise<void> {
   const estimate = estimateFromAnswers(runtime.blocks, runtime.state?.answers ?? []);
   const report = evaluate(estimate, runtime.locale);
-  const url = renderPoster(runtime.locale, report.title, report.subtitle, report.summary, report.examples, estimate.percentiles);
+  const url = await renderPoster(
+    runtime.locale,
+    report.title,
+    report.subtitle,
+    report.summary,
+    report.examples,
+    estimate.percentiles,
+  );
   dom.posterImage.src = url;
   dom.posterSave.dataset.url = url;
   dom.shareModal.classList.remove('hidden');
@@ -332,14 +344,14 @@ function savePoster(dom: DomRefs): void {
   link.click();
 }
 
-function renderPoster(
+async function renderPoster(
   locale: LocaleCode,
   title: string,
   subtitle: string,
   summary: string,
   examples: string[],
   percentiles: Percentiles,
-): string {
+): Promise<string> {
   const canvas = document.createElement('canvas');
   canvas.width = 1080;
   canvas.height = 1920;
@@ -359,23 +371,23 @@ function renderPoster(
   wrapText(ctx, subtitle, 88, 420, 880, 46);
 
   ctx.fillStyle = '#0f1b2d';
-  roundRect(ctx, 70, 560, 940, 360, 42);
+  roundRect(ctx, 70, 560, 940, 430, 42);
   ctx.fill();
   ctx.fillStyle = '#e2e8f0';
   ctx.font = '700 38px system-ui';
   wrapText(ctx, summary, 110, 640, 860, 58);
 
-  let exampleY = 760;
-  ctx.font = '800 30px system-ui';
+  let exampleY = 750;
+  ctx.font = '800 28px system-ui';
   for (const example of examples.slice(0, 3)) {
     ctx.fillStyle = '#5eead4';
     ctx.fillText('·', 110, exampleY);
     ctx.fillStyle = '#f8fafc';
-    wrapText(ctx, example, 150, exampleY, 780, 42);
-    exampleY += 104;
+    wrapText(ctx, example, 150, exampleY, 760, 38);
+    exampleY += 122;
   }
 
-  let y = 1120;
+  let y = 1130;
   for (const trait of TRAITS) {
     const value = percentiles[trait];
     ctx.fillStyle = '#e2e8f0';
@@ -393,15 +405,38 @@ function renderPoster(
     y += 112;
   }
 
+  await drawQrCode(ctx, 'https://billzi2016.github.io/tirt-ocean-quiz/', 790, 1660, 190);
+
   ctx.fillStyle = '#5eead4';
-  ctx.font = '800 34px ui-monospace, monospace';
-  ctx.fillText('TIRT Ocean Quiz', 90, 1740);
+  ctx.font = '900 42px system-ui';
+  ctx.fillText(locale === 'zh' ? '测测你是什么' : 'What kind of person', 90, 1710);
+  ctx.fillText(locale === 'zh' ? '样的人？' : 'are you?', 90, 1764);
   ctx.fillStyle = '#94a3b8';
-  ctx.font = '600 28px system-ui';
-  ctx.fillText('1,015,342 responses · 20 forced-choice blocks', 90, 1790);
-  ctx.fillText('tirt-ocean-quiz', 90, 1840);
+  ctx.font = '700 28px system-ui';
+  ctx.fillText('billzi2016.github.io/tirt-ocean-quiz', 90, 1830);
 
   return canvas.toDataURL('image/png');
+}
+
+async function drawQrCode(
+  ctx: CanvasRenderingContext2D,
+  value: string,
+  x: number,
+  y: number,
+  size: number,
+): Promise<void> {
+  ctx.fillStyle = '#f8fafc';
+  roundRect(ctx, x, y, size, size, 22);
+  ctx.fill();
+  const dataUrl = await QRCode.toDataURL(value, {
+    margin: 1,
+    width: size - 24,
+    color: { dark: '#07111f', light: '#f8fafc' },
+  });
+  const image = new Image();
+  image.src = dataUrl;
+  await image.decode();
+  ctx.drawImage(image, x + 12, y + 12, size - 24, size - 24);
 }
 
 function wrapText(
@@ -446,13 +481,13 @@ function roundRect(
   ctx.closePath();
 }
 
-function renderRadar(canvas: HTMLCanvasElement, percentiles: Percentiles): void {
+function renderRadar(canvas: HTMLCanvasElement, locale: LocaleCode, percentiles: Percentiles): void {
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
 
   const size = canvas.width;
   const center = size / 2;
-  const radius = size * 0.34;
+  const radius = size * 0.29;
   const dark = document.documentElement.classList.contains('dark');
   ctx.clearRect(0, 0, size, size);
   ctx.strokeStyle = dark ? '#475569' : '#cbd5e1';
@@ -485,12 +520,12 @@ function renderRadar(canvas: HTMLCanvasElement, percentiles: Percentiles): void 
   ctx.stroke();
 
   ctx.fillStyle = dark ? '#e2e8f0' : '#0f172a';
-  ctx.font = '600 24px system-ui';
-  ctx.textAlign = 'center';
+  ctx.font = '800 28px system-ui';
   ctx.textBaseline = 'middle';
   TRAITS.forEach((trait, index) => {
-    const point = radarPoint(index, center, radius + 44);
-    ctx.fillText(trait, point.x, point.y);
+    const point = radarPoint(index, center, radius + 86);
+    ctx.textAlign = index === 1 || index === 2 ? 'left' : index === 3 || index === 4 ? 'right' : 'center';
+    ctx.fillText(traitNames[locale][trait], point.x, point.y);
   });
 }
 
@@ -546,6 +581,7 @@ interface DomRefs {
   options: HTMLElement;
   accuracy: HTMLElement;
   counter: HTMLElement;
+  progressPercent: HTMLElement;
   progressFill: HTMLElement;
   confidenceFill: HTMLElement;
   resultTitle: HTMLElement;
@@ -573,6 +609,7 @@ function getDom(): DomRefs | null {
     options: byId<HTMLElement>('options'),
     accuracy: byId<HTMLElement>('accuracy'),
     counter: byId<HTMLElement>('block-counter'),
+    progressPercent: byId<HTMLElement>('progress-percent'),
     progressFill: byId<HTMLElement>('progress-fill'),
     confidenceFill: byId<HTMLElement>('confidence-fill'),
     resultTitle: byId<HTMLElement>('result-title'),

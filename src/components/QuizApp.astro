@@ -12,68 +12,77 @@ const { locale } = Astro.props;
 <main
   data-quiz-app
   data-locale={locale}
-  class="mx-auto flex min-h-[calc(100vh-126px)] max-w-6xl flex-col px-4 py-6 sm:px-6 sm:py-8"
+  class="mx-auto flex min-h-[calc(100vh-48px)] max-w-6xl flex-col px-4 pb-6 pt-2 sm:px-6 sm:pb-8 sm:pt-4"
 >
-  <section class="flex min-h-[680px] flex-1 overflow-hidden rounded-[32px] border hairline bg-white shadow-line dark:border-slate-800 dark:bg-slate-950">
-    <div id="intro" class="flex w-full flex-col justify-between p-6 sm:p-10 lg:p-14">
-      <div class="max-w-4xl pt-8 sm:pt-14">
-        <div class="mb-7 inline-flex rounded-full border border-teal-200 bg-teal-50 px-4 py-2 text-sm font-semibold text-teal-800 dark:border-teal-400/30 dark:bg-teal-400/10 dark:text-teal-200">
-          学术方法 · 百万级数据 · 快速评估
+  <section class="flex min-h-[640px] flex-1 overflow-hidden rounded-[32px] border hairline bg-white shadow-line dark:border-slate-800 dark:bg-slate-950">
+    <div id="intro" class="flex w-full flex-col justify-between p-6 sm:p-8 lg:p-10">
+      <div class="max-w-4xl pt-8 sm:pt-10">
+        <div class="mb-4 inline-flex rounded-full border border-teal-200 bg-teal-50 px-4 py-2 text-sm font-semibold text-teal-800 dark:border-teal-400/30 dark:bg-teal-400/10 dark:text-teal-200">
+          人工智能 · 大数据 · 统计大模型 · 极速评估 · 比你更了解你！
         </div>
-        <h1 class="max-w-4xl text-5xl font-black leading-[0.96] text-slate-950 dark:text-white sm:text-7xl lg:text-8xl">
+        <h1 class="max-w-4xl whitespace-pre-line text-5xl font-black leading-[0.96] text-slate-950 dark:text-white sm:text-7xl lg:text-8xl">
           {t(locale, 'introTitle')}
         </h1>
-        <p class="mt-8 max-w-3xl text-xl font-semibold leading-9 text-slate-600 dark:text-slate-300 sm:text-2xl sm:leading-10">
-          {t(locale, 'introCopy')}
+        <p class="mt-8 max-w-3xl whitespace-pre-line text-xl font-semibold leading-9 text-slate-600 dark:text-slate-300 sm:text-2xl sm:leading-10">
+          {t(locale, 'introCopy').replace('。结合', '。\n结合').replace('。系统', '。\n系统')}
         </p>
         <button
           id="start"
           class="mt-10 min-h-16 w-full rounded-3xl border border-slate-950 bg-slate-950 px-8 py-4 text-xl font-black text-white transition hover:bg-slate-800 disabled:cursor-wait disabled:border-slate-300 disabled:bg-slate-100 disabled:text-slate-400 dark:border-white dark:bg-white dark:text-slate-950 dark:hover:bg-slate-200 dark:disabled:border-slate-700 dark:disabled:bg-slate-900 dark:disabled:text-slate-500 sm:w-fit"
         >
-          {t(locale, 'start')}
+          📝&nbsp;&nbsp;&nbsp;{t(locale, 'start')}
         </button>
       </div>
-      <div class="mt-12 grid gap-3 border-t hairline pt-5 text-sm font-semibold text-slate-500 dark:border-slate-800 dark:text-slate-400 sm:grid-cols-3">
+      <div class="mt-0 grid gap-3 border-t hairline pt-4 text-sm font-semibold text-slate-500 dark:border-slate-800 dark:text-slate-400 sm:grid-cols-2 lg:grid-cols-4">
         <div class="rounded-3xl bg-slate-50 p-4 dark:bg-slate-900">
-          <span class="data-label block text-base text-signal dark:text-teal-300">1,015,342</span>
+          <span class="data-label block text-base text-signal dark:text-teal-300">1,015,342 人次</span>
           <span>{t(locale, 'responses')}</span>
         </div>
         <div class="rounded-3xl bg-slate-50 p-4 dark:bg-slate-900">
-          <span class="data-label block text-base text-signal dark:text-teal-300">20 题</span>
+          <span class="data-label block text-base text-signal dark:text-teal-300">只有 20 道单选题</span>
           <span>{t(locale, 'blocks')}</span>
         </div>
         <div class="rounded-3xl bg-slate-50 p-4 dark:bg-slate-900">
-          <span class="data-label block text-base text-signal dark:text-teal-300">自适应</span>
+          <span class="data-label block text-base text-signal dark:text-teal-300">AI 自适应</span>
           <span>{t(locale, 'adaptiveFoot')}</span>
         </div>
+        <a
+          class="rounded-3xl bg-slate-50 p-4 transition hover:bg-slate-100 dark:bg-slate-900 dark:hover:bg-slate-800"
+          href="https://github.com/billzi2016/tirt-ocean-quiz"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span class="data-label block text-base text-signal dark:text-teal-300">GitHub</span>
+          <span>billzi2016 / source</span>
+        </a>
       </div>
     </div>
 
     <div id="quiz" class="hidden w-full p-4 sm:p-6 lg:p-8">
       <div class="mb-6 rounded-[28px] bg-slate-50 p-4 dark:bg-slate-900/70 sm:p-5">
         <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
-          <div>
-            <p class="data-label text-xs text-slate-500 dark:text-slate-400" id="block-counter">{t(locale, 'progress')}</p>
-            <h2 class="mt-1 text-2xl font-black text-slate-950 dark:text-white">{t(locale, 'adaptive')}</h2>
+          <div class="flex flex-wrap items-baseline gap-x-4 gap-y-2">
+            <div id="block-counter" class="data-label text-4xl font-black text-slate-950 dark:text-white">1/20</div>
+            <div class="text-4xl font-black text-slate-950 dark:text-white">
+              <span id="progress-percent">0%</span>
+            </div>
           </div>
-          <div class="data-label rounded-full bg-white px-3 py-2 text-xs text-teal-800 dark:bg-slate-950 dark:text-teal-200">
-            <span>{t(locale, 'accuracy')}: </span><span id="accuracy">10%</span>
+          <div class="text-4xl font-black text-teal-600 dark:text-teal-300">
+            {t(locale, 'accuracy')}: <span id="accuracy">10%</span>
           </div>
         </div>
         <div class="grid gap-2">
-          <div class="h-3 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
-            <div id="progress-fill" class="h-3 rounded-full bg-slate-950 transition-all dark:bg-white" style="width: 0%"></div>
+          <div class="h-5 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
+            <div id="progress-fill" class="h-5 rounded-full bg-[repeating-linear-gradient(135deg,#020617_0,#020617_8px,#1e293b_8px,#1e293b_16px)] dark:bg-[repeating-linear-gradient(135deg,#ffffff_0,#ffffff_8px,#cbd5e1_8px,#cbd5e1_16px)]" style="width: 0%"></div>
           </div>
-          <div class="h-2 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
-            <div id="confidence-fill" class="h-2 rounded-full bg-teal-500 transition-all dark:bg-teal-300" style="width: 10%"></div>
+          <div class="h-5 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
+            <div id="confidence-fill" class="h-5 rounded-full bg-teal-500 dark:bg-teal-300" style="width: 10%"></div>
           </div>
         </div>
       </div>
 
-      <div class="mb-4 hidden grid-cols-[minmax(0,1fr)_128px_128px] gap-3 sm:grid">
-        <div></div>
-        <div class="data-label text-center text-sm text-slate-500 dark:text-slate-400">{t(locale, 'best')}</div>
-        <div class="data-label text-center text-sm text-slate-500 dark:text-slate-400">{t(locale, 'worst')}</div>
+      <div class="mb-4 rounded-3xl bg-teal-50 p-4 text-lg font-black leading-7 text-teal-900 dark:bg-teal-400/10 dark:text-teal-100">
+        {t(locale, 'adaptive')}
       </div>
 
       <div class="grid gap-3">
@@ -110,7 +119,7 @@ const { locale } = Astro.props;
           </button>
         </div>
       </div>
-      <div class="grid gap-6 lg:grid-cols-[380px_minmax(0,1fr)]">
+      <div class="grid gap-6 xl:grid-cols-[480px_minmax(0,1fr)]">
         <canvas id="radar" width="720" height="720" class="aspect-square w-full rounded-[28px] border hairline bg-white dark:border-slate-800 dark:bg-slate-950"></canvas>
         <div>
           <p id="result-summary" class="rounded-[28px] bg-slate-50 p-5 text-xl font-bold leading-9 text-slate-700 dark:bg-slate-900/70 dark:text-slate-200"></p>

@@ -33,6 +33,12 @@
 
 ## 本地开发
 
+在线地址：
+
+```text
+https://billzi2016.github.io/tirt-ocean-quiz/
+```
+
 ```bash
 pnpm install
 pnpm dev
