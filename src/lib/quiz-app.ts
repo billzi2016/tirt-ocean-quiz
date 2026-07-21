@@ -224,6 +224,29 @@ const traitExplain: Record<LocaleCode, Record<Trait, string>> = {
   },
 };
 
+const strengthLabel: Record<LocaleCode, string> = {
+  zh: "明显程度",
+  en: "Strength",
+  es: "Intensidad",
+  fr: "Intensité",
+  ja: "強度",
+  ru: "Выраженность",
+  ko: "선명도",
+  pt: "Intensidade",
+  hi: "तीव्रता",
+  de: "Ausprägung",
+  it: "Intensità",
+  uk: "Вираженість",
+  ar: "الشدة",
+  tr: "Belirginlik",
+  nl: "Intensiteit",
+  pl: "Nasilenie",
+  vi: "Mức độ",
+  th: "ระดับความเด่น",
+  id: "Intensitas",
+  sv: "Styrka",
+};
+
 const levelNames: Record<LocaleCode, string[]> = {
   zh: ["极低", "偏低", "中等", "偏高", "极高"],
   en: ["Very low", "Low", "Moderate", "High", "Very high"],
@@ -507,8 +530,7 @@ function renderTraitBars(dom: DomRefs, locale: LocaleCode, percentiles: Percenti
   for (const trait of TRAITS) {
     const value = percentiles[trait];
     const level = getLevel(value, locale);
-    const percentileText =
-      locale === 'zh' ? `明显程度 ${value} / 100` : `Strength ${value} / 100`;
+    const percentileText = `${strengthLabel[locale]} ${value} / 100`;
     const row = document.createElement('div');
     row.className = 'rounded-[28px] bg-slate-50 p-4 dark:bg-slate-900/70';
     row.innerHTML = `
