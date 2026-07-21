@@ -564,6 +564,26 @@ function profileCompliment(locale: LocaleCode, percentiles: Percentiles): string
       return share < 5 ? `आप ${shareText}% लोगों में से हैं · आप अद्वितीय हैं!` : `आप ${shareText}% लोगों में से हैं · आप सहज हैं!`;
     case 'de':
       return share < 5 ? `Sie gehören zu den ${shareText}% der Menschen · Sie sind einzigartig!` : `Sie gehören zu den ${shareText}% der Menschen · Sie sind ausgeglichen!`;
+    case 'it':
+      return share < 5 ? `Fai parte del ${shareText}% delle persone · Sei unico!` : `Fai parte del ${shareText}% delle persone · Sei equilibrato!`;
+    case 'uk':
+      return share < 5 ? `Ви входите до ${shareText}% людей · Ви унікальні!` : `Ви входите до ${shareText}% людей · Ви гармонійні!`;
+    case 'ar':
+      return share < 5 ? `أنت ضمن ${shareText}% من الأشخاص · أنت فريد!` : `أنت ضمن ${shareText}% من الأشخاص · أنت متوازن!`;
+    case 'tr':
+      return share < 5 ? `İnsanların %${shareText}'lik dilimindesiniz · Eşsizsiniz!` : `İnsanların %${shareText}'lik dilimindesiniz · Dengelisiniz!`;
+    case 'nl':
+      return share < 5 ? `U behoort tot de ${shareText}% van de mensen · U bent uniek!` : `U behoort tot de ${shareText}% van de mensen · U bent gebalanceerd!`;
+    case 'pl':
+      return share < 5 ? `Należysz do ${shareText}% ludzi · Jesteś wyjątkowy!` : `Należysz do ${shareText}% ludzi · Jesteś zrównoważony!`;
+    case 'vi':
+      return share < 5 ? `Bạn thuộc nhóm ${shareText}% người · Bạn thật độc đáo!` : `Bạn thuộc nhóm ${shareText}% người · Bạn rất cân bằng!`;
+    case 'th':
+      return share < 5 ? `คุณอยู่ในกลุ่ม ${shareText}% ของผู้คน · คุณมีความโดดเด่น!` : `คุณอยู่ในกลุ่ม ${shareText}% ของผู้คน · คุณมีความสมดุล!`;
+    case 'id':
+      return share < 5 ? `Anda termasuk dalam ${shareText}% orang · Anda unik!` : `Anda termasuk dalam ${shareText}% orang · Anda seimbang!`;
+    case 'sv':
+      return share < 5 ? `Du tillhör de ${shareText}% av människorna · Du är unik!` : `Du tillhör de ${shareText}% av människorna · Du är balanserad!`;
     default:
       return share < 5 ? `You are among ${shareText}% of people · You are unique!` : `You are among ${shareText}% of people · You are easygoing!`;
   }
