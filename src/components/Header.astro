@@ -7,6 +7,8 @@ interface Props {
 }
 
 const { locale } = Astro.props;
+const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
+const withBase = (path: string) => `${basePath}${path}`;
 ---
 
 <header class="sticky top-0 z-30 border-b hairline bg-white/92 backdrop-blur dark:border-slate-800 dark:bg-slate-950/92">
@@ -16,7 +18,7 @@ const { locale } = Astro.props;
         {
           locales.map((item) => (
             <a
-              href={localizedPath(item.code, '/quiz')}
+              href={withBase(localizedPath(item.code, '/quiz'))}
               class:list={[
                 'min-w-12 rounded-full px-3 py-1.5 text-center uppercase transition',
                 item.code === locale

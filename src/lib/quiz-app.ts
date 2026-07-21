@@ -386,7 +386,7 @@ async function renderPoster(
     exampleY = wrapText(ctx, example, 150, exampleY, 780, 36) + 30;
   }
 
-  let y = 1190;
+  let y = Math.max(1090, exampleY + 42);
   for (const trait of TRAITS) {
     const value = percentiles[trait];
     ctx.fillStyle = '#e2e8f0';
@@ -401,18 +401,20 @@ async function renderPoster(
     ctx.fillStyle = '#5eead4';
     roundRect(ctx, 90, y + 24, 900 * (value / 100), 18, 9);
     ctx.fill();
-    y += 112;
+    y += 96;
   }
 
-  await drawQrCode(ctx, 'https://billzi2016.github.io/tirt-ocean-quiz/', 790, 1660, 190);
+  const qrSize = 170;
+  const footerY = Math.min(1650, Math.max(1560, y + 24));
+  await drawQrCode(ctx, 'https://billzi2016.github.io/tirt-ocean-quiz/', 800, footerY - 18, qrSize);
 
   ctx.fillStyle = '#5eead4';
   ctx.font = '900 42px system-ui';
-  ctx.fillText(locale === 'zh' ? '测测你是什么' : 'What kind of person', 90, 1710);
-  ctx.fillText(locale === 'zh' ? '样的人？' : 'are you?', 90, 1764);
+  ctx.fillText(locale === 'zh' ? '测测你是什么' : 'What kind of person', 90, footerY + 32);
+  ctx.fillText(locale === 'zh' ? '样的人？' : 'are you?', 90, footerY + 86);
   ctx.fillStyle = '#94a3b8';
   ctx.font = '700 28px system-ui';
-  ctx.fillText('billzi2016.github.io/tirt-ocean-quiz', 90, 1830);
+  ctx.fillText('billzi2016.github.io/tirt-ocean-quiz', 90, footerY + 138);
 
   return canvas.toDataURL('image/png');
 }
