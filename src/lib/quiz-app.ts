@@ -27,6 +27,17 @@ const traitNames: Record<LocaleCode, Record<Trait, string>> = {
   },
 };
 
+const radarTraitNames: Record<LocaleCode, Record<Trait, string>> = {
+  zh: traitNames.zh,
+  en: {
+    O: 'Openness',
+    C: 'Conscient.',
+    E: 'Extraversion',
+    A: 'Agreeableness',
+    N: 'Emotional',
+  },
+};
+
 const traitExplain: Record<LocaleCode, Record<Trait, string>> = {
   zh: {
     O: '分高时更爱尝试新想法，分低时更偏好清楚、稳定、验证过的方法。',
@@ -186,7 +197,7 @@ function renderCurrentBlock(runtime: Runtime, dom: DomRefs): void {
   const estimate = estimateFromAnswers(runtime.blocks, runtime.state.answers);
   const progressPercent = Math.round((runtime.state.answers.length / TOTAL_BLOCKS) * 100);
   dom.accuracy.textContent = `${estimate.accuracy}%`;
-  dom.counter.textContent = `${runtime.state.answers.length + 1}/${TOTAL_BLOCKS} 题 ·`;
+  dom.counter.textContent = `${runtime.state.answers.length + 1} / ${TOTAL_BLOCKS} 题 ·`;
   dom.progressPercent.textContent = `${progressPercent}%`;
   dom.progressFill.style.width = `${progressPercent}%`;
   dom.confidenceFill.style.width = `${estimate.accuracy}%`;
@@ -294,7 +305,7 @@ function renderTraitBars(dom: DomRefs, locale: LocaleCode, percentiles: Percenti
     const value = percentiles[trait];
     const level = getLevel(value, locale);
     const percentileText =
-      locale === 'zh' ? `明显程度 ${value}/100` : `Strength ${value}/100`;
+      locale === 'zh' ? `明显程度 ${value} / 100` : `Strength ${value} / 100`;
     const row = document.createElement('div');
     row.className = 'rounded-[28px] bg-slate-50 p-4 dark:bg-slate-900/70';
     row.innerHTML = `
@@ -364,18 +375,19 @@ async function renderPoster(
   ctx.fillRect(0, 0, canvas.width, 18);
 
   ctx.fillStyle = '#f8fafc';
-  ctx.font = '900 86px system-ui';
-  wrapText(ctx, title, 84, 210, 900, 96);
+  ctx.font = '900 78px system-ui';
+  const titleEnd = wrapText(ctx, title, 84, 190, 900, 88);
   ctx.fillStyle = '#94a3b8';
-  ctx.font = '700 34px system-ui';
-  wrapText(ctx, subtitle, 88, 420, 880, 46);
+  ctx.font = '700 30px system-ui';
+  const subtitleEnd = wrapText(ctx, subtitle, 88, Math.max(355, titleEnd + 26), 880, 42);
 
+  const summaryBoxY = Math.max(488, subtitleEnd + 44);
   ctx.fillStyle = '#0f1b2d';
-  roundRect(ctx, 70, 550, 940, 530, 42);
+  roundRect(ctx, 70, summaryBoxY, 940, 500, 42);
   ctx.fill();
   ctx.fillStyle = '#e2e8f0';
-  ctx.font = '700 34px system-ui';
-  const summaryEnd = wrapText(ctx, summary, 110, 625, 860, 50);
+  ctx.font = '700 32px system-ui';
+  const summaryEnd = wrapText(ctx, summary, 110, summaryBoxY + 58, 860, 46);
 
   let exampleY = summaryEnd + 34;
   ctx.font = '800 26px system-ui';
@@ -386,7 +398,7 @@ async function renderPoster(
     exampleY = wrapText(ctx, example, 150, exampleY, 780, 36) + 30;
   }
 
-  let y = Math.max(1090, exampleY + 42);
+  let y = Math.max(summaryBoxY + 560, exampleY + 42);
   for (const trait of TRAITS) {
     const value = percentiles[trait];
     ctx.fillStyle = '#e2e8f0';
@@ -448,20 +460,20 @@ function wrapText(
   maxWidth: number,
   lineHeight: number,
 ): number {
-  const chars = Array.from(text);
+  const chars = text.includes(' ') ? text.split(/(\s+)/) : Array.from(text);
   let line = '';
   let currentY = y;
   for (const char of chars) {
     const test = line + char;
     if (ctx.measureText(test).width > maxWidth && line) {
-      ctx.fillText(line, x, currentY);
-      line = char;
+      ctx.fillText(line.trimEnd(), x, currentY);
+      line = char.trimStart();
       currentY += lineHeight;
     } else {
       line = test;
     }
   }
-  if (line) ctx.fillText(line, x, currentY);
+  if (line) ctx.fillText(line.trimEnd(), x, currentY);
   return currentY + lineHeight;
 }
 
@@ -489,7 +501,7 @@ function renderRadar(canvas: HTMLCanvasElement, locale: LocaleCode, percentiles:
 
   const size = canvas.width;
   const center = size / 2;
-  const radius = size * 0.29;
+  const radius = size * 0.27;
   const dark = document.documentElement.classList.contains('dark');
   ctx.clearRect(0, 0, size, size);
   ctx.strokeStyle = dark ? '#475569' : '#cbd5e1';
@@ -522,12 +534,15 @@ function renderRadar(canvas: HTMLCanvasElement, locale: LocaleCode, percentiles:
   ctx.stroke();
 
   ctx.fillStyle = dark ? '#e2e8f0' : '#0f172a';
-  ctx.font = '800 28px system-ui';
+  ctx.font = '800 26px system-ui';
   ctx.textBaseline = 'middle';
   TRAITS.forEach((trait, index) => {
-    const point = radarPoint(index, center, radius + 86);
+    const point = radarPoint(index, center, radius + 74);
     ctx.textAlign = index === 1 || index === 2 ? 'left' : index === 3 || index === 4 ? 'right' : 'center';
-    ctx.fillText(traitNames[locale][trait], point.x, point.y);
+    const label = radarTraitNames[locale][trait];
+    const x = clamp(point.x, 122, size - 122);
+    const y = clamp(point.y, 72, size - 72);
+    ctx.fillText(label, x, y);
   });
 }
 
@@ -545,6 +560,10 @@ function drawPolygon(ctx: CanvasRenderingContext2D, center: number, radius: numb
 function radarPoint(index: number, center: number, radius: number): { x: number; y: number } {
   const angle = -Math.PI / 2 + (Math.PI * 2 * index) / TRAITS.length;
   return { x: center + Math.cos(angle) * radius, y: center + Math.sin(angle) * radius };
+}
+
+function clamp(value: number, min: number, max: number): number {
+  return Math.max(min, Math.min(max, value));
 }
 
 function normalizeLocale(value: string | undefined): LocaleCode {

@@ -7,7 +7,7 @@ The system is designed for a clean academic interface, session-level shuffled qu
 ## Highlights
 
 - 20 forced-choice blocks with 4 statements each
-- Best/Worst response format
+- Best / Worst response format
 - Session-level shuffle for both blocks and statements
 - Adaptive next-block selection based on current uncertainty and trait coverage
 - Client-side MAP-style scoring over pairwise preferences
