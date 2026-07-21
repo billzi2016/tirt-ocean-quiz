@@ -13,7 +13,7 @@ const TOTAL_BLOCKS = 20;
 
 const labels: Record<LocaleCode, { best: string; worst: string; next: string; complete: string }> = {
   zh: { best: '最符合', worst: '最不符合', next: '确认，下一题', complete: '查看结果' },
-  en: { best: 'Most like me', worst: 'Least like me', next: 'Confirm and continue', complete: 'View result' },
+  en: { best: 'Fits me', worst: 'Not me', next: 'Confirm and continue', complete: 'View result' },
 };
 
 const traitNames: Record<LocaleCode, Record<Trait, string>> = {
@@ -202,12 +202,12 @@ function renderCurrentBlock(runtime: Runtime, dom: DomRefs): void {
     const text = item.text[runtime.locale] ?? item.text.en ?? Object.values(item.text)[0] ?? '';
     const row = document.createElement('div');
     row.className =
-      'grid gap-4 rounded-[28px] border hairline bg-white p-4 dark:border-slate-800 dark:bg-slate-950 sm:grid-cols-[minmax(0,1fr)_128px_128px] sm:items-center sm:p-5';
+      'grid gap-4 rounded-[28px] border hairline bg-white p-4 dark:border-slate-800 dark:bg-slate-950 sm:grid-cols-[minmax(0,1fr)_minmax(120px,150px)_minmax(120px,150px)] sm:items-center sm:p-5';
     row.innerHTML = `
       <p class="text-xl font-bold leading-8 text-slate-800 dark:text-slate-100 sm:text-2xl sm:leading-9">${escapeHtml(text)}</p>
       <div class="grid grid-cols-2 gap-3 sm:contents">
-        <button type="button" data-role="best" data-item="${item.id}" aria-pressed="false" class="choice-button min-h-16 whitespace-nowrap rounded-3xl border border-slate-300 px-3 py-3 text-base font-black text-slate-600 transition hover:border-teal-700 hover:text-teal-800 dark:border-slate-700 dark:text-slate-300 dark:hover:border-teal-300 dark:hover:text-teal-200 sm:min-h-20 sm:px-4 sm:text-lg">${labels[runtime.locale].best}</button>
-        <button type="button" data-role="worst" data-item="${item.id}" aria-pressed="false" class="choice-button min-h-16 whitespace-nowrap rounded-3xl border border-slate-300 px-3 py-3 text-base font-black text-slate-600 transition hover:border-amber-700 hover:text-amber-800 dark:border-slate-700 dark:text-slate-300 dark:hover:border-amber-300 dark:hover:text-amber-200 sm:min-h-20 sm:px-4 sm:text-lg">${labels[runtime.locale].worst}</button>
+        <button type="button" data-role="best" data-item="${item.id}" aria-pressed="false" class="choice-button min-h-16 rounded-3xl border border-slate-300 px-3 py-3 text-base font-black leading-tight text-slate-600 transition hover:border-teal-700 hover:text-teal-800 dark:border-slate-700 dark:text-slate-300 dark:hover:border-teal-300 dark:hover:text-teal-200 sm:min-h-20 sm:px-4 sm:text-lg">${labels[runtime.locale].best}</button>
+        <button type="button" data-role="worst" data-item="${item.id}" aria-pressed="false" class="choice-button min-h-16 rounded-3xl border border-slate-300 px-3 py-3 text-base font-black leading-tight text-slate-600 transition hover:border-amber-700 hover:text-amber-800 dark:border-slate-700 dark:text-slate-300 dark:hover:border-amber-300 dark:hover:text-amber-200 sm:min-h-20 sm:px-4 sm:text-lg">${labels[runtime.locale].worst}</button>
       </div>
     `;
     dom.options.append(row);
@@ -371,23 +371,22 @@ async function renderPoster(
   wrapText(ctx, subtitle, 88, 420, 880, 46);
 
   ctx.fillStyle = '#0f1b2d';
-  roundRect(ctx, 70, 560, 940, 430, 42);
+  roundRect(ctx, 70, 550, 940, 530, 42);
   ctx.fill();
   ctx.fillStyle = '#e2e8f0';
-  ctx.font = '700 38px system-ui';
-  wrapText(ctx, summary, 110, 640, 860, 58);
+  ctx.font = '700 34px system-ui';
+  const summaryEnd = wrapText(ctx, summary, 110, 625, 860, 50);
 
-  let exampleY = 750;
-  ctx.font = '800 28px system-ui';
+  let exampleY = summaryEnd + 34;
+  ctx.font = '800 26px system-ui';
   for (const example of examples.slice(0, 3)) {
     ctx.fillStyle = '#5eead4';
     ctx.fillText('·', 110, exampleY);
     ctx.fillStyle = '#f8fafc';
-    wrapText(ctx, example, 150, exampleY, 760, 38);
-    exampleY += 122;
+    exampleY = wrapText(ctx, example, 150, exampleY, 780, 36) + 30;
   }
 
-  let y = 1130;
+  let y = 1190;
   for (const trait of TRAITS) {
     const value = percentiles[trait];
     ctx.fillStyle = '#e2e8f0';
@@ -446,7 +445,7 @@ function wrapText(
   y: number,
   maxWidth: number,
   lineHeight: number,
-): void {
+): number {
   const chars = Array.from(text);
   let line = '';
   let currentY = y;
@@ -461,6 +460,7 @@ function wrapText(
     }
   }
   if (line) ctx.fillText(line, x, currentY);
+  return currentY + lineHeight;
 }
 
 function roundRect(
