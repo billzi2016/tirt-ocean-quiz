@@ -1,0 +1,1066 @@
+{
+  "version": "0.1.0",
+  "sourceNote": "Item display text is original. Numeric parameters are exported from an offline calibration pass over the OpenPsychometrics IPIP response dataset and used by the client-side forced-choice MAP scorer.",
+  "blocks": [
+    {
+      "id": "b01",
+      "items": [
+        {
+          "id": "b01_o",
+          "trait": "O",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": 0.362,
+          "text": {
+            "zh": "我会主动寻找新的解释框架，而不是停在第一个答案。",
+            "en": "I look for new ways to frame a question rather than stopping at the first answer."
+          },
+          "sourceItem": "OPN1"
+        },
+        {
+          "id": "b01_c",
+          "trait": "C",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.2931,
+          "text": {
+            "zh": "我习惯把复杂任务拆成可检查的步骤。",
+            "en": "I tend to break complex work into steps that can be checked."
+          },
+          "sourceItem": "CSN2"
+        },
+        {
+          "id": "b01_e",
+          "trait": "E",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.1178,
+          "text": {
+            "zh": "长时间密集社交后，我通常需要明显的恢复时间。",
+            "en": "After dense social time, I usually need real recovery time."
+          },
+          "sourceItem": "EXT3"
+        },
+        {
+          "id": "b01_a",
+          "trait": "A",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": 0.8367,
+          "text": {
+            "zh": "讨论有分歧时，我会先确认对方真正担心什么。",
+            "en": "In disagreement, I first try to understand what the other person is concerned about."
+          },
+          "sourceItem": "AGR4"
+        }
+      ]
+    },
+    {
+      "id": "b02",
+      "items": [
+        {
+          "id": "b02_n",
+          "trait": "N",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.6613,
+          "text": {
+            "zh": "细小的不确定性也会让我在脑中反复推演。",
+            "en": "Small uncertainties can make me replay possibilities in my head."
+          },
+          "sourceItem": "EST2"
+        },
+        {
+          "id": "b02_c",
+          "trait": "C",
+          "direction": 1,
+          "lambda": 0.7178,
+          "mu": 0.782,
+          "text": {
+            "zh": "如果任务不紧急，我容易先放到一边。",
+            "en": "If a task is not urgent, I can easily set it aside."
+          },
+          "sourceItem": "CSN3"
+        },
+        {
+          "id": "b02_o",
+          "trait": "O",
+          "direction": -1,
+          "lambda": 0.7967,
+          "mu": 0.7452,
+          "text": {
+            "zh": "抽象概念会自然吸引我的注意力。",
+            "en": "Abstract ideas naturally catch my attention."
+          },
+          "sourceItem": "OPN4"
+        },
+        {
+          "id": "b02_e",
+          "trait": "E",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.0424,
+          "text": {
+            "zh": "我常在对话中快速进入状态。",
+            "en": "I usually warm up quickly in conversation."
+          },
+          "sourceItem": "EXT5"
+        }
+      ]
+    },
+    {
+      "id": "b03",
+      "items": [
+        {
+          "id": "b03_a",
+          "trait": "A",
+          "direction": -1,
+          "lambda": 0.7307,
+          "mu": 0.3526,
+          "text": {
+            "zh": "必要时，我会直接指出问题，不太绕弯。",
+            "en": "When needed, I point out the issue directly."
+          },
+          "sourceItem": "AGR3"
+        },
+        {
+          "id": "b03_c",
+          "trait": "C",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": 0.0185,
+          "text": {
+            "zh": "我会为重要事情预留缓冲，而不是卡到最后一刻。",
+            "en": "For important things, I leave a buffer instead of cutting it close."
+          },
+          "sourceItem": "CSN4"
+        },
+        {
+          "id": "b03_n",
+          "trait": "N",
+          "direction": 1,
+          "lambda": 0.7875,
+          "mu": -0.512,
+          "text": {
+            "zh": "压力升高时，我通常还能保持稳定判断。",
+            "en": "When pressure rises, I can usually keep my judgment steady."
+          },
+          "sourceItem": "EST5"
+        },
+        {
+          "id": "b03_o",
+          "trait": "O",
+          "direction": -1,
+          "lambda": 0.7926,
+          "mu": 0.9852,
+          "text": {
+            "zh": "我更信任已经验证过的方法。",
+            "en": "I tend to trust methods that have already been tested."
+          },
+          "sourceItem": "OPN6"
+        }
+      ]
+    },
+    {
+      "id": "b04",
+      "items": [
+        {
+          "id": "b04_e",
+          "trait": "E",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.6559,
+          "text": {
+            "zh": "我常把气氛带动起来，让事情开始流动。",
+            "en": "I often lift the room and get things moving."
+          },
+          "sourceItem": "EXT4"
+        },
+        {
+          "id": "b04_a",
+          "trait": "A",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": 0.5034,
+          "text": {
+            "zh": "我会留意自己的表达是否让别人难堪。",
+            "en": "I pay attention to whether my words put others in a hard spot."
+          },
+          "sourceItem": "AGR5"
+        },
+        {
+          "id": "b04_c",
+          "trait": "C",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.1047,
+          "text": {
+            "zh": "我有时会凭当下状态推进，而不是严格按计划。",
+            "en": "I sometimes move by feel rather than by a strict plan."
+          },
+          "sourceItem": "CSN6"
+        },
+        {
+          "id": "b04_n",
+          "trait": "N",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.3216,
+          "text": {
+            "zh": "别人语气的细微变化会明显影响我。",
+            "en": "Small shifts in someone's tone can affect me noticeably."
+          },
+          "sourceItem": "EST7"
+        }
+      ]
+    },
+    {
+      "id": "b05",
+      "items": [
+        {
+          "id": "b05_o",
+          "trait": "O",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": 0.5151,
+          "text": {
+            "zh": "我喜欢把不相关的信息连接成新的想法。",
+            "en": "I like connecting unrelated information into new ideas."
+          },
+          "sourceItem": "OPN5"
+        },
+        {
+          "id": "b05_e",
+          "trait": "E",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": 0.336,
+          "text": {
+            "zh": "我更愿意在安静环境里完成关键思考。",
+            "en": "I prefer doing important thinking in a quiet setting."
+          },
+          "sourceItem": "EXT6"
+        },
+        {
+          "id": "b05_a",
+          "trait": "A",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": 0.5835,
+          "text": {
+            "zh": "如果一个观点站不住，我不会因为场面而放过它。",
+            "en": "If an idea does not hold up, I will not spare it just to keep the mood easy."
+          },
+          "sourceItem": "AGR7"
+        },
+        {
+          "id": "b05_n",
+          "trait": "N",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.6496,
+          "text": {
+            "zh": "突发变化出现时，我通常先处理事实。",
+            "en": "When something unexpected happens, I usually deal with the facts first."
+          },
+          "sourceItem": "EST8"
+        }
+      ]
+    },
+    {
+      "id": "b06",
+      "items": [
+        {
+          "id": "b06_c",
+          "trait": "C",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.1047,
+          "text": {
+            "zh": "我会把承诺当成需要兑现的工程约束。",
+            "en": "I treat commitments as constraints that need to be met."
+          },
+          "sourceItem": "CSN6"
+        },
+        {
+          "id": "b06_o",
+          "trait": "O",
+          "direction": 1,
+          "lambda": 0.7614,
+          "mu": 0.8538,
+          "text": {
+            "zh": "如果目标明确，我不太需要额外探索。",
+            "en": "When the goal is clear, I do not need much extra exploration."
+          },
+          "sourceItem": "OPN7"
+        },
+        {
+          "id": "b06_e",
+          "trait": "E",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.8822,
+          "text": {
+            "zh": "我从高质量互动里获得能量。",
+            "en": "Good interaction gives me energy."
+          },
+          "sourceItem": "EXT8"
+        },
+        {
+          "id": "b06_a",
+          "trait": "A",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": 0.6491,
+          "text": {
+            "zh": "我愿意为关系中的长期信任多做一点。",
+            "en": "I am willing to do a little extra for long-term trust."
+          },
+          "sourceItem": "AGR9"
+        }
+      ]
+    },
+    {
+      "id": "b07",
+      "items": [
+        {
+          "id": "b07_n",
+          "trait": "N",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.3216,
+          "text": {
+            "zh": "我很快能察觉自己情绪里的波动。",
+            "en": "I notice shifts in my own emotions quickly."
+          },
+          "sourceItem": "EST7"
+        },
+        {
+          "id": "b07_c",
+          "trait": "C",
+          "direction": -1,
+          "lambda": 0.7862,
+          "mu": 0.0303,
+          "text": {
+            "zh": "我的工作区通常能反映出我正在处理什么。",
+            "en": "My workspace usually reflects what I am working on."
+          },
+          "sourceItem": "CSN8"
+        },
+        {
+          "id": "b07_e",
+          "trait": "E",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.3469,
+          "text": {
+            "zh": "我不需要成为注意力中心也能很自在。",
+            "en": "I can feel at ease without being the center of attention."
+          },
+          "sourceItem": "EXT9"
+        },
+        {
+          "id": "b07_o",
+          "trait": "O",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": 0.7236,
+          "text": {
+            "zh": "我会被语言、图像或模型里的细节吸引。",
+            "en": "I am drawn to details in language, images, or models."
+          },
+          "sourceItem": "OPN10"
+        }
+      ]
+    },
+    {
+      "id": "b08",
+      "items": [
+        {
+          "id": "b08_a",
+          "trait": "A",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": 0.4931,
+          "text": {
+            "zh": "我能比较自然地站到对方处境里想一想。",
+            "en": "I can naturally consider a situation from the other person's side."
+          },
+          "sourceItem": "AGR8"
+        },
+        {
+          "id": "b08_n",
+          "trait": "N",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.2078,
+          "text": {
+            "zh": "我不会轻易被一时的不顺带偏。",
+            "en": "A temporary setback does not easily throw me off."
+          },
+          "sourceItem": "EST9"
+        },
+        {
+          "id": "b08_c",
+          "trait": "C",
+          "direction": 1,
+          "lambda": 0.7459,
+          "mu": 0.1949,
+          "text": {
+            "zh": "我有时会先试起来，再回头整理流程。",
+            "en": "I sometimes start experimenting first and organize the process later."
+          },
+          "sourceItem": "CSN10"
+        },
+        {
+          "id": "b08_e",
+          "trait": "E",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.8117,
+          "text": {
+            "zh": "陌生场合里，我通常能主动打开话题。",
+            "en": "In unfamiliar settings, I can usually open a conversation."
+          },
+          "sourceItem": "EXT1"
+        }
+      ]
+    },
+    {
+      "id": "b09",
+      "items": [
+        {
+          "id": "b09_o",
+          "trait": "O",
+          "direction": 1,
+          "lambda": 0.7096,
+          "mu": 0.9925,
+          "text": {
+            "zh": "我喜欢规则清楚、边界稳定的任务。",
+            "en": "I like tasks with clear rules and stable boundaries."
+          },
+          "sourceItem": "OPN9"
+        },
+        {
+          "id": "b09_c",
+          "trait": "C",
+          "direction": 1,
+          "lambda": 0.7459,
+          "mu": 0.1949,
+          "text": {
+            "zh": "我会复查关键细节，即使这会多花时间。",
+            "en": "I review key details even when it takes extra time."
+          },
+          "sourceItem": "CSN10"
+        },
+        {
+          "id": "b09_a",
+          "trait": "A",
+          "direction": -1,
+          "lambda": 0.7909,
+          "mu": 0.5153,
+          "text": {
+            "zh": "我不太会为了避免冲突而改变判断。",
+            "en": "I do not often change my judgment just to avoid conflict."
+          },
+          "sourceItem": "AGR1"
+        },
+        {
+          "id": "b09_n",
+          "trait": "N",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.6613,
+          "text": {
+            "zh": "临近截止时，我会明显感到紧绷。",
+            "en": "As a deadline approaches, I feel noticeably tense."
+          },
+          "sourceItem": "EST2"
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "items": [
+        {
+          "id": "b10_e",
+          "trait": "E",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.9678,
+          "text": {
+            "zh": "我喜欢把想法说出来，在交流中调整它。",
+            "en": "I like saying ideas out loud and refining them through exchange."
+          },
+          "sourceItem": "EXT10"
+        },
+        {
+          "id": "b10_o",
+          "trait": "O",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": 0.362,
+          "text": {
+            "zh": "我会主动理解陌生领域的底层逻辑。",
+            "en": "I try to understand the underlying logic of unfamiliar fields."
+          },
+          "sourceItem": "OPN1"
+        },
+        {
+          "id": "b10_c",
+          "trait": "C",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.2931,
+          "text": {
+            "zh": "我不喜欢被过细的流程锁住。",
+            "en": "I dislike being locked into overly detailed procedures."
+          },
+          "sourceItem": "CSN2"
+        },
+        {
+          "id": "b10_a",
+          "trait": "A",
+          "direction": -1,
+          "lambda": 0.7307,
+          "mu": 0.3526,
+          "text": {
+            "zh": "我通常愿意先给别人一个善意解释。",
+            "en": "I usually start with a charitable interpretation of others."
+          },
+          "sourceItem": "AGR3"
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "items": [
+        {
+          "id": "b11_n",
+          "trait": "N",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.0032,
+          "text": {
+            "zh": "我能比较快地从负面反馈里恢复过来。",
+            "en": "I recover fairly quickly from negative feedback."
+          },
+          "sourceItem": "EST1"
+        },
+        {
+          "id": "b11_a",
+          "trait": "A",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": 0.6451,
+          "text": {
+            "zh": "我会注意一个决定对别人造成的连带影响。",
+            "en": "I consider the ripple effects a decision may have on others."
+          },
+          "sourceItem": "AGR2"
+        },
+        {
+          "id": "b11_o",
+          "trait": "O",
+          "direction": 1,
+          "lambda": 0.8005,
+          "mu": 0.811,
+          "text": {
+            "zh": "没有标准答案的问题会让我更投入。",
+            "en": "Questions without standard answers engage me more."
+          },
+          "sourceItem": "OPN3"
+        },
+        {
+          "id": "b11_e",
+          "trait": "E",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.6559,
+          "text": {
+            "zh": "我更常先观察，再决定是否加入讨论。",
+            "en": "I more often observe first before joining a discussion."
+          },
+          "sourceItem": "EXT4"
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "items": [
+        {
+          "id": "b12_c",
+          "trait": "C",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.2931,
+          "text": {
+            "zh": "我对自己交出去的东西有明确质量线。",
+            "en": "I have a clear quality bar for what I hand over."
+          },
+          "sourceItem": "CSN2"
+        },
+        {
+          "id": "b12_n",
+          "trait": "N",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": 0.7152,
+          "text": {
+            "zh": "我会提前担心一些尚未发生的问题。",
+            "en": "I sometimes worry ahead about things that have not happened."
+          },
+          "sourceItem": "EST3"
+        },
+        {
+          "id": "b12_e",
+          "trait": "E",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.6559,
+          "text": {
+            "zh": "我愿意在群体里承担可见的角色。",
+            "en": "I am willing to take a visible role in a group."
+          },
+          "sourceItem": "EXT4"
+        },
+        {
+          "id": "b12_o",
+          "trait": "O",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": 0.5151,
+          "text": {
+            "zh": "我更偏好清楚、直接、少歧义的信息。",
+            "en": "I prefer information that is clear, direct, and low in ambiguity."
+          },
+          "sourceItem": "OPN5"
+        }
+      ]
+    },
+    {
+      "id": "b13",
+      "items": [
+        {
+          "id": "b13_a",
+          "trait": "A",
+          "direction": -1,
+          "lambda": 0.7307,
+          "mu": 0.3526,
+          "text": {
+            "zh": "我会把效率放在照顾所有感受之前。",
+            "en": "I can put efficiency ahead of accommodating every feeling."
+          },
+          "sourceItem": "AGR3"
+        },
+        {
+          "id": "b13_o",
+          "trait": "O",
+          "direction": -1,
+          "lambda": 0.7967,
+          "mu": 0.7452,
+          "text": {
+            "zh": "我喜欢在熟悉事物里发现新的层次。",
+            "en": "I like finding new layers in familiar things."
+          },
+          "sourceItem": "OPN4"
+        },
+        {
+          "id": "b13_c",
+          "trait": "C",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.8213,
+          "text": {
+            "zh": "我通常会把重要信息记录下来。",
+            "en": "I usually record important information."
+          },
+          "sourceItem": "CSN5"
+        },
+        {
+          "id": "b13_n",
+          "trait": "N",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.4853,
+          "text": {
+            "zh": "我很少因为小失误长时间责备自己。",
+            "en": "I rarely blame myself for long over small mistakes."
+          },
+          "sourceItem": "EST6"
+        }
+      ]
+    },
+    {
+      "id": "b14",
+      "items": [
+        {
+          "id": "b14_e",
+          "trait": "E",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.6559,
+          "text": {
+            "zh": "我可以长时间独立工作而不觉得缺少什么。",
+            "en": "I can work independently for long stretches without feeling that something is missing."
+          },
+          "sourceItem": "EXT4"
+        },
+        {
+          "id": "b14_a",
+          "trait": "A",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": 0.5034,
+          "text": {
+            "zh": "我会主动修复关系里的小裂缝。",
+            "en": "I take initiative to repair small strains in a relationship."
+          },
+          "sourceItem": "AGR5"
+        },
+        {
+          "id": "b14_c",
+          "trait": "C",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.1047,
+          "text": {
+            "zh": "我的兴趣变化快，计划也会随之调整。",
+            "en": "My interests shift quickly, and my plans shift with them."
+          },
+          "sourceItem": "CSN6"
+        },
+        {
+          "id": "b14_o",
+          "trait": "O",
+          "direction": 1,
+          "lambda": 0.7614,
+          "mu": 0.8538,
+          "text": {
+            "zh": "我愿意重新定义一个问题，而不是只优化答案。",
+            "en": "I am willing to redefine a problem instead of only optimizing the answer."
+          },
+          "sourceItem": "OPN7"
+        }
+      ]
+    },
+    {
+      "id": "b15",
+      "items": [
+        {
+          "id": "b15_n",
+          "trait": "N",
+          "direction": 1,
+          "lambda": 0.7875,
+          "mu": -0.512,
+          "text": {
+            "zh": "我对潜在风险的反应通常比较快。",
+            "en": "I usually react quickly to potential risks."
+          },
+          "sourceItem": "EST5"
+        },
+        {
+          "id": "b15_c",
+          "trait": "C",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.1047,
+          "text": {
+            "zh": "我喜欢让事情有明确的完成标准。",
+            "en": "I like work to have a clear standard of completion."
+          },
+          "sourceItem": "CSN6"
+        },
+        {
+          "id": "b15_e",
+          "trait": "E",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.5308,
+          "text": {
+            "zh": "我在多人场景中容易表达自己的立场。",
+            "en": "In group settings, I find it easy to state my position."
+          },
+          "sourceItem": "EXT7"
+        },
+        {
+          "id": "b15_a",
+          "trait": "A",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": 0.4931,
+          "text": {
+            "zh": "我不太接受没有依据的让步。",
+            "en": "I do not readily accept concessions without a reason."
+          },
+          "sourceItem": "AGR8"
+        }
+      ]
+    },
+    {
+      "id": "b16",
+      "items": [
+        {
+          "id": "b16_o",
+          "trait": "O",
+          "direction": -1,
+          "lambda": 0.7926,
+          "mu": 0.9852,
+          "text": {
+            "zh": "我更看重可复用的经验，而不是不断换新思路。",
+            "en": "I value reusable experience more than constantly changing approaches."
+          },
+          "sourceItem": "OPN6"
+        },
+        {
+          "id": "b16_a",
+          "trait": "A",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": 0.5835,
+          "text": {
+            "zh": "我会尽量让批评听起来具体而可处理。",
+            "en": "I try to make criticism specific and workable."
+          },
+          "sourceItem": "AGR7"
+        },
+        {
+          "id": "b16_n",
+          "trait": "N",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.6496,
+          "text": {
+            "zh": "别人情绪很强时，我仍能保持自己的节奏。",
+            "en": "When others are intense, I can still keep my own pace."
+          },
+          "sourceItem": "EST8"
+        },
+        {
+          "id": "b16_e",
+          "trait": "E",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.3469,
+          "text": {
+            "zh": "我会主动把人连接到同一个讨论里。",
+            "en": "I actively bring people into the same conversation."
+          },
+          "sourceItem": "EXT9"
+        }
+      ]
+    },
+    {
+      "id": "b17",
+      "items": [
+        {
+          "id": "b17_c",
+          "trait": "C",
+          "direction": 1,
+          "lambda": 0.7909,
+          "mu": 0.4577,
+          "text": {
+            "zh": "灵感来时，我会先抓住它，细节之后再补。",
+            "en": "When inspiration comes, I capture it first and fill in details later."
+          },
+          "sourceItem": "CSN7"
+        },
+        {
+          "id": "b17_o",
+          "trait": "O",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.1496,
+          "text": {
+            "zh": "我对复杂系统背后的机制很有兴趣。",
+            "en": "I am interested in the mechanisms behind complex systems."
+          },
+          "sourceItem": "OPN8"
+        },
+        {
+          "id": "b17_a",
+          "trait": "A",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": 0.6491,
+          "text": {
+            "zh": "我愿意在结论之外保留人的处境。",
+            "en": "I try to keep the human situation in view beyond the conclusion."
+          },
+          "sourceItem": "AGR9"
+        },
+        {
+          "id": "b17_n",
+          "trait": "N",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.5718,
+          "text": {
+            "zh": "我容易捕捉到氛围中细微的不对劲。",
+            "en": "I easily notice when the atmosphere feels slightly off."
+          },
+          "sourceItem": "EST10"
+        }
+      ]
+    },
+    {
+      "id": "b18",
+      "items": [
+        {
+          "id": "b18_e",
+          "trait": "E",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.8822,
+          "text": {
+            "zh": "我更习惯把观点写清楚，而不是现场争取注意。",
+            "en": "I prefer writing my view clearly to competing for attention live."
+          },
+          "sourceItem": "EXT8"
+        },
+        {
+          "id": "b18_c",
+          "trait": "C",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.1016,
+          "text": {
+            "zh": "我能在重复任务里保持稳定标准。",
+            "en": "I can keep stable standards in repetitive work."
+          },
+          "sourceItem": "CSN9"
+        },
+        {
+          "id": "b18_n",
+          "trait": "N",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.5718,
+          "text": {
+            "zh": "我通常不会把一次评价看得过重。",
+            "en": "I usually do not give one evaluation too much weight."
+          },
+          "sourceItem": "EST10"
+        },
+        {
+          "id": "b18_a",
+          "trait": "A",
+          "direction": -1,
+          "lambda": 0.7909,
+          "mu": 0.5153,
+          "text": {
+            "zh": "我会优先保护判断质量，而不是让所有人满意。",
+            "en": "I prioritize the quality of judgment over keeping everyone pleased."
+          },
+          "sourceItem": "AGR1"
+        }
+      ]
+    },
+    {
+      "id": "b19",
+      "items": [
+        {
+          "id": "b19_o",
+          "trait": "O",
+          "direction": 1,
+          "lambda": 0.7096,
+          "mu": 0.9925,
+          "text": {
+            "zh": "我常会问：这件事还有没有另一种解释。",
+            "en": "I often ask whether there is another explanation for what is happening."
+          },
+          "sourceItem": "OPN9"
+        },
+        {
+          "id": "b19_e",
+          "trait": "E",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.9678,
+          "text": {
+            "zh": "我喜欢在合作中快速交换反馈。",
+            "en": "I like fast feedback exchange in collaboration."
+          },
+          "sourceItem": "EXT10"
+        },
+        {
+          "id": "b19_c",
+          "trait": "C",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.0112,
+          "text": {
+            "zh": "我不总是按固定顺序处理事情。",
+            "en": "I do not always handle things in a fixed order."
+          },
+          "sourceItem": "CSN1"
+        },
+        {
+          "id": "b19_n",
+          "trait": "N",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": -0.6613,
+          "text": {
+            "zh": "尚未解决的问题会在我脑中停留较久。",
+            "en": "Unresolved issues tend to stay in my mind for a while."
+          },
+          "sourceItem": "EST2"
+        }
+      ]
+    },
+    {
+      "id": "b20",
+      "items": [
+        {
+          "id": "b20_a",
+          "trait": "A",
+          "direction": 1,
+          "lambda": 0.7592,
+          "mu": 0.1988,
+          "text": {
+            "zh": "我希望自己的判断既准确，也尽量不伤人。",
+            "en": "I want my judgment to be accurate and also avoid unnecessary harm."
+          },
+          "sourceItem": "AGR10"
+        },
+        {
+          "id": "b20_n",
+          "trait": "N",
+          "direction": 1,
+          "lambda": 0.8036,
+          "mu": -0.0032,
+          "text": {
+            "zh": "我能把情绪放在一边，先完成眼前动作。",
+            "en": "I can set emotion aside and complete the next action first."
+          },
+          "sourceItem": "EST1"
+        },
+        {
+          "id": "b20_o",
+          "trait": "O",
+          "direction": -1,
+          "lambda": 0.8036,
+          "mu": 0.6814,
+          "text": {
+            "zh": "我更喜欢结果明确的问题。",
+            "en": "I prefer problems with definite outcomes."
+          },
+          "sourceItem": "OPN2"
+        },
+        {
+          "id": "b20_c",
+          "trait": "C",
+          "direction": 1,
+          "lambda": 0.7178,
+          "mu": 0.782,
+          "text": {
+            "zh": "我会把长期目标转化成今天能执行的动作。",
+            "en": "I turn long-term goals into actions I can take today."
+          },
+          "sourceItem": "CSN3"
+        }
+      ]
+    }
+  ]
+}

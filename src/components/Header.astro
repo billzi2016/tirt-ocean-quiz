@@ -1,0 +1,71 @@
+---
+import { locales, localizedPath, type Locale } from '../i18n/locales';
+import { t } from '../i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+---
+
+<header class="sticky top-0 z-30 border-b hairline bg-white/92 backdrop-blur dark:border-slate-800 dark:bg-slate-950/92">
+  <div class="border-b border-slate-200/70 bg-slate-50/85 dark:border-slate-800 dark:bg-slate-900/80">
+    <nav class="mx-auto flex max-w-6xl items-center gap-1 overflow-x-auto px-4 py-1.5 text-xs font-semibold sm:px-6">
+      {
+        locales.map((item) => (
+          <a
+            href={localizedPath(item.code, '/quiz')}
+            class:list={[
+              'min-w-10 rounded px-2.5 py-1 text-center uppercase transition',
+              item.code === locale
+                ? 'bg-slate-950 text-white dark:bg-white dark:text-slate-950'
+                : 'text-slate-500 hover:bg-slate-200 hover:text-slate-950 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white',
+            ]}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+  </div>
+
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
+    <a href={localizedPath(locale, '/quiz')} class="group flex items-center gap-3">
+      <span class="grid h-9 w-9 place-items-center border border-slate-900 bg-slate-950 text-sm font-semibold text-white dark:border-slate-200 dark:bg-slate-100 dark:text-slate-950">
+        T
+      </span>
+      <span class="min-w-0">
+        <span class="block text-sm font-semibold leading-5 text-slate-950 dark:text-white">{t(locale, 'product')}</span>
+        <span class="data-label block text-[11px] leading-4 text-slate-500 dark:text-slate-400">Thurstonian IRT</span>
+      </span>
+    </a>
+
+    <div class="flex items-center gap-2">
+      <button
+        type="button"
+        id="theme-toggle"
+        class="grid h-8 w-8 place-items-center border border-slate-200 bg-white text-slate-700 transition hover:border-slate-400 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-200"
+        aria-label={`${t(locale, 'light')} / ${t(locale, 'dark')}`}
+        title={`${t(locale, 'light')} / ${t(locale, 'dark')}`}
+      >
+        <span class="theme-icon text-sm" aria-hidden="true">◐</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<script>
+  const root = document.documentElement;
+  const button = document.getElementById('theme-toggle');
+  const stored = localStorage.getItem('tirt-ocean-theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initial = stored ?? (prefersDark ? 'dark' : 'light');
+  root.classList.toggle('dark', initial === 'dark');
+
+  button?.addEventListener('click', () => {
+    const next = root.classList.contains('dark') ? 'light' : 'dark';
+    root.classList.toggle('dark', next === 'dark');
+    localStorage.setItem('tirt-ocean-theme', next);
+  });
+</script>

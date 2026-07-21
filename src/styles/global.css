@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #ffffff;
+  color: #111827;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  min-height: 100%;
+  background: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 320px;
+  background:
+    linear-gradient(90deg, rgba(15, 23, 42, 0.035) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(15, 23, 42, 0.025) 1px, transparent 1px),
+    #ffffff;
+  background-size: 56px 56px;
+  font-family: Inter, 'Noto Sans SC', 'Noto Sans CJK SC', system-ui, sans-serif;
+}
+
+html.dark {
+  background: #020617;
+}
+
+html.dark body {
+  background:
+    linear-gradient(90deg, rgba(148, 163, 184, 0.055) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(148, 163, 184, 0.04) 1px, transparent 1px),
+    #020617;
+  color: #e2e8f0;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #0f766e;
+  outline-offset: 3px;
+}
+
+.hairline {
+  border-color: #d8dee8;
+}
+
+.data-label {
+  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+  letter-spacing: 0;
+}

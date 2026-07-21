@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="TIRT Ocean">
+  <main class="grid min-h-screen place-items-center bg-white text-slate-950 dark:bg-slate-950 dark:text-white">
+    <a class="border border-slate-950 px-5 py-3 text-sm font-semibold dark:border-white" href="/tirt-ocean-quiz/quiz">Enter</a>
+  </main>
+  <script>
+    const target = navigator.language.toLowerCase().startsWith('en') ? '/tirt-ocean-quiz/en/quiz' : '/tirt-ocean-quiz/quiz';
+    window.location.replace(target);
+  </script>
+</Layout>

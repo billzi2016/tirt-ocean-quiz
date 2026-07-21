@@ -1,0 +1,121 @@
+---
+import type { Locale } from '../i18n/locales';
+import { t } from '../i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+---
+
+<main
+  data-quiz-app
+  data-locale={locale}
+  class="mx-auto flex min-h-[calc(100vh-118px)] max-w-6xl flex-col px-4 py-8 sm:px-6"
+>
+  <section class="flex min-h-[620px] flex-1 border hairline bg-white shadow-line dark:border-slate-800 dark:bg-slate-950">
+    <div id="intro" class="flex w-full flex-col justify-between p-6 sm:p-10 lg:p-14">
+      <div class="max-w-4xl pt-10 sm:pt-16">
+        <h1 class="max-w-3xl text-4xl font-semibold leading-[0.98] text-slate-950 dark:text-white sm:text-6xl lg:text-7xl">
+          {t(locale, 'introTitle')}
+        </h1>
+        <p class="mt-8 max-w-3xl text-base font-medium leading-8 text-slate-600 dark:text-slate-300 sm:text-lg">
+          {t(locale, 'introCopy')}
+        </p>
+        <button
+          id="start"
+          class="mt-10 w-fit border border-slate-950 bg-slate-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800 disabled:cursor-wait disabled:border-slate-300 disabled:bg-slate-100 disabled:text-slate-400 dark:border-white dark:bg-white dark:text-slate-950 dark:hover:bg-slate-200 dark:disabled:border-slate-700 dark:disabled:bg-slate-900 dark:disabled:text-slate-500"
+        >
+          {t(locale, 'start')}
+        </button>
+      </div>
+      <div class="mt-12 grid gap-3 border-t hairline pt-5 text-xs text-slate-500 dark:border-slate-800 dark:text-slate-400 sm:grid-cols-3">
+        <div>
+          <span class="data-label block text-signal dark:text-teal-300">1,015,342</span>
+          <span>{t(locale, 'responses')}</span>
+        </div>
+        <div>
+          <span class="data-label block text-signal dark:text-teal-300">20 / 80</span>
+          <span>{t(locale, 'blocks')}</span>
+        </div>
+        <div>
+          <span class="data-label block text-signal dark:text-teal-300">Adaptive</span>
+          <span>{t(locale, 'adaptiveFoot')}</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="quiz" class="hidden w-full p-4 sm:p-6 lg:p-8">
+      <div class="mb-6 border-b hairline pb-5 dark:border-slate-800">
+        <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <p class="data-label text-xs text-slate-500 dark:text-slate-400" id="block-counter">{t(locale, 'progress')}</p>
+            <h2 class="mt-1 text-xl font-semibold text-slate-950 dark:text-white">{t(locale, 'adaptive')}</h2>
+          </div>
+          <div class="data-label text-xs text-teal-800 dark:text-teal-200">
+            <span>{t(locale, 'accuracy')}: </span><span id="accuracy">10%</span>
+          </div>
+        </div>
+        <div class="grid gap-2">
+          <div class="h-2 bg-slate-100 dark:bg-slate-800">
+            <div id="progress-fill" class="h-2 bg-slate-950 transition-all dark:bg-white" style="width: 0%"></div>
+          </div>
+          <div class="h-1 bg-slate-100 dark:bg-slate-800">
+            <div id="confidence-fill" class="h-1 bg-teal-600 transition-all dark:bg-teal-300" style="width: 10%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-4 grid grid-cols-[minmax(0,1fr)_88px_88px] gap-3">
+        <div></div>
+        <div class="data-label text-center text-xs text-slate-500 dark:text-slate-400">{t(locale, 'best')}</div>
+        <div class="data-label text-center text-xs text-slate-500 dark:text-slate-400">{t(locale, 'worst')}</div>
+      </div>
+
+      <div class="grid gap-3">
+        <div id="options" class="grid gap-3"></div>
+      </div>
+
+      <div class="mt-6 flex items-center justify-between gap-3">
+        <button id="restart" class="border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 hover:border-slate-500 dark:border-slate-700 dark:text-slate-200 dark:hover:border-slate-400">
+          {t(locale, 'restart')}
+        </button>
+        <button
+          id="next"
+          disabled
+          class="border border-slate-950 bg-slate-950 px-5 py-2.5 text-sm font-semibold text-white transition enabled:hover:bg-slate-800 disabled:cursor-not-allowed disabled:border-slate-200 disabled:bg-slate-100 disabled:text-slate-400 dark:border-white dark:bg-white dark:text-slate-950 dark:enabled:hover:bg-slate-200 dark:disabled:border-slate-800 dark:disabled:bg-slate-900 dark:disabled:text-slate-600"
+        >
+          {t(locale, 'next')}
+        </button>
+      </div>
+    </div>
+
+    <div id="result" class="hidden w-full p-4 sm:p-6 lg:p-8">
+      <div class="mb-5 flex items-start justify-between gap-4 border-b hairline pb-4 dark:border-slate-800">
+        <div>
+          <p class="data-label text-xs text-slate-500 dark:text-slate-400">{t(locale, 'result')}</p>
+          <h2 id="result-title" class="mt-1 text-3xl font-semibold text-slate-950 dark:text-white"></h2>
+          <p id="result-subtitle" class="mt-2 text-sm text-slate-500 dark:text-slate-400"></p>
+        </div>
+        <button id="restart-result" class="border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 hover:border-slate-500 dark:border-slate-700 dark:text-slate-200 dark:hover:border-slate-400">
+          {t(locale, 'restart')}
+        </button>
+      </div>
+      <div class="grid gap-6 lg:grid-cols-[360px_minmax(0,1fr)]">
+        <canvas id="radar" width="720" height="720" class="aspect-square w-full border hairline bg-white dark:border-slate-800 dark:bg-slate-950"></canvas>
+        <div>
+          <p id="result-summary" class="text-lg leading-8 text-slate-700 dark:text-slate-200"></p>
+          <div id="trait-bars" class="mt-6 grid gap-3"></div>
+          <p class="mt-6 text-sm leading-6 text-slate-500 dark:text-slate-400">{t(locale, 'disclaimer')}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+  import { mountQuizApp } from '../lib/quiz-app';
+
+  mountQuizApp();
+</script>

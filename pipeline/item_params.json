@@ -1,0 +1,352 @@
+[
+  {
+    "sourceItem": "EXT1",
+    "trait": "E",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.8117
+  },
+  {
+    "sourceItem": "EXT2",
+    "trait": "E",
+    "direction": -1,
+    "lambda": 0.8036,
+    "mu": -0.1914
+  },
+  {
+    "sourceItem": "EXT3",
+    "trait": "E",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.1178
+  },
+  {
+    "sourceItem": "EXT4",
+    "trait": "E",
+    "direction": -1,
+    "lambda": 0.8036,
+    "mu": -0.6559
+  },
+  {
+    "sourceItem": "EXT5",
+    "trait": "E",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.0424
+  },
+  {
+    "sourceItem": "EXT6",
+    "trait": "E",
+    "direction": -1,
+    "lambda": 0.8036,
+    "mu": 0.336
+  },
+  {
+    "sourceItem": "EXT7",
+    "trait": "E",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.5308
+  },
+  {
+    "sourceItem": "EXT8",
+    "trait": "E",
+    "direction": -1,
+    "lambda": 0.8036,
+    "mu": -0.8822
+  },
+  {
+    "sourceItem": "EXT9",
+    "trait": "E",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.3469
+  },
+  {
+    "sourceItem": "EXT10",
+    "trait": "E",
+    "direction": -1,
+    "lambda": 0.8036,
+    "mu": -0.9678
+  },
+  {
+    "sourceItem": "AGR1",
+    "trait": "A",
+    "direction": -1,
+    "lambda": 0.7909,
+    "mu": 0.5153
+  },
+  {
+    "sourceItem": "AGR2",
+    "trait": "A",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": 0.6451
+  },
+  {
+    "sourceItem": "AGR3",
+    "trait": "A",
+    "direction": -1,
+    "lambda": 0.7307,
+    "mu": 0.3526
+  },
+  {
+    "sourceItem": "AGR4",
+    "trait": "A",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": 0.8367
+  },
+  {
+    "sourceItem": "AGR5",
+    "trait": "A",
+    "direction": -1,
+    "lambda": 0.8036,
+    "mu": 0.5034
+  },
+  {
+    "sourceItem": "AGR6",
+    "trait": "A",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": 0.5341
+  },
+  {
+    "sourceItem": "AGR7",
+    "trait": "A",
+    "direction": -1,
+    "lambda": 0.8036,
+    "mu": 0.5835
+  },
+  {
+    "sourceItem": "AGR8",
+    "trait": "A",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": 0.4931
+  },
+  {
+    "sourceItem": "AGR9",
+    "trait": "A",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": 0.6491
+  },
+  {
+    "sourceItem": "AGR10",
+    "trait": "A",
+    "direction": 1,
+    "lambda": 0.7592,
+    "mu": 0.1988
+  },
+  {
+    "sourceItem": "CSN1",
+    "trait": "C",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.0112
+  },
+  {
+    "sourceItem": "CSN2",
+    "trait": "C",
+    "direction": -1,
+    "lambda": 0.8036,
+    "mu": -0.2931
+  },
+  {
+    "sourceItem": "CSN3",
+    "trait": "C",
+    "direction": 1,
+    "lambda": 0.7178,
+    "mu": 0.782
+  },
+  {
+    "sourceItem": "CSN4",
+    "trait": "C",
+    "direction": -1,
+    "lambda": 0.8036,
+    "mu": 0.0185
+  },
+  {
+    "sourceItem": "CSN5",
+    "trait": "C",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.8213
+  },
+  {
+    "sourceItem": "CSN6",
+    "trait": "C",
+    "direction": -1,
+    "lambda": 0.8036,
+    "mu": -0.1047
+  },
+  {
+    "sourceItem": "CSN7",
+    "trait": "C",
+    "direction": 1,
+    "lambda": 0.7909,
+    "mu": 0.4577
+  },
+  {
+    "sourceItem": "CSN8",
+    "trait": "C",
+    "direction": -1,
+    "lambda": 0.7862,
+    "mu": 0.0303
+  },
+  {
+    "sourceItem": "CSN9",
+    "trait": "C",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.1016
+  },
+  {
+    "sourceItem": "CSN10",
+    "trait": "C",
+    "direction": 1,
+    "lambda": 0.7459,
+    "mu": 0.1949
+  },
+  {
+    "sourceItem": "EST1",
+    "trait": "N",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.0032
+  },
+  {
+    "sourceItem": "EST2",
+    "trait": "N",
+    "direction": -1,
+    "lambda": 0.8036,
+    "mu": -0.6613
+  },
+  {
+    "sourceItem": "EST3",
+    "trait": "N",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": 0.7152
+  },
+  {
+    "sourceItem": "EST4",
+    "trait": "N",
+    "direction": -1,
+    "lambda": 0.7404,
+    "mu": -0.0529
+  },
+  {
+    "sourceItem": "EST5",
+    "trait": "N",
+    "direction": 1,
+    "lambda": 0.7875,
+    "mu": -0.512
+  },
+  {
+    "sourceItem": "EST6",
+    "trait": "N",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.4853
+  },
+  {
+    "sourceItem": "EST7",
+    "trait": "N",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.3216
+  },
+  {
+    "sourceItem": "EST8",
+    "trait": "N",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.6496
+  },
+  {
+    "sourceItem": "EST9",
+    "trait": "N",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.2078
+  },
+  {
+    "sourceItem": "EST10",
+    "trait": "N",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.5718
+  },
+  {
+    "sourceItem": "OPN1",
+    "trait": "O",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": 0.362
+  },
+  {
+    "sourceItem": "OPN2",
+    "trait": "O",
+    "direction": -1,
+    "lambda": 0.8036,
+    "mu": 0.6814
+  },
+  {
+    "sourceItem": "OPN3",
+    "trait": "O",
+    "direction": 1,
+    "lambda": 0.8005,
+    "mu": 0.811
+  },
+  {
+    "sourceItem": "OPN4",
+    "trait": "O",
+    "direction": -1,
+    "lambda": 0.7967,
+    "mu": 0.7452
+  },
+  {
+    "sourceItem": "OPN5",
+    "trait": "O",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": 0.5151
+  },
+  {
+    "sourceItem": "OPN6",
+    "trait": "O",
+    "direction": -1,
+    "lambda": 0.7926,
+    "mu": 0.9852
+  },
+  {
+    "sourceItem": "OPN7",
+    "trait": "O",
+    "direction": 1,
+    "lambda": 0.7614,
+    "mu": 0.8538
+  },
+  {
+    "sourceItem": "OPN8",
+    "trait": "O",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": -0.1496
+  },
+  {
+    "sourceItem": "OPN9",
+    "trait": "O",
+    "direction": 1,
+    "lambda": 0.7096,
+    "mu": 0.9925
+  },
+  {
+    "sourceItem": "OPN10",
+    "trait": "O",
+    "direction": 1,
+    "lambda": 0.8036,
+    "mu": 0.7236
+  }
+]
