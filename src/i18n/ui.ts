@@ -46,7 +46,7 @@ export const ui: Dictionary = {
     adaptive: 'Pick one most-like-me and one least-like-me. Answer by your real situation.',
     light: 'Light',
     dark: 'Dark',
-    introBadge: 'AI · big data · statistical modeling · fast assessment · sharper self-insight',
+    introBadge: 'AI · Big Data · Statistical Modeling · Fast Assessment · Sharper Self-Insight',
     introTitle: 'A research-backed Big Five profile in 3 minutes',
     introCopy:
       'Calibrated with 1,015,342 public responses and built on forced-choice modeling from psychometric research. Pick what is most and least like you; the test adapts as you answer.',

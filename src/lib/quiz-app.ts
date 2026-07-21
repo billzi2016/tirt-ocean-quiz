@@ -534,14 +534,14 @@ function renderRadar(canvas: HTMLCanvasElement, locale: LocaleCode, percentiles:
   ctx.stroke();
 
   ctx.fillStyle = dark ? '#e2e8f0' : '#0f172a';
-  ctx.font = '800 26px system-ui';
+  ctx.font = '800 24px system-ui';
   ctx.textBaseline = 'middle';
   TRAITS.forEach((trait, index) => {
-    const point = radarPoint(index, center, radius + 74);
+    const point = radarPoint(index, center, radius + 52);
     ctx.textAlign = index === 1 || index === 2 ? 'left' : index === 3 || index === 4 ? 'right' : 'center';
     const label = radarTraitNames[locale][trait];
-    const x = clamp(point.x, 122, size - 122);
-    const y = clamp(point.y, 72, size - 72);
+    const x = clamp(point.x, 142, size - 142);
+    const y = clamp(point.y, 88, size - 88);
     ctx.fillText(label, x, y);
   });
 }
